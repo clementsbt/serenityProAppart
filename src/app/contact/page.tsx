@@ -230,20 +230,6 @@ export default function Contact() {
           </div>
         </section>
 
-        {/* CTA */}
-        <section style={{ padding: '80px 16px', background: 'var(--primary-container)', color: 'white', textAlign: 'center' }}>
-          <div style={{ maxWidth: 700, margin: '0 auto' }}>
-            <h2 style={{ fontSize: '1.75rem', marginBottom: 24 }}>Confiez-nous vos clés, nous nous occupons du reste.</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'center' }}>
-              <button style={{ background: 'var(--secondary)', color: 'var(--on-secondary-fixed)', padding: '12px 32px', borderRadius: 8, fontWeight: 600, border: 'none', cursor: 'pointer', width: '100%', maxWidth: 250 }}>
-                Demander un devis
-              </button>
-              <button style={{ background: 'transparent', border: '2px solid var(--secondary)', color: 'var(--secondary)', padding: '12px 32px', borderRadius: 8, fontWeight: 600, cursor: 'pointer', width: '100%', maxWidth: 250 }}>
-                Appeler Lou
-              </button>
-            </div>
-          </div>
-        </section>
       </main>
 
       {/* Footer */}
