@@ -150,7 +150,7 @@ button {
 
 .btn-primary {
   background: var(--secondary);
-  color: var(--on-secondary-fixed);
+  color: #ffffff;
   padding: 10px 24px;
   border-radius: 8px;
   font-weight: 600;
