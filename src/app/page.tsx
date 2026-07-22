@@ -111,6 +111,7 @@ export default function Home() {
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content container">
+          <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 200, marginBottom: 24 }} />
           <h1>Serenity Pro Appart</h1>
           <p>
             L'excellence au service de votre séjour alpin. Gestion de clés,
