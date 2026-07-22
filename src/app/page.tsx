@@ -92,11 +92,7 @@ export default function Home() {
 
         <div className="navbar-links">
           <Link href="#services">Services</Link>
-          <Link href="#locations">Locations</Link>
-          <Link href="/lou" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <img src="/lou.jpg" alt="Lou" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--secondary)' }} />
-            <span>Lou</span>
-          </Link>
+          <Link href="#about">Lou</Link>
           <Link href="#contact">Contact</Link>
         </div>
 
@@ -118,16 +114,12 @@ export default function Home() {
             </button>
           </div>
           <div className="mobile-nav-links">
-            <Link href="#" onClick={() => setMobileNavOpen(false)}>
+            <Link href="#services" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">concierge</span>
               Services
             </Link>
-            <Link href="#locations" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">mountain_flag</span>
-              Locations
-            </Link>
-            <Link href="/lou" onClick={() => setMobileNavOpen(false)}>
-              <img src="/lou.jpg" alt="Lou" style={{ width: 24, height: 24, borderRadius: '50%', objectFit: 'cover' }} />
+            <Link href="#about" onClick={() => setMobileNavOpen(false)}>
+              <span className="material-symbols-outlined">person</span>
               Lou
             </Link>
             <Link href="#contact" onClick={() => setMobileNavOpen(false)}>
@@ -266,6 +258,45 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* About Section - Lou */}
+      <section className="section" id="about">
+        <div className="about-container">
+          <div className="about-image">
+            <div className="about-image-wrapper">
+              <img src="/lou.jpg" alt="Lou - Fondatrice des Clés du Charmaix" />
+            </div>
+            <div className="about-image-badge">
+              <h3>Lou</h3>
+              <p>Votre contact privilégié à Valfréjus</p>
+            </div>
+          </div>
+          <div className="about-content">
+            <span className="section-tag">L'esprit de service</span>
+            <h2>Une présence locale toute l'année</h2>
+            <p>
+              Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Les Clés du Charmaix</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
+            </p>
+            <p>
+              Ma présence sur place 365 jours par an me permet d'intervenir rapidement et de veiller personnellement à chaque détail. Je ne suis pas seulement une prestataire, je suis vos yeux et vos oreilles à Valfréjus.
+            </p>
+            <ul className="about-features">
+              <li>
+                <span className="material-symbols-outlined">verified</span>
+                Réactivité et proximité immédiate
+              </li>
+              <li>
+                <span className="material-symbols-outlined">verified</span>
+                Service 100% personnalisé
+              </li>
+              <li>
+                <span className="material-symbols-outlined">verified</span>
+                Excellente connaissance du territoire
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
