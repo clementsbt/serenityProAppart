@@ -119,9 +119,9 @@ export default function Home() {
             maintenance et services sur-mesure.
           </p>
           <div style={{ marginTop: 24 }}>
-            <button className="btn-primary" style={{ padding: '16px 40px', fontSize: '1rem' }}>
-              Réserver un service
-            </button>
+            <Link href="/contact" className="btn-primary" style={{ padding: '16px 40px', fontSize: '1rem', display: 'inline-block' }}>
+              Nous contacter
+            </Link>
           </div>
         </div>
       </section>
