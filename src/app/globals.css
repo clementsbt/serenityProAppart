@@ -106,6 +106,9 @@ button {
 }
 
 .navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-heading);
   font-size: 1.25rem;
   color: var(--primary);

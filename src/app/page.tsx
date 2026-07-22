@@ -58,7 +58,8 @@ export default function Home() {
         </button>
 
         <Link href="/" className="navbar-logo">
-          Serenity Pro Appart
+          <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
+          <span>Serenity Pro Appart</span>
         </Link>
 
         <div className="navbar-links">
