@@ -171,14 +171,14 @@ export default function Contact() {
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 24 }}>phone_iphone</span>
                       <div>
                         <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Téléphone</p>
-                        <p style={{ opacity: 0.9 }}>07.81.46.21.32</p>
+                        <a href="tel:+33781462132" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none' }}>07.81.46.21.32</a>
                       </div>
                     </div>
                     <div style={{ display: 'flex', gap: 16 }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 24 }}>mail</span>
                       <div>
                         <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Email</p>
-                        <p style={{ opacity: 0.9 }}>lesclesducharmaix@gmail.com</p>
+                        <a href="mailto:lesclesducharmaix@gmail.com" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none' }}>lesclesducharmaix@gmail.com</a>
                       </div>
                     </div>
                   </div>
