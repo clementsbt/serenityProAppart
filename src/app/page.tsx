@@ -236,14 +236,10 @@ export default function Home() {
             la gestion de votre bien à Valfréjus.
           </p>
           <div className="cta-buttons">
-            <a href="mailto:lesclesducharmaix@gmail.com" className="cta-btn primary">
+            <Link href="/contact" className="cta-btn primary">
               <span className="material-symbols-outlined">mail</span>
               Nous contacter
-            </a>
-            <a href="tel:+33781462132" className="cta-btn secondary">
-              <span className="material-symbols-outlined">call</span>
-              +33 7 81 46 21 32
-            </a>
+            </Link>
           </div>
         </div>
       </section>
