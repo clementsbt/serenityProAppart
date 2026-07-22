@@ -30,8 +30,8 @@ export default function Contact() {
             </button>
           </div>
           <div className="mobile-nav-links">
-            <Link href="#services" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">concierge</span>Services
+            <Link href="/#services" onClick={() => setMobileNavOpen(false)}>
+              <span className="material-symbols-outlined">concierge</span>Nos Services Exclusifs
             </Link>
             <Link href="#about" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">person</span>Lou

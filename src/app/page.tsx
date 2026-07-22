@@ -62,7 +62,7 @@ export default function Home() {
         </Link>
 
         <div className="navbar-links">
-          <Link href="#services">Services</Link>
+          <Link href="#services">Nos Services Exclusifs</Link>
           <Link href="#about">Lou</Link>
           <Link href="/contact">Contact</Link>
         </div>
