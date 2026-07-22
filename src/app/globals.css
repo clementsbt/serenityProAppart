@@ -149,8 +149,8 @@ button {
 }
 
 .btn-primary {
-  background: var(--primary);
-  color: var(--on-primary);
+  background: var(--secondary);
+  color: var(--on-secondary-fixed);
   padding: 10px 24px;
   border-radius: 8px;
   font-weight: 600;
@@ -160,7 +160,7 @@ button {
 }
 
 .btn-primary:hover {
-  background: var(--secondary);
+  opacity: 0.9;
 }
 
 .btn-secondary {
