@@ -141,10 +141,6 @@ export default function Home() {
             <p className="stat-number">Présente</p>
             <p className="stat-label">À l'année</p>
           </div>
-          <div className="stat-item">
-            <p className="stat-number">07.81...</p>
-            <p className="stat-label">Urgence</p>
-          </div>
         </div>
       </section>
 
