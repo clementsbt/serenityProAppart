@@ -5,6 +5,30 @@ import Link from "next/link";
 
 export default function Contact() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+    
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      
+      if (res.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
+  };
 
   return (
     <>
@@ -65,34 +89,69 @@ export default function Contact() {
               {/* Form */}
               <div className="contact-form">
                 <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 32 }}>Envoyez-nous un message</h2>
-                <form style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+                {status === 'success' ? (
+                  <div style={{ padding: 24, background: '#d4edda', borderRadius: 8, color: '#155724' }}>
+                    <p>✅ Message envoyé avec succès ! Nous vous répondrons rapidement.</p>
+                  </div>
+                ) : (
+                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
                   <div className="form-row">
                     <div>
                       <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Nom complet</label>
-                      <input type="text" placeholder="Jean Dupont" style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} />
+                      <input 
+                        type="text" 
+                        placeholder="Jean Dupont" 
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        required
+                        style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
+                      />
                     </div>
                     <div>
                       <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Email</label>
-                      <input type="email" placeholder="jean@exemple.com" style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} />
+                      <input 
+                        type="email" 
+                        placeholder="jean@exemple.com" 
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        required
+                        style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
+                      />
                     </div>
                   </div>
                   <div>
                     <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Objet</label>
-                    <select style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }}>
-                      <option>Gestion locative</option>
-                      <option>Services de conciergerie</option>
-                      <option>Réservation</option>
-                      <option>Autre demande</option>
+                    <select 
+                      value={formData.subject}
+                      onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                      style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }}
+                    >
+                      <option value="">Sélectionner...</option>
+                      <option value="Gestion locative">Gestion locative</option>
+                      <option value="Services de conciergerie">Services de conciergerie</option>
+                      <option value="Réservation">Réservation</option>
+                      <option value="Autre demande">Autre demande</option>
                     </select>
                   </div>
                   <div>
                     <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Message</label>
-                    <textarea placeholder="Comment pouvons-nous vous aider ?" rows={5} style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none', resize: 'vertical' }}></textarea>
+                    <textarea 
+                      placeholder="Comment pouvons-nous vous aider ?" 
+                      rows={5} 
+                      value={formData.message}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                      required
+                      style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none', resize: 'vertical' }}
+                    ></textarea>
                   </div>
-                  <button type="submit" className="submit-btn">
-                    Envoyer le message
+                  {status === 'error' && (
+                    <p style={{ color: 'red' }}>❌ Erreur lors de l'envoi. Veuillez réessayer.</p>
+                  )}
+                  <button type="submit" className="submit-btn" disabled={status === 'loading'}>
+                    {status === 'loading' ? 'Envoi...' : 'Envoyer le message'}
                   </button>
                 </form>
+                )}
               </div>
 
               {/* Sidebar */}
