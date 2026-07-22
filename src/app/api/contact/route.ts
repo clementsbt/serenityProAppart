@@ -27,7 +27,7 @@ export async function POST(request: Request) {
         <p><strong>Message:</strong></p>
         <p>${message}</p>
       `,
-      reply_to: email,
+      replyTo: email,
     });
 
     return NextResponse.json({ success: true, data });
