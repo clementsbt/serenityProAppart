@@ -13,6 +13,11 @@ export default function Contact() {
           <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
         </button>
         <Link href="/" className="navbar-logo">Les Clés du Charmaix</Link>
+        <div className="navbar-links">
+          <Link href="/#services">Services</Link>
+          <Link href="/#about">Lou</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
         <button className="btn-primary">Book Now</button>
       </header>
 
