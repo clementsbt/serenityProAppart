@@ -105,7 +105,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-bg">
           <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA800YrSRsaTJEjBsLv35xTg7Rwe7PvIJ-KWoT_-q9Q0xppa7JjF-tsDLqHvSE1M4d2WLF5EGcT4Tu9ayOeq3icLns-60Ic4UgaYNZsC6F2ehlHGYrqYh477aLShGcz_-eGCbjTVqK-rBcPkPy6GWmR9eMSHtocLPOCiN8BiMnWBGwygs5amCgfScAw87H-m8gBSlUYcAxoGNdM0wkIyKrDHpVePAr-PZqNsTcPWhvQ9WtivJagwF6NpcWSR07O1tR1-zZrfhv2Z8"
+            src="https://www.modane.fr/app/uploads/2025/08/MAIRIE-MODANE-152.jpg"
             alt="Valfréjus Mountains"
           />
         </div>
