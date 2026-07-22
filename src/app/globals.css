@@ -994,3 +994,104 @@ button {
   font-size: 14px;
 }
 
+
+/* Contact Grid Layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 7fr 5fr;
+  }
+  
+  .contact-form {
+    grid-column: 1;
+  }
+  
+  .contact-sidebar {
+    grid-column: 2;
+  }
+}
+
+.contact-form {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-luxury);
+  border: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    padding: 48px;
+  }
+}
+
+.contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: var(--secondary);
+  color: var(--on-secondary-fixed);
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: filter 0.2s;
+}
+
+.submit-btn:hover {
+  filter: brightness(1.1);
+}
+
+@media (min-width: 768px) {
+  .submit-btn {
+    width: auto;
+  }
+}
+
+/* Form Row */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Form Inputs */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--outline-variant);
+  background: var(--surface);
+  outline: none;
+  transition: all 0.2s;
+  font-family: var(--font-body);
+}
+
+.form-input:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 2px rgba(119, 90, 25, 0.2);
+}
+
+.form-label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--on-surface-variant);
+  margin-bottom: 8px;
+}

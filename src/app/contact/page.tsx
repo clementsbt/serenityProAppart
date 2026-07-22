@@ -56,12 +56,12 @@ export default function Contact() {
         {/* Contact Content */}
         <section style={{ padding: '48px 16px', background: '#F2F5F7' }}>
           <div className="container" style={{ maxWidth: 1280, margin: '0 auto' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 24 }}>
+            <div className="contact-grid">
               {/* Form */}
-              <div style={{ background: 'white', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
+              <div className="contact-form">
                 <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 32 }}>Envoyez-nous un message</h2>
                 <form style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 16 }}>
+                  <div className="form-row">
                     <div>
                       <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Nom complet</label>
                       <input type="text" placeholder="Jean Dupont" style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} />
@@ -84,14 +84,14 @@ export default function Contact() {
                     <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Message</label>
                     <textarea placeholder="Comment pouvons-nous vous aider ?" rows={5} style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none', resize: 'vertical' }}></textarea>
                   </div>
-                  <button type="submit" style={{ background: 'var(--secondary)', color: 'var(--on-secondary-fixed)', padding: '16px 40px', borderRadius: 8, fontWeight: 600, border: 'none', cursor: 'pointer' }}>
+                  <button type="submit" className="submit-btn">
                     Envoyer le message
                   </button>
                 </form>
               </div>
 
               {/* Sidebar */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+              <div className="contact-sidebar">
                 {/* Contact Card */}
                 <div style={{ background: 'var(--primary)', padding: 32, borderRadius: 12, color: 'white', boxShadow: 'var(--shadow-luxury)' }}>
                   <h3 style={{ fontSize: '1.5rem', marginBottom: 24 }}>Coordonnées</h3>
@@ -138,6 +138,7 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
