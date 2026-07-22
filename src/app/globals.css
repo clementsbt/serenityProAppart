@@ -972,3 +972,25 @@ button {
   color: var(--secondary);
   font-size: 24px;
 }
+
+/* Gold Divider */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.5), transparent);
+  width: 100px;
+  margin: 24px auto;
+  position: relative;
+}
+.gold-divider::after {
+  content: 'key';
+  font-family: 'Material Symbols Outlined';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--background);
+  padding: 0 8px;
+  color: #C5A059;
+  font-size: 14px;
+}
+
