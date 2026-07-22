@@ -216,8 +216,9 @@ button {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: var(--primary);
+  color: #F8F6F2;
   margin-bottom: 16px;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
 
 @media (min-width: 768px) {
@@ -228,8 +229,9 @@ button {
 
 .hero p {
   font-size: 1.125rem;
-  color: var(--secondary);
+  color: #D8CBB8;
   max-width: 500px;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
 
 /* Stats */
