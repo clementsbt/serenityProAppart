@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content container">
-          <h1>Votre Conciergerie Premium à Valfréjus</h1>
+          <h1>Serenity Pro Appart</h1>
           <p>
             L'excellence au service de votre séjour alpin. Gestion de clés,
             maintenance et services sur-mesure.
