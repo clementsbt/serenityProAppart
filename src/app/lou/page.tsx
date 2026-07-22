@@ -13,14 +13,14 @@ export default function Lou() {
         <button className="mobile-menu-btn" onClick={() => setMobileNavOpen(true)}>
           <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
         </button>
-        <Link href="/" className="navbar-logo">Les Clés du Charmaix</Link>
+        <Link href="/" className="navbar-logo">Serenity Pro Appart</Link>
         <button className="btn-primary">Book Now</button>
       </header>
 
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
         <div className="mobile-nav-drawer">
           <div className="mobile-nav-header">
-            <h2>Les Clés du Charmaix</h2>
+            <h2>Serenity Pro Appart</h2>
             <button className="mobile-nav-close" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">close</span>
             </button>
@@ -97,7 +97,7 @@ export default function Lou() {
 
       <footer className="footer">
         <div className="footer-grid">
-          <div><h4>Les Clés du Charmaix</h4><p>Conciergerie de Luxe à Valfréjus.</p></div>
+          <div><h4>Serenity Pro Appart</h4><p>Conciergerie de Luxe à Valfréjus.</p></div>
         </div>
       </footer>
     </>

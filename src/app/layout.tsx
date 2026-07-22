@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Les Clés du Charmaix | Conciergerie de Luxe à Valfréjus",
-  description: "Conciergerie de luxe à Valfréjus. Gestion des clés, ménage, blanchisserie et maintenance pour vos locations.",
+  title: "Serenity Pro Appart | Location de charme à Modane",
+  description: "Serenity Pro Appart propose des locations de charme à Modane. Appartements et chalets pour vos séjours.",
 };
 
 export default function RootLayout({

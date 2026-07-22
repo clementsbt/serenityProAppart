@@ -58,7 +58,7 @@ export default function Home() {
         </button>
 
         <Link href="/" className="navbar-logo">
-          Les Clés du Charmaix
+          Serenity Pro Appart
         </Link>
 
         <div className="navbar-links">
@@ -76,7 +76,7 @@ export default function Home() {
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
         <div className="mobile-nav-drawer">
           <div className="mobile-nav-header">
-            <h2>Les Clés du Charmaix</h2>
+            <h2>Serenity Pro Appart</h2>
             <button
               className="mobile-nav-close"
               onClick={() => setMobileNavOpen(false)}
@@ -206,7 +206,7 @@ export default function Home() {
             <span className="section-tag">L'esprit de service</span>
             <h2>Une présence locale toute l'année</h2>
             <p>
-              Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Les Clés du Charmaix</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
+              Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Serenity Pro Appart</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
             </p>
             <p>
               Ma présence sur place 365 jours par an me permet d'intervenir rapidement et de veiller personnellement à chaque détail. Je ne suis pas seulement une prestataire, je suis vos yeux et vos oreilles à Valfréjus.
@@ -254,7 +254,7 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Les Clés du Charmaix</h4>
+            <h4>Serenity Pro Appart</h4>
             <p>
               Conciergerie de Luxe à Valfréjus. Excellence, proximité et
               confiance.
@@ -287,7 +287,7 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 Les Clés du Charmaix. Alpine Excellence.</p>
+          <p>© 2024 Serenity Pro Appart. Alpine Excellence.</p>
         </div>
       </footer>
     </>

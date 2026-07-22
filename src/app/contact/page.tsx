@@ -36,7 +36,7 @@ export default function Contact() {
         <button className="mobile-menu-btn" onClick={() => setMobileNavOpen(true)}>
           <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
         </button>
-        <Link href="/" className="navbar-logo">Les Clés du Charmaix</Link>
+        <Link href="/" className="navbar-logo">Serenity Pro Appart</Link>
         <div className="navbar-links">
           <Link href="/#services">Services</Link>
           <Link href="/#about">Lou</Link>
@@ -48,7 +48,7 @@ export default function Contact() {
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
         <div className="mobile-nav-drawer">
           <div className="mobile-nav-header">
-            <h2>Les Clés du Charmaix</h2>
+            <h2>Serenity Pro Appart</h2>
             <button className="mobile-nav-close" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">close</span>
             </button>
@@ -226,7 +226,7 @@ export default function Contact() {
               <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ background: 'var(--primary)', color: 'white', padding: '8px 16px', borderRadius: 8, boxShadow: '0 4px 15px rgba(0,0,0,0.3)', marginBottom: 8, display: 'flex', alignItems: 'center', gap: 8, border: '1px solid var(--secondary)' }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 16 }}>key</span>
-                  <span style={{ fontSize: '0.875rem', fontWeight: 600 }}>Les Clés du Charmaix</span>
+                  <span style={{ fontSize: '0.875rem', fontWeight: 600 }}>Serenity Pro Appart</span>
                 </div>
                 <div style={{ width: 16, height: 16, background: 'var(--secondary)', borderRadius: '50%', border: '2px solid white', boxShadow: '0 2px 8px rgba(0,0,0,0.3)' }}></div>
               </div>
@@ -264,7 +264,7 @@ export default function Contact() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Les Clés du Charmaix</h4>
+            <h4>Serenity Pro Appart</h4>
             <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
           </div>
           <div>
@@ -283,7 +283,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 Les Clés du Charmaix by Lou. All rights reserved.</p>
+          <p>© 2024 Serenity Pro Appart by Lou. All rights reserved.</p>
         </div>
       </footer>
     </>

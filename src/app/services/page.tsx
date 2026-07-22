@@ -78,7 +78,7 @@ export default function ServicesLocations() {
           </span>
         </button>
 
-        <span className="navbar-logo">Les Clés du Charmaix</span>
+        <span className="navbar-logo">Serenity Pro Appart</span>
 
         <button className="btn-primary">Book Now</button>
       </header>
@@ -87,7 +87,7 @@ export default function ServicesLocations() {
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
         <div className="mobile-nav-drawer">
           <div className="mobile-nav-header">
-            <h2>Les Clés du Charmaix</h2>
+            <h2>Serenity Pro Appart</h2>
             <button
               className="mobile-nav-close"
               onClick={() => setMobileNavOpen(false)}
@@ -449,10 +449,10 @@ export default function ServicesLocations() {
                 marginBottom: 4,
               }}
             >
-              Les Clés du Charmaix
+              Serenity Pro Appart
             </span>
             <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.75rem' }}>
-              © 2024 Les Clés du Charmaix. Alpine Excellence.
+              © 2024 Serenity Pro Appart. Alpine Excellence.
             </p>
           </div>
           <div style={{ display: 'flex', gap: 16 }}>

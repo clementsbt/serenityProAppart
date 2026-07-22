@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     const data = await resend.emails.send({
-      from: 'Les Clés du Charmaix <onboarding@resend.dev>',
+      from: 'Serenity Pro Appart <onboarding@resend.dev>',
       to: 'clementsubtil2006@gmail.com',
       subject: `Nouveau message: ${subject || 'Sans objet'}`,
       html: `
