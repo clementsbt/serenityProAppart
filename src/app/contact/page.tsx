@@ -217,7 +217,7 @@ export default function Contact() {
             
             <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d361.1878164476472!2d6.653480530226386!3d45.17285268023784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47898dfaf4921589%3A0xf5386ff56065a560!2s735%20Rue%20du%20Cheval-Blanc%2C%2073500%20Modane!5e1!3m2!1sfr!2sfr!4v1784733129672!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.415858857619!2d6.652088099608348!3d45.17376084051724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47898dfaf4921589%3A0xf5386ff56065a560!2s735%20Rue%20du%20Cheval-Blanc%2C%2073500%20Modane!5e0!3m2!1sfr!2sfr!4v1784733236523!5m2!1sfr!2sfr"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, width: '100%', height: '500px' }}
