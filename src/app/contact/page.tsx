@@ -216,30 +216,15 @@ export default function Contact() {
             </div>
             
             <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
-              <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB15ZLUqzlgEP4_anQpr7z_Gb5Ks145dU2SMiGO9CkAMYf1WpffcMeR1rR545zszWQq-mAzH93Zx4ib79gbDH_awJI93sRPIDLFpI9BN5ccCJMMNLQH1k3pR4m4-QGfz2JSKMsyKCVFQ9niWIGM1qqpRpTSFOmgcqorAgox93_XOqZQ55jFzT5jYSJzjvTbVHf6HmwGFxEBm1_mO50JM9App-s5dPdUwyUohBtjygcT4T0BP_l9Ec7QwJvKvSnwfFKbtNXJaXmcJro"
-                alt="Carte Valfréjus"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-              
-              {/* Marker */}
-              <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <div style={{ background: 'var(--primary)', color: 'white', padding: '8px 16px', borderRadius: 8, boxShadow: '0 4px 15px rgba(0,0,0,0.3)', marginBottom: 8, display: 'flex', alignItems: 'center', gap: 8, border: '1px solid var(--secondary)' }}>
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>key</span>
-                  <span style={{ fontSize: '0.875rem', fontWeight: 600 }}>Serenity Pro Appart</span>
-                </div>
-                <div style={{ width: 16, height: 16, background: 'var(--secondary)', borderRadius: '50%', border: '2px solid white', boxShadow: '0 2px 8px rgba(0,0,0,0.3)' }}></div>
-              </div>
-
-              {/* Location overlay */}
-              <div style={{ position: 'absolute', bottom: 24, left: 24, right: 24, maxWidth: 320, background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(8px)', padding: 20, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--outline-variant)' }}>
-                <p style={{ fontSize: '0.875rem', color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Accès Station</p>
-                <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 16 }}>Situé au pied des pistes, nous vous accueillons pour faciliter chaque instant de votre séjour.</p>
-                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--secondary)', fontWeight: 700, display: 'flex', alignItems: 'center', gap: 4 }}>
-                  Ouvrir dans Google Maps
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>open_in_new</span>
-                </a>
-              </div>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.083456789012!2d6.698!3d45.166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!2m2!1sen!2sfr!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }}
+                allowFullScreen 
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </section>
