@@ -198,7 +198,7 @@ button {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0, 5, 19, 0.15), rgba(0, 5, 19, 0.05), var(--background));
+  background: linear-gradient(to bottom, rgba(0, 5, 19, 0.5), rgba(0, 5, 19, 0.3), var(--background));
 }
 
 .hero-content {
@@ -216,7 +216,7 @@ button {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: #F8F6F2;
+  color: #ffffff;
   margin-bottom: 16px;
   text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
@@ -229,7 +229,7 @@ button {
 
 .hero p {
   font-size: 1.125rem;
-  color: #D8CBB8;
+  color: #ffffff;
   max-width: 500px;
   text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
