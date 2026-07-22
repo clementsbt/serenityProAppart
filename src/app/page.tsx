@@ -115,8 +115,7 @@ export default function Home() {
           <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 180, height: 180, borderRadius: '50%', objectFit: 'cover', marginBottom: 24, border: '3px solid white', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }} />
           <h1>Serenity Pro Appart</h1>
           <p>
-            L'excellence au service de votre séjour alpin. Gestion de clés,
-            maintenance et services sur-mesure.
+            Confiez-nous vos clés, nous nous occupons du reste.
           </p>
           <div style={{ marginTop: 24 }}>
             <Link href="/contact" className="btn-primary" style={{ padding: '16px 40px', fontSize: '1rem', display: 'inline-block' }}>
