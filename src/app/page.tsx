@@ -93,6 +93,10 @@ export default function Home() {
         <div className="navbar-links">
           <Link href="#services">Services</Link>
           <Link href="#locations">Locations</Link>
+          <Link href="/lou" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <img src="/lou.jpg" alt="Lou" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--secondary)' }} />
+            <span>Lou</span>
+          </Link>
           <Link href="#contact">Contact</Link>
         </div>
 
@@ -122,13 +126,13 @@ export default function Home() {
               <span className="material-symbols-outlined">mountain_flag</span>
               Locations
             </Link>
+            <Link href="/lou" onClick={() => setMobileNavOpen(false)}>
+              <img src="/lou.jpg" alt="Lou" style={{ width: 24, height: 24, borderRadius: '50%', objectFit: 'cover' }} />
+              Lou
+            </Link>
             <Link href="#contact" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">contact_support</span>
               Contact
-            </Link>
-            <Link href="#" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">account_circle</span>
-              My Account
             </Link>
           </div>
         </div>
