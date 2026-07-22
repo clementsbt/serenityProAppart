@@ -211,19 +211,20 @@ export default function Contact() {
         <section style={{ padding: '80px 16px', background: 'var(--surface)' }}>
           <div className="container" style={{ maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: 48 }}>
-              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 8 }}>Nous trouver à Valfréjus</h2>
+              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 8 }}>Nous trouver à Modane</h2>
               <p style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic' }}>Au cœur des Alpes, entre authenticité et modernité.</p>
             </div>
             
             <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.083456789012!2d6.698!3d45.166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!2m2!1sen!2sfr!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.5!2d6.7!3d45.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!2m2!1sfr!2sFR!5e0!3m2!1sfr!2sfr!4v1234567890"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }}
                 allowFullScreen 
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="735 rue du cheval blanc, 73500 Modane"
               ></iframe>
             </div>
           </div>
