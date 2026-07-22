@@ -69,7 +69,7 @@ export default function Home() {
         </div>
 
         <div className="navbar-actions">
-          <button className="btn-primary">Book Now</button>
+          <Link href="/contact" className="btn-primary">Nous contacter</Link>
         </div>
       </nav>
 

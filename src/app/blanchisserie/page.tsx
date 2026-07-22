@@ -13,7 +13,7 @@ export default function Blanchisserie() {
           <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
         </button>
         <Link href="/" className="navbar-logo"><img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} /><span>Serenity Pro Appart</span></Link>
-        <button className="btn-primary">Book Now</button>
+        <Link href="/contact" className="btn-primary">Nous contacter</Link>
       </header>
 
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>

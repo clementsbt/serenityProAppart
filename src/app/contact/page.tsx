@@ -42,7 +42,7 @@ export default function Contact() {
           <Link href="/#about">Lou</Link>
           <Link href="/contact">Contact</Link>
         </div>
-        <button className="btn-primary">Book Now</button>
+        <Link href="/contact" className="btn-primary">Nous contacter</Link>
       </header>
 
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
