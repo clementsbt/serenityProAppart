@@ -138,8 +138,8 @@ export default function Home() {
             <p className="stat-label">Assistance</p>
           </div>
           <div className="stat-item">
-            <p className="stat-number">100%</p>
-            <p className="stat-label">Local</p>
+            <p className="stat-number">Présente</p>
+            <p className="stat-label">À l'année</p>
           </div>
           <div className="stat-item">
             <p className="stat-number">07.81...</p>
