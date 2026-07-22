@@ -43,35 +43,6 @@ export default function Home() {
     },
   ];
 
-  const locations = [
-    {
-      title: "Le Grand Chalet des Cimes",
-      badge: "PREMIUM",
-      badgeType: "premium",
-      guests: 12,
-      rooms: 5,
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBkDuj4Wd9wrljGxe3ixaI5SSjBpey5LGze3Cl4fZrRgUVE6CEYbtvk_OqYPi1z3SFlUr9Bn3m5EVLr_Tdle0dUeBxjtYbfwhwjjsmwb37xnvkpvDIj5Czl4YJCaoQaCqFSU1I3qllJz12Fw_jJ-cloUFDglIk6QDvDmpjlQyfEYTc0qONwMlLCe_54cbIRWawQ_95UlEiF4876y6wGm6nF_F8HzRvaFoprTENrUhy5_tTOSYLQOiLDz2r8ab5nrC__tEXCMWFt1lI",
-    },
-    {
-      title: "Appartement L'Alpaga",
-      badge: "MODERNE",
-      badgeType: "modern",
-      guests: 6,
-      rooms: 3,
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAWkcV-WtiIFMgLdu1LvrK78YSlaF2enML9CmF3qy8ohXNQCG20K4VneP1wyhLB0-DN0lp-R2TGrC6K8UabTqlpPWZXWJr8AjzhFly8wfYAjAuEKTpiO4r_vrrmJhcL4bZ_qwoTYptpBM9GCptLaB8CLCeu0ZyhvE1khJIwOm-UmVHe6wv4gam99KVkx13A7RdeObY3CnSUzZqg6ydrKFklbX8wZyU4KezFBZdk92aNbdUdZ-c70kBkFYwhBRZVGFY0u38P2wMCGas",
-    },
-    {
-      title: "Chalet Lou Valfréjus",
-      badge: "AUTHENTIQUE",
-      badgeType: "authentic",
-      guests: 8,
-      rooms: 4,
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCjtCAAIH1OjQ-4DzFbcK-n8Ik3rrTq4-Glteo7cD7pr-yZPhR0Zw485fLioPLWbTsUqKN0gvmelgu8Yk4gv_YHr1rkE2wKEx3TL8pdfD8Br-76KXya8fiI8b6slO6fgIqcSG9S5_FX4rzZx_dgld8X7IJ_B4AkkTzuscgCFp1Zyl2KipKF6ca8zSohFgCSZ0xWNVOlJujMM4_rGU4FVdIvw8ADRrME9zeq5ZbssoPEL4231VFxrLTXnofFox0pDBm9uPCpMdp98IY",
-    },
-  ];
 
   return (
     <>
@@ -219,48 +190,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Divider */}
-      <div className="section-divider-icon container">
-        <div className="line"></div>
-        <span className="material-symbols-outlined">landscape</span>
-        <div className="line"></div>
-      </div>
-
-      {/* Locations */}
-      <section className="section" id="locations" style={{ background: 'var(--surface-container-low)' }}>
-        <div className="section-header">
-          <span className="section-tag">Séjours d'Exception</span>
-          <h2 className="section-title">Nos Locations Premium</h2>
-        </div>
-
-        <div className="locations-grid">
-          {locations.map((location, index) => (
-            <div key={index} className="location-card">
-              <div className="location-image">
-                <img src={location.image} alt={location.title} />
-                <span className={`location-badge ${location.badgeType}`}>
-                  {location.badge}
-                </span>
-              </div>
-              <div className="location-content">
-                <h3>{location.title}</h3>
-                <div className="location-features">
-                  <span>
-                    <span className="material-symbols-outlined">group</span>
-                    {location.guests} pers.
-                  </span>
-                  <span>
-                    <span className="material-symbols-outlined">home</span>
-                    {location.rooms} Chambres
-                  </span>
-                </div>
-                <button className="location-btn">Consulter</button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* About Section - Lou */}
       <section className="section" id="about">
         <div className="about-container">
@@ -341,7 +270,7 @@ export default function Home() {
                 <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#locations">Locations</a>
+                <a href="#about">À propos</a>
               </li>
             </ul>
           </div>
