@@ -65,6 +65,7 @@ export default function Home() {
         <div className="navbar-links">
           <Link href="#services">Nos Services Exclusifs</Link>
           <Link href="#about">Lou</Link>
+          <Link href="/cles">Clés</Link>
           <Link href="/contact">Contact</Link>
         </div>
 
@@ -93,6 +94,10 @@ export default function Home() {
             <Link href="#about" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">person</span>
               Lou
+            </Link>
+            <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
+              <span className="material-symbols-outlined">key</span>
+              Gestion clés
             </Link>
             <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">contact_support</span>

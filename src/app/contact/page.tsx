@@ -40,6 +40,7 @@ export default function Contact() {
         <div className="navbar-links">
           <Link href="/#services">Services</Link>
           <Link href="/#about">Lou</Link>
+          <Link href="/cles">Clés</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <Link href="/contact" className="btn-primary">Nous contacter</Link>
