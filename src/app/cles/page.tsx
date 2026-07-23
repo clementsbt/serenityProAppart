@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import ContactCTA from "@/components/ContactCTA";
 
 export default function Cles() {
   return (
@@ -120,6 +121,8 @@ export default function Cles() {
             </Link>
           </div>
         </section>
+
+        <ContactCTA />
       </main>
 
       {/* Footer */}

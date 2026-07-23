@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import ContactCTA from "@/components/ContactCTA";
 
 const services = [
   {
@@ -205,6 +206,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ContactCTA />
 
       {/* Footer */}
       <footer className="footer">

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import ContactCTA from "@/components/ContactCTA";
 
 export default function Blanchisserie() {
   return (
@@ -108,6 +109,8 @@ export default function Blanchisserie() {
             <span className="material-symbols-outlined" style={{ position: 'absolute', right: -40, bottom: -40, fontSize: 200, color: 'var(--secondary)', opacity: 0.05, transform: 'rotate(12deg)' }}>cleaning_services</span>
           </div>
         </section>
+
+        <ContactCTA />
       </main>
 
       {/* Footer */}
