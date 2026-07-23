@@ -52,14 +52,14 @@ export default function Cles() {
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, transparent 0%, transparent 30%, rgba(0,0,0,0.4) 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
-              <span style={{ width: 32, height: 1, background: '#fff' }}></span>
-              <span style={{ color: '#fff', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Premium Service</span>
+              <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Premium Service</span>
             </div>
-            <h1 style={{ fontSize: '2rem', color: '#fff', lineHeight: 1.2 }}>Gestion des clés</h1>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>Gestion des clés</h1>
           </div>
         </section>
 
