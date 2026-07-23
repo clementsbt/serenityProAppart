@@ -14,6 +14,7 @@ const services = [
       "État des lieux rigoureux",
     ],
     large: true,
+    href: "/cles",
   },
   {
     icon: "dry_cleaning",
@@ -38,6 +39,53 @@ const services = [
     large: true,
   },
 ];
+
+function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
+  const cardContent = (
+    <>
+      <div className="service-icon">
+        <span className="material-symbols-outlined">{service.icon}</span>
+      </div>
+      <h3>{service.title}</h3>
+      <p>{service.description}</p>
+      {service.features && (
+        <ul className="service-features">
+          {service.features.map((feature, i) => (
+            <li key={i}>
+              <span className="material-symbols-outlined">check_circle</span>
+              {feature}
+            </li>
+          ))}
+        </ul>
+      )}
+      {service.tags && (
+        <div className="service-tags">
+          {service.tags.map((tag, i) => (
+            <span key={i} className="service-tag">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </>
+  );
+
+  const cardClass = `service-card ${service.large ? "service-card-large" : "service-card-small"}`;
+
+  if (service.href) {
+    return (
+      <Link href={service.href} key={index} className={cardClass}>
+        {cardContent}
+      </Link>
+    );
+  }
+
+  return (
+    <div key={index} className={cardClass}>
+      {cardContent}
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -95,36 +143,7 @@ export default function Home() {
 
         <div className="services-grid">
           {services.map((service, index) => (
-            <div
-              key={index}
-              className={`service-card ${service.large ? "service-card-large" : "service-card-small"
-                }`}
-            >
-              <div className="service-icon">
-                <span className="material-symbols-outlined">{service.icon}</span>
-              </div>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-              {service.features && (
-                <ul className="service-features">
-                  {service.features.map((feature, i) => (
-                    <li key={i}>
-                      <span className="material-symbols-outlined">check_circle</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              )}
-              {service.tags && (
-                <div className="service-tags">
-                  {service.tags.map((tag, i) => (
-                    <span key={i} className="service-tag">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
+            <ServiceCard key={index} service={service} index={index} />
           ))}
         </div>
       </section>
