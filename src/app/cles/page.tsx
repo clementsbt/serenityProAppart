@@ -1,47 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export default function Cles() {
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
-
   return (
     <>
-      <header className="navbar">
-        <button className="mobile-menu-btn" onClick={() => setMobileNavOpen(true)}>
-          <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
-        </button>
-        <Link href="/" className="navbar-logo"><img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} /><span>Serenity Pro Appart</span></Link>
-        <div className="navbar-links">
-          <Link href="/#services">Services</Link>
-          <Link href="/#about">Lou</Link>
-          <Link href="/contact">Contact</Link>
-        </div>
-        <Link href="/contact" className="btn-primary">Nous contacter</Link>
-      </header>
-
-      <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
-        <div className="mobile-nav-drawer">
-          <div className="mobile-nav-header">
-            <h2>Serenity Pro Appart</h2>
-            <button className="mobile-nav-close" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">close</span>
-            </button>
-          </div>
-          <div className="mobile-nav-links">
-            <Link href="/#services" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">concierge</span>Nos Services Exclusifs
-            </Link>
-            <Link href="#about" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">person</span>Lou
-            </Link>
-            <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">contact_support</span>Contact
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Navbar />
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}

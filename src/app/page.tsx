@@ -1,11 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-
-export default function Home() {
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+import Navbar from "@/components/Navbar";
 
   const services = [
     {
@@ -46,53 +41,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Navbar */}
-      <nav className="navbar">
-        <button
-          className="mobile-menu-btn"
-          onClick={() => setMobileNavOpen(true)}
-        >
-          <span className="material-symbols-outlined" style={{ fontSize: 28 }}>
-            menu
-          </span>
-        </button>
-
-        <Link href="/" className="navbar-logo">
-          <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
-          <span>Serenity Pro Appart</span>
-        </Link>
-
-        <div className="navbar-links">
-          <Link href="#services">Nos Services Exclusifs</Link>
-          <Link href="#about">Lou</Link>
-          <Link href="/cles">Clés</Link>
-          <Link href="/contact">Contact</Link>
-        </div>
-
-        <div className="navbar-actions">
-          <Link href="/contact" className="btn-primary">Nous contacter</Link>
-        </div>
-      </nav>
-
-      {/* Mobile Navigation */}
-      <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
-        <div className="mobile-nav-drawer">
-          <div className="mobile-nav-header">
-            <h2>Serenity Pro Appart</h2>
-            <button
-              className="mobile-nav-close"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              <span className="material-symbols-outlined">close</span>
-            </button>
-          </div>
-          <div className="mobile-nav-links">
-            <Link href="#services" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">concierge</span>
-              Services
-            </Link>
-            <Link href="#about" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">person</span>
+      <Navbar />
               Lou
             </Link>
             <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
