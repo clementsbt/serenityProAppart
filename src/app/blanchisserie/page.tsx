@@ -10,23 +10,26 @@ export default function Blanchisserie() {
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}
-        <section style={{ padding: '0 16px', marginTop: 32, marginBottom: 48 }}>
-          <div style={{ position: 'relative', borderRadius: 12, overflow: 'hidden', height: 300, boxShadow: '0 10px 20px rgba(0,30,66,0.15)' }}>
+        <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
+          <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
               src="/blanchisserie-hero.jpg" 
               alt="Luxury mountain chalet bedroom with pristine white linens" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32 }}>
-              <span style={{ display: 'inline-block', background: 'var(--secondary-fixed)', color: 'var(--on-secondary-fixed)', padding: '4px 12px', borderRadius: 20, fontSize: '0.75rem', fontWeight: 600, marginBottom: 16, width: 'fit-content' }}>Service Premium</span>
-              <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>Ménage & Blanchisserie</h1>
-              <p style={{ color: 'var(--on-surface-variant)', marginTop: 8, maxWidth: 400 }}>L'excellence de l'hôtellerie au cœur de votre foyer alpin.</p>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
+          </div>
+          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+              <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Premium Service</span>
             </div>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>Ménage & Blanchisserie</h1>
           </div>
         </section>
 
         {/* Bento Grid */}
-        <section style={{ padding: '0 16px', maxWidth: 1280, margin: '0 auto' }}>
+        <section style={{ padding: '0 16px', marginTop: -16, maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gap: 24, gridTemplateColumns: '1fr' }}>
             
             {/* Ménage Hôtelier */}
