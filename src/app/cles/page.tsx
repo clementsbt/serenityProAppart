@@ -52,7 +52,7 @@ export default function Cles() {
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(251,249,248,0.3) 0%, rgba(251,249,248,0.1) 50%, transparent 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
@@ -64,7 +64,7 @@ export default function Cles() {
         </section>
 
         {/* Service Content */}
-        <section style={{ padding: '0 16px', marginTop: 24 }}>
+        <section style={{ padding: '0 16px', marginTop: -16 }}>
           {/* Introduction Card */}
           <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 24, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', position: 'relative', overflow: 'hidden', marginBottom: 24 }}>
             <p style={{ fontSize: '1.125rem', color: 'var(--on-surface-variant)', marginBottom: 16 }}>
