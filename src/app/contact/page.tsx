@@ -71,7 +71,7 @@ export default function Contact() {
         {/* Hero */}
         <section style={{ padding: '60px 16px', background: 'var(--surface)', textAlign: 'center' }}>
           <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-            Conciergerie de Luxe à Valfréjus
+            VOTRE CONCIERGERIE À VALFRÉJUS
           </span>
           <h1 style={{ fontSize: '2.5rem', color: 'var(--primary)', margin: '16px 0' }}>
             Contactez Lou
@@ -211,7 +211,7 @@ export default function Contact() {
         <section style={{ padding: '80px 16px', background: 'var(--surface)' }}>
           <div className="container" style={{ maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: 48 }}>
-              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 8 }}>Nous trouver à Modane</h2>
+              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 8 }}>Nous trouver à Valfréjus</h2>
               <p style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic' }}>Au cœur des Alpes, entre authenticité et modernité.</p>
             </div>
             
