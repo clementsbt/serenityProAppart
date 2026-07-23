@@ -93,7 +93,9 @@ export default function Blanchisserie() {
           
         </section>
 
-        <ContactCTA />
+        <div style={{ marginTop: 32 }}>
+          <ContactCTA />
+        </div>
       </main>
 
       {/* Footer */}
