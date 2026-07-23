@@ -48,7 +48,7 @@ export default function Cles() {
         <section style={{ position: 'relative', height: 320, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA709-ILljkW13yMZz-qojt2julNp4A9TsM2VOrxsmWEDBt3MTt0owCdVTEmUKStK00cIaaSP2ZxSmHRr_nLPFP0p7UkoCuli1GisIXHJD1V0wwcmuHkjMOMfvbrKn71dkET1bzs4g103hyz-xpfbrgBDMsYUM_a7zvpDo3CxTtKeuJ9zVw-j4Px2HevbLL1DdKbpzCRMOX6UBfHBuvqs5GYmNKSJt-2e8xZvDuOuMY9-ZxrrnTEERIPWZRV-BIOwoyZTvN6wnzS84" 
+              src="/cles-hero.jpg" 
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
