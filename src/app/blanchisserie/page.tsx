@@ -90,24 +90,7 @@ export default function Blanchisserie() {
             </div>
           </div>
 
-          {/* CTA Section */}
-          <div style={{ marginTop: 64, background: 'var(--surface-container-high)', borderRadius: 16, padding: 48, textAlign: 'center', position: 'relative', overflow: 'hidden' }}>
-            <div style={{ position: 'relative', zIndex: 10 }}>
-              <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 24 }}>Prêt à sublimer vos locations ?</h2>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                Confiez-nous l'entretien de votre propriété à Valfréjus et profitez d'une tranquillité d'esprit totale tout en garantissant des avis 5 étoiles de vos voyageurs.
-              </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 16, justifyContent: 'center' }}>
-                <Link href="/contact" style={{ padding: '16px 40px', background: 'var(--primary)', color: 'white', borderRadius: 8, fontWeight: 600, transition: 'all 0.2s' }}>
-                  Réserver ce service
-                </Link>
-                <Link href="/contact" style={{ padding: '16px 40px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 8, fontWeight: 600, transition: 'all 0.2s' }}>
-                  Demander un devis
-                </Link>
-              </div>
-            </div>
-            <span className="material-symbols-outlined" style={{ position: 'absolute', right: -40, bottom: -40, fontSize: 200, color: 'var(--secondary)', opacity: 0.05, transform: 'rotate(12deg)' }}>cleaning_services</span>
-          </div>
+          
         </section>
 
         <ContactCTA />
