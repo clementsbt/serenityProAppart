@@ -22,6 +22,7 @@ const services = [
     description:
       "Gestion complète du linge de maison. Lavage, séchage et repassage de qualité hôtelière pour un confort absolu.",
     large: false,
+    href: "/blanchisserie",
   },
   {
     icon: "cleaning_services",
