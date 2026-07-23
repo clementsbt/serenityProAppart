@@ -45,7 +45,7 @@ export default function Cles() {
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}
-        <section style={{ position: 'relative', height: 450, overflow: 'hidden' }}>
+        <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
               src="/cles-hero.jpg" 
