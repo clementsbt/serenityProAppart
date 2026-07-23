@@ -88,9 +88,25 @@ export default function Blanchisserie() {
                 <p style={{ fontSize: '0.875rem' }}>Savons artisanaux, produits de première nécessité, guide de bienvenue personnalisé.</p>
               </div>
             </div>
-          </div>
 
-          
+          {/* Service inclus */}
+          <div style={{ background: 'var(--surface-container-low)', padding: 32, borderRadius: 12, borderTop: '4px solid var(--secondary)', boxShadow: 'var(--shadow-luxury)' }}>
+            <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16 }}>Ce qui est inclus</h3>
+            <ul style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+              <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
+                <span>Draps et serviettes de qualité hôtelière</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
+                <span>Produits nettoyants écologiques</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
+                <span>Livraison et reprise du linge</span>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <ContactCTA />
