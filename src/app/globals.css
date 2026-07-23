@@ -120,6 +120,14 @@ button {
   .navbar-logo {
     font-size: 1.25rem;
   }
+  
+  .navbar-logo img {
+    display: block;
+  }
+}
+
+.navbar-logo img {
+  display: none;
 }
 
 .navbar-links {
