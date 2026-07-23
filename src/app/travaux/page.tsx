@@ -13,7 +13,7 @@ export default function Travaux() {
         <section style={{ position: 'relative', height: 400, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZL-QCRjsnC06KqeuY8IhIQO2hWU05q5BC9tAMygRwMae0LWwcZPUXcrhPXRALUy-Qb6ON3SxFa6tnvjtvWBGjtyRjwbqgDH6JJ6ljc0x1CR-0sRn38PhexcsrDLrphAYNn5UH6Gb4-w-Bnx6-W8IMWanicw5rmA-oIXJZcyD_tpK2NWIeGyCSEitrwIjnbDGxiMVD4vCnZLAxxweBqPivQsn1HTg5M3jGzzVJ8-ajlzlYIUGxN_1gKEy5K7ca84vj34vNRocrFCY" 
+              src="/travaux-hero.jpg" 
               alt="Valfréjus ski resort at dusk" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
