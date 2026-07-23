@@ -110,10 +110,16 @@ button {
   align-items: center;
   gap: 12px;
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--primary);
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+@media (min-width: 768px) {
+  .navbar-logo {
+    font-size: 1.25rem;
+  }
 }
 
 .navbar-links {
