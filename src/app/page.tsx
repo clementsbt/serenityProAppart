@@ -38,6 +38,7 @@ const services = [
       "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
     tags: ["Maintenance", "Réparations", "Hivernage"],
     large: true,
+    href: "/travaux",
   },
 ];
 

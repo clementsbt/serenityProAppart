@@ -1,84 +1,174 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export default function Travaux() {
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
-
   return (
     <>
-      <header className="navbar">
-        <button className="mobile-menu-btn" onClick={() => setMobileNavOpen(true)}>
-          <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
-        </button>
-        <Link href="/" className="navbar-logo"><img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} /><span>Serenity Pro Appart</span></Link>
-        <Link href="/contact" className="btn-primary">Nous contacter</Link>
-      </header>
-
-      <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
-        <div className="mobile-nav-drawer">
-          <div className="mobile-nav-header">
-            <h2>Serenity Pro Appart</h2>
-            <button className="mobile-nav-close" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">close</span>
-            </button>
-          </div>
-          <div className="mobile-nav-links">
-            <Link href="/services" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">concierge</span>Services
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Navbar />
 
       <main style={{ paddingTop: 80 }}>
-        <section className="page-hero">
-          <span style={{ fontSize: '3rem', marginBottom: '10px' }}>🔧</span>
-          <h1>Travaux d'appoint</h1>
-          <p>Maintenance et réparations pour valoriser votre patrimoine.</p>
-        </section>
-
-        <section className="section">
-          <div style={{ maxWidth: 800, margin: '0 auto', background: 'white', borderRadius: 16, padding: 32, boxShadow: 'var(--shadow-card)' }}>
-            <h2 style={{ color: 'var(--primary)', marginBottom: 16 }}>Maintenance</h2>
-            <p style={{ marginBottom: 16, color: 'var(--on-surface-variant)' }}>
-              Petit entretien, maintenance technique et réparations rapides pour maintenir 
-              votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.
-            </p>
-            <h3 style={{ marginTop: 24, marginBottom: 12, color: 'var(--primary)' }}>Prestations :</h3>
-            <ul style={{ marginLeft: 20, color: 'var(--on-surface-variant)' }}>
-              <li>Petites réparations</li>
-              <li>Maintenance préventive</li>
-              <li>Hivernage / Déshivernage</li>
-              <li>Vérification des équipements</li>
-              <li>Intervention rapide</li>
-            </ul>
+        {/* Hero Section */}
+        <section style={{ position: 'relative', height: 400, overflow: 'hidden' }}>
+          <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
+            <img 
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZL-QCRjsnC06KqeuY8IhIQO2hWU05q5BC9tAMygRwMae0LWwcZPUXcrhPXRALUy-Qb6ON3SxFa6tnvjtvWBGjtyRjwbqgDH6JJ6ljc0x1CR-0sRn38PhexcsrDLrphAYNn5UH6Gb4-w-Bnx6-W8IMWanicw5rmA-oIXJZcyD_tpK2NWIeGyCSEitrwIjnbDGxiMVD4vCnZLAxxweBqPivQsn1HTg5M3jGzzVJ8-ajlzlYIUGxN_1gKEy5K7ca84vj34vNRocrFCY" 
+              alt="Valfréjus ski resort at dusk" 
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
           </div>
-          
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <Link href="/" style={{ color: 'var(--secondary)', fontWeight: 600 }}>← Retour au site</Link>
-          </div>
-        </section>
-
-        <section className="cta-section">
-          <div className="cta-content">
-            <h2>Devis travaux</h2>
-            <div className="cta-buttons">
-              <a href="mailto:lesclesducharmaix@gmail.com" className="cta-btn primary">
-                <span className="material-symbols-outlined">mail</span>Email
-              </a>
-              <a href="tel:+33781462132" className="cta-btn secondary">
-                <span className="material-symbols-outlined">call</span>+33 7 81 46 21 32
-              </a>
+          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(197, 160, 89, 0.1)', border: '1px solid rgba(197, 160, 89, 0.2)', padding: '4px 12px', borderRadius: 20, color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600 }}>
+                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>verified</span>
+                Professional Excellence
+              </span>
             </div>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', maxWidth: 500, lineHeight: 1.2 }}>Maintenance & Travaux d'appoint</h1>
+          </div>
+        </section>
+
+        {/* Content */}
+        <section style={{ padding: '32px 16px', maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ display: 'grid', gap: 24, gridTemplateColumns: '1fr' }}>
+            
+            {/* Main Description Card */}
+            <div style={{ background: 'var(--surface)', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 24 }}>
+                <div style={{ width: 48, height: 48, borderRadius: 8, background: 'var(--primary-container)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--on-primary-container)' }}>build</span>
+                </div>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)' }}>Reliable Property Care</h2>
+              </div>
+              <p style={{ fontSize: '1.125rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.7 }}>
+                Chez Les Clés du Charmaix, nous savons que l'entretien d'une propriété en montagne nécessite une vigilance constante. Notre équipe de maintenance spécialisée assure la protection de votre investissement et le confort de vos résidents, 365 jours par an.
+              </p>
+              <div style={{ display: 'grid', gap: 16, gridTemplateColumns: '1fr' }}>
+                <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
+                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Maintenance Technique</h3>
+                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Inspections régulières des systèmes de chauffage, plomberie et électricité pour prévenir les urgences hivernales.</p>
+                </div>
+                <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
+                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Réparations Rapides</h3>
+                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Intervention sur demande pour les petits problèmes - du remplacement de luminaire à l'ajustement de porte.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Value Preservation Card */}
+            <div style={{ background: 'var(--primary)', color: 'white', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', position: 'relative', overflow: 'hidden', minHeight: 200 }}>
+              <div style={{ position: 'relative', zIndex: 10 }}>
+                <h3 style={{ fontSize: '1.5rem', marginBottom: 16 }}>Valorisation du Bien</h3>
+                <p style={{ opacity: 0.8, marginBottom: 24 }}>Suivi proactif des rénovation et améliorations esthétiques mineures pour maintenir votre propriété à sa valeur maximale.</p>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginTop: 'auto' }}>
+                  <div style={{ width: 40, height: 40, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <span className="material-symbols-outlined">trending_up</span>
+                  </div>
+                  <span style={{ fontWeight: 600 }}>Focus Croissance des Actifs</span>
+                </div>
+              </div>
+              <span className="material-symbols-outlined" style={{ position: 'absolute', right: -40, bottom: -40, fontSize: 200, opacity: 0.1 }}>architecture</span>
+            </div>
+
+            {/* CTA Section */}
+            <div style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(8px)', border: '1px solid rgba(197, 160, 89, 0.2)', borderRadius: 12, padding: 32, display: 'flex', flexDirection: 'column', gap: 24 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 24, flexWrap: 'wrap', justifyContent: 'center' }}>
+                <div style={{ position: 'relative' }}>
+                  <img 
+                    src="/lou.jpg" 
+                    alt="Lou - Fondatrice" 
+                    style={{ width: 96, height: 96, borderRadius: '50%', objectFit: 'cover', border: '4px solid white', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} 
+                  />
+                  <div style={{ position: 'absolute', bottom: 0, right: 0, width: 24, height: 24, background: '#22c55e', borderRadius: '50%', border: '2px solid white' }}></div>
+                </div>
+                <div style={{ textAlign: 'center' }}>
+                  <h4 style={{ fontSize: '1.25rem', color: 'var(--primary)' }}>Besoin d'assistance ?</h4>
+                  <p style={{ color: 'var(--on-surface-variant)' }}>Lou est disponible pour les demandes personnalisées et interventions urgentes à Valfréjus.</p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: '100%' }}>
+                <Link href="/contact" style={{ padding: '12px 32px', background: 'var(--secondary)', color: 'white', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+                  <span className="material-symbols-outlined">chat</span>
+                  Contacter Lou
+                  <span className="material-symbols-outlined">arrow_forward</span>
+                </Link>
+                <a href="tel:+33781462132" style={{ padding: '12px 32px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+                  <span className="material-symbols-outlined">call</span>
+                  07.81.46.21.32
+                </a>
+              </div>
+            </div>
+
+            {/* Features Micro-Cards */}
+            <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
+              <div style={{ padding: 24, background: 'white', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
+                <div>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Accès 365 Jours</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Disponibilité totale pour la maintenance technique critique.</p>
+                </div>
+              </div>
+              <div style={{ padding: 24, background: 'white', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
+                <div>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Partenaires de Confiance</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Coordination avec des artisans locaux certifiés pour les rénovations complexes.</p>
+                </div>
+              </div>
+              <div style={{ padding: 24, background: 'white', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>receipt_long</span>
+                <div>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Reporting Transparent</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Rapports photo détaillés et factures numériques pour chaque intervention.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Visual Anchor */}
+            <div style={{ height: 256, borderRadius: 16, overflow: 'hidden', position: 'relative' }}>
+              <img 
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8XJ_6ukTJEWUf0ggTZ7E_3gWnk4dYo4sX2skm7mfEGEs4NR8-MoN6hTpPaaPcPcuoOJ3GkLy0LbIXvDv_j0T_mO6S56PbDT0u9LT3bQ24P3QaA-lcisRtVrTmvC4tQ5BzGjlFCz6mBPr0TYD5h8hWkIWrPf0mKjgzJuTcj2FscMioZsJGulRhoCnNu2BnW0EepJDuBZBPgsYnSpcuWUEqLgVW4sOmfP2ioINVxB9Ywb1p03xQq6_HZsLxvznw98PMCKdL_3WMgO8" 
+                alt="Architectural blueprints for chalet renovation" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} 
+              />
+              <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,5,19,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ textAlign: 'center', color: 'white', padding: 32 }}>
+                  <p style={{ fontSize: '1.5rem', marginBottom: 8 }}>Préservation des Héritages Alpins</p>
+                  <p style={{ fontStyle: 'italic', opacity: 0.9 }}>Attention au détail dans chaque vis, chaque coup de pinceau.</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
       </main>
 
+      {/* Footer */}
       <footer className="footer">
         <div className="footer-grid">
-          <div><h4>Serenity Pro Appart</h4><p>Conciergerie de Luxe à Valfréjus.</p></div>
+          <div>
+            <h4>Serenity Pro Appart</h4>
+            <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
+          </div>
+          <div>
+            <h4>Navigation</h4>
+            <ul className="footer-links">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Légal</h4>
+            <ul className="footer-links">
+              <li><a href="#">Mentions Légales</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>© 2024 Serenity Pro Appart by Lou. All rights reserved.</p>
         </div>
       </footer>
     </>
