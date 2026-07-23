@@ -109,17 +109,7 @@ export default function Cles() {
             </div>
           </div>
 
-          {/* Booking CTA */}
-          <div style={{ background: 'var(--surface-container-low)', borderRadius: 16, padding: 32, textAlign: 'center', border: '1px solid rgba(197, 160, 89, 0.1)', marginBottom: 32 }}>
-            <h4 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Prêt à déléguer ?</h4>
-            <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem', marginBottom: 24 }}>Libérez-vous des contraintes logistiques et maximisez vos revenus locatifs.</p>
-            <Link href="/contact" style={{ display: 'block', width: '100%', padding: 16, background: 'var(--secondary)', color: 'white', fontWeight: 700, borderRadius: 8, marginBottom: 16 }}>
-              Réserver ce service
-            </Link>
-            <Link href="/contact" style={{ display: 'inline-block', color: 'var(--secondary)', fontWeight: 600, fontSize: '0.875rem', borderBottom: '1px solid rgba(197, 160, 89, 0.3)' }}>
-              En savoir plus sur nos tarifs
-            </Link>
-          </div>
+          
         </section>
 
         <ContactCTA />
