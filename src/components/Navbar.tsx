@@ -24,6 +24,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>Services</Link>
           <Link href="/#about" className={currentPage === 'about' ? 'active' : ''}>Lou</Link>
           <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>Clés</Link>
+          <Link href="/blanchisserie" className={currentPage === 'blanchisserie' ? 'active' : ''}>Blanchisserie</Link>
           <Link href="/contact" className={currentPage === 'contact' ? 'active' : ''}>Contact</Link>
         </div>
         <Link href="/contact" className="btn-primary">Nous contacter</Link>
@@ -49,6 +50,10 @@ export default function Navbar({ currentPage }: NavbarProps) {
             <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">key</span>
               Gestion clés
+            </Link>
+            <Link href="/blanchisserie" onClick={() => setMobileNavOpen(false)}>
+              <span className="material-symbols-outlined">laundry</span>
+              Blanchisserie
             </Link>
             <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">contact_support</span>
