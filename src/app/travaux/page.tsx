@@ -126,20 +126,7 @@ export default function Travaux() {
               </div>
             </div>
 
-            {/* Visual Anchor */}
-            <div style={{ height: 256, borderRadius: 16, overflow: 'hidden', position: 'relative' }}>
-              <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8XJ_6ukTJEWUf0ggTZ7E_3gWnk4dYo4sX2skm7mfEGEs4NR8-MoN6hTpPaaPcPcuoOJ3GkLy0LbIXvDv_j0T_mO6S56PbDT0u9LT3bQ24P3QaA-lcisRtVrTmvC4tQ5BzGjlFCz6mBPr0TYD5h8hWkIWrPf0mKjgzJuTcj2FscMioZsJGulRhoCnNu2BnW0EepJDuBZBPgsYnSpcuWUEqLgVW4sOmfP2ioINVxB9Ywb1p03xQq6_HZsLxvznw98PMCKdL_3WMgO8" 
-                alt="Architectural blueprints for chalet renovation" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} 
-              />
-              <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,5,19,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <div style={{ textAlign: 'center', color: 'white', padding: 32 }}>
-                  <p style={{ fontSize: '1.5rem', marginBottom: 8 }}>Préservation des Héritages Alpins</p>
-                  <p style={{ fontStyle: 'italic', opacity: 0.9 }}>Attention au détail dans chaque vis, chaque coup de pinceau.</p>
-                </div>
-              </div>
-            </div>
+            
 
           </div>
         </section>
