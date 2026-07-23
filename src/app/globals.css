@@ -272,6 +272,13 @@ button {
   margin: 0 auto;
 }
 
+@media (max-width: 767px) {
+  .stats-grid .stat-item:last-child {
+    grid-column: 1 / -1;
+    justify-items: center;
+  }
+}
+
 @media (min-width: 768px) {
   .stats-grid {
     grid-template-columns: repeat(3, 1fr);
