@@ -116,6 +116,10 @@ button {
   letter-spacing: 0.1em;
 }
 
+.navbar-logo img {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .navbar-logo {
     font-size: 1.25rem;
@@ -124,10 +128,6 @@ button {
   .navbar-logo img {
     display: block;
   }
-}
-
-.navbar-logo img {
-  display: none;
 }
 
 .navbar-links {
