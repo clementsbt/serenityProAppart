@@ -13,14 +13,14 @@ export default function Blanchisserie() {
         <section style={{ padding: '0 16px', marginTop: 32, marginBottom: 48 }}>
           <div style={{ position: 'relative', borderRadius: 12, overflow: 'hidden', height: 300, boxShadow: '0 10px 20px rgba(0,30,66,0.15)' }}>
             <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-tI1mSL98LheU5y_PaF2FIMR-licNfT8pCq36ntXpoCpJuExBBRj-72rtIDSEqx2aWNVn1E5-WgMXmPLbJFsabUjzVApptJZOvMhMVKBNFIGrQVpv0-spGAsHXCbsKq8oPFry4kgKWROKqZbglbFu7IMr3P_WAKhPy6LyDqE8a4c4_RT5inPo4seem8jVFUO9WLYWm8CmsMETFVxXHz6ud2kkpiIf-_0jYy_tMpZGZ5A-W-A630h_ZmZgA26AYxuB4ABhgKwnmbU" 
+              src="/blanchisserie-hero.jpg" 
               alt="Luxury mountain chalet bedroom with pristine white linens" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8) 0%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32 }}>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 32 }}>
               <span style={{ display: 'inline-block', background: 'var(--secondary-fixed)', color: 'var(--on-secondary-fixed)', padding: '4px 12px', borderRadius: 20, fontSize: '0.75rem', fontWeight: 600, marginBottom: 16, width: 'fit-content' }}>Service Premium</span>
-              <h1 style={{ fontSize: '2rem', color: 'white', lineHeight: 1.2 }}>Ménage & Blanchisserie</h1>
-              <p style={{ color: 'rgba(255,255,255,0.9)', marginTop: 8, maxWidth: 400 }}>L'excellence de l'hôtellerie au cœur de votre foyer alpin.</p>
+              <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>Ménage & Blanchisserie</h1>
+              <p style={{ color: 'var(--on-surface-variant)', marginTop: 8, maxWidth: 400 }}>L'excellence de l'hôtellerie au cœur de votre foyer alpin.</p>
             </div>
           </div>
         </section>
