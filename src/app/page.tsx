@@ -1,60 +1,48 @@
 "use client";
 
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
-  const services = [
-    {
-      icon: "vpn_key",
-      title: "Gestion des clés",
-      description:
-        "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre, présentation du logement et des consignes de sécurité pour une expérience sereine dès l'arrivée.",
-      features: [
-        "Check-in & Check-out physiques",
-        "État des lieux rigoureux",
-      ],
-      large: true,
-    },
-    {
-      icon: "dry_cleaning",
-      title: "Blanchisserie",
-      description:
-        "Gestion complète du linge de maison. Lavage, séchage et repassage de qualité hôtelière pour un confort absolu.",
-      large: false,
-    },
-    {
-      icon: "cleaning_services",
-      title: "Ménage",
-      description:
-        "Nettoyage professionnel entre chaque location ou de fin de saison. Nous garantissons une hygiène irréprochable.",
-      large: false,
-    },
-    {
-      icon: "build",
-      title: "Travaux d'appoint",
-      description:
-        "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
-      tags: ["Maintenance", "Réparations", "Hivernage"],
-      large: true,
-    },
-  ];
+const services = [
+  {
+    icon: "vpn_key",
+    title: "Gestion des clés",
+    description:
+      "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre, présentation du logement et consignes de sécurité pour une expérience sereine dès l'arrivée.",
+    features: [
+      "Check-in & Check-out physiques",
+      "État des lieux rigoureux",
+    ],
+    large: true,
+  },
+  {
+    icon: "dry_cleaning",
+    title: "Blanchisserie",
+    description:
+      "Gestion complète du linge de maison. Lavage, séchage et repassage de qualité hôtelière pour un confort absolu.",
+    large: false,
+  },
+  {
+    icon: "cleaning_services",
+    title: "Ménage",
+    description:
+      "Nettoyage professionnel entre chaque location ou de fin de saison. Nous garantissons une hygiène irréprochable.",
+    large: false,
+  },
+  {
+    icon: "build",
+    title: "Travaux d'appoint",
+    description:
+      "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
+    tags: ["Maintenance", "Réparations", "Hivernage"],
+    large: true,
+  },
+];
 
-
+export default function Home() {
   return (
     <>
       <Navbar />
-              Lou
-            </Link>
-            <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">key</span>
-              Gestion clés
-            </Link>
-            <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">contact_support</span>
-              Contact
-            </Link>
-          </div>
-        </div>
-      </div>
 
       {/* Hero */}
       <section className="hero">
@@ -160,7 +148,7 @@ import Navbar from "@/components/Navbar";
               Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Serenity Pro Appart</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
             </p>
             <p>
-              Ma présence sur place 365 jours par an me permet d'intervenir rapidement et de veiller personnellement à chaque détail. Je ne suis pas seulement une prestataire, je suis vos yeux et vos oreilles à Valfréjus.
+              Ma présence sur place 365 jours par an me permet d'intervenir rapidement et de veillez personnellement à chaque détail. Je ne suis pas seulement une prestataire, je suis vos yeux et vos oreilles à Valfréjus.
             </p>
             <ul className="about-features">
               <li>
