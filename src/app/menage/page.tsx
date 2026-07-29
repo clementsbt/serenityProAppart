@@ -40,7 +40,7 @@ export default function Menage() {
         </section>
 
         <section className="section">
-          <div style={{ maxWidth: 800, margin: '0 auto', background: 'white', borderRadius: 16, padding: 32, boxShadow: 'var(--shadow-card)' }}>
+          <div style={{ maxWidth: 800, margin: '0 auto', background: '#F4F1EA', borderRadius: 16, padding: 32, boxShadow: 'var(--shadow-card)' }}>
             <h2 style={{ color: 'var(--primary)', marginBottom: 16 }}>Nettoyage professionnel</h2>
             <p style={{ marginBottom: 16, color: 'var(--on-surface-variant)' }}>
               Un entretien professionnel rigoureux entre chaque location pour une higiene irréprochable 

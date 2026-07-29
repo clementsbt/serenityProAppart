@@ -169,7 +169,7 @@ export default function ServicesLocations() {
               <div
                 key={index}
                 style={{
-                  background: 'white',
+                  background: '#F4F1EA',
                   padding: 24,
                   borderRadius: 12,
                   boxShadow: 'var(--shadow-luxury)',
@@ -272,7 +272,7 @@ export default function ServicesLocations() {
               <div
                 key={index}
                 style={{
-                  background: 'white',
+                  background: '#F4F1EA',
                   borderRadius: 12,
                   overflow: 'hidden',
                   boxShadow: 'var(--shadow-luxury)',
