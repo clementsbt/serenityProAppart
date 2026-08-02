@@ -125,10 +125,7 @@ export default function Home() {
             <p className="stat-number">7/7J</p>
             <p className="stat-label">Disponibilité</p>
           </div>
-          <div className="stat-item">
-            <p className="stat-number">24H</p>
-            <p className="stat-label">Assistance</p>
-          </div>
+
           <div className="stat-item">
             <p className="stat-number">Présente</p>
             <p className="stat-label">À l'année</p>
