@@ -1065,6 +1065,17 @@ button {
   }
 }
 
+/* Horaires desktop/mobile toggle */
+.horaires-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .horaires-desktop {
+    display: block;
+  }
+}
+
 .contact-sidebar {
   display: flex;
   flex-direction: column;
