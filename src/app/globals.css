@@ -287,7 +287,6 @@ button {
   }
 
   .stats-grid .stat-item:last-child {
-    text-align: right;
     padding-right: 16px;
   }
 
