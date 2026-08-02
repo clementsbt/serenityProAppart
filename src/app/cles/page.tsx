@@ -56,7 +56,7 @@ export default function Cles() {
                 <span style={{ fontSize: '0.625rem', color: 'var(--on-surface-variant)', fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>01</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>Check-in & Out</h3>
-              <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Gestion personnalisée des arrivées et départs. Remise des clés en main propre et présentation des lieux.</p>
+              <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.</p>
             </div>
 
             {/* Contrôle Propriété */}
