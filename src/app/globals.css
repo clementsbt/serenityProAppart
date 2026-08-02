@@ -283,7 +283,11 @@ button {
 
 @media (min-width: 768px) {
   .stats-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stats-grid .stat-item:last-child {
+    text-align: right;
   }
 }
 
