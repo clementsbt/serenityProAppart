@@ -164,7 +164,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-content">
-            <span className="section-tag">L'esprit de service</span>
+            <span className="section-tag">Notre esprit</span>
             <h2>Une présence locale toute l'année</h2>
             <p>
               Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Serenity Pro Appart</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
