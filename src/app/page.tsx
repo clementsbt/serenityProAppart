@@ -29,7 +29,7 @@ const services = [
     icon: "cleaning_services",
     title: "Ménage",
     description:
-      "Nettoyage professionnel entre chaque location ou de fin de saison. Nous garantissons une hygiène irréprochable.",
+      "Nettoyage professionnel entre chaque location. Nous garantissons un service et une hygiène irréprochable.",
     large: false,
   },
   {
