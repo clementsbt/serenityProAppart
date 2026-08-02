@@ -9,9 +9,9 @@ const services = [
     icon: "vpn_key",
     title: "Gestion des clés",
     description:
-      "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre, présentation du logement et consignes de sécurité pour une expérience sereine dès l'arrivée.",
+      "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
     features: [
-      "Check-in & Check-out physiques",
+      "Check-out physiques",
       "État des lieux rigoureux",
     ],
     large: true,
