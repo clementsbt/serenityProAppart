@@ -160,49 +160,52 @@ export default function Contact() {
 
               {/* Sidebar */}
               <div className="contact-sidebar">
-                {/* Contact Card */}
-                <div style={{ background: 'var(--primary)', padding: 32, borderRadius: 12, color: 'white', boxShadow: 'var(--shadow-luxury)' }}>
-                  <h3 style={{ fontSize: '1.5rem', marginBottom: 24 }}>Coordonnées</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-                    <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 24 }}>location_on</span>
-                      <div>
-                        <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Adresse</p>
-                        <p style={{ opacity: 0.9 }}>735 rue du cheval,<br/>73500 Valfréjus, France</p>
+                {/* Sidebar cards row */}
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+                  {/* Contact Card */}
+                  <div style={{ background: 'var(--primary)', padding: 24, borderRadius: 12, color: 'white', boxShadow: 'var(--shadow-luxury)' }}>
+                    <h3 style={{ fontSize: '1.25rem', marginBottom: 20 }}>Coordonnées</h3>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                      <div style={{ display: 'flex', gap: 12 }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 20 }}>location_on</span>
+                        <div>
+                          <p style={{ fontSize: '0.7rem', color: 'var(--secondary-fixed)', marginBottom: 2 }}>Adresse</p>
+                          <p style={{ opacity: 0.9, fontSize: '0.85rem' }}>735 rue du cheval,<br/>73500 Valfréjus</p>
+                        </div>
                       </div>
-                    </div>
-                    <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 24 }}>phone_iphone</span>
-                      <div>
-                        <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Téléphone</p>
-                        <a href="tel:+33781462132" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none' }}>07.81.46.21.32</a>
+                      <div style={{ display: 'flex', gap: 12 }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 20 }}>phone_iphone</span>
+                        <div>
+                          <p style={{ fontSize: '0.7rem', color: 'var(--secondary-fixed)', marginBottom: 2 }}>Téléphone</p>
+                          <a href="tel:+33781462132" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none', fontSize: '0.85rem' }}>07.81.46.21.32</a>
+                        </div>
                       </div>
-                    </div>
-                    <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 24 }}>mail</span>
-                      <div>
-                        <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Email</p>
-                        <a href="mailto:lesclesducharmaix@gmail.com" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none' }}>lesclesducharmaix@gmail.com</a>
+                      <div style={{ display: 'flex', gap: 12 }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary-fixed)', fontSize: 20 }}>mail</span>
+                        <div>
+                          <p style={{ fontSize: '0.7rem', color: 'var(--secondary-fixed)', marginBottom: 2 }}>Email</p>
+                          <a href="mailto:lesclesducharmaix@gmail.com" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none', fontSize: '0.85rem' }}>lesclesducharmaix<br/>@gmail.com</a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Languages */}
-                <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
-                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Langues parlées</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇫🇷</span>
-                      <span style={{ fontWeight: 600 }}>Français</span>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇬🇧</span>
-                      <span style={{ fontWeight: 600 }}>English</span>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇮🇹</span>
-                      <span style={{ fontWeight: 600 }}>Italiano</span>
+                  {/* Languages */}
+                  <div style={{ background: '#F4F1EA', padding: 24, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
+                    <h3 style={{ fontSize: '1.1rem', color: 'var(--primary)', marginBottom: 16 }}>Langues parlées</h3>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: 8, borderRadius: 6, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.2rem' }}>🇫🇷</span>
+                        <span style={{ fontWeight: 600, fontSize: '0.9rem' }}>Français</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: 8, borderRadius: 6, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.2rem' }}>🇬🇧</span>
+                        <span style={{ fontWeight: 600, fontSize: '0.9rem' }}>English</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: 8, borderRadius: 6, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.2rem' }}>🇮🇹</span>
+                        <span style={{ fontWeight: 600, fontSize: '0.9rem' }}>Italiano</span>
+                      </div>
                     </div>
                   </div>
                 </div>

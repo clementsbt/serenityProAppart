@@ -1089,6 +1089,10 @@ button {
     display: block;
     margin-top: 24px;
   }
+
+  .contact-sidebar > div:first-child {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .contact-sidebar {
