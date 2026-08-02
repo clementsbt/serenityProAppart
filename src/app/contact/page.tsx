@@ -181,6 +181,25 @@ export default function Contact() {
 
               {/* Sidebar */}
               <div className="contact-sidebar">
+                {/* Languages - Mobile sidebar version */}
+                <div className="langues-sidebar" style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
+                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Langues parlées</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontSize: '1.5rem' }}>🇫🇷</span>
+                      <span style={{ fontWeight: 600 }}>Français</span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontSize: '1.5rem' }}>🇬🇧</span>
+                      <span style={{ fontWeight: 600 }}>English</span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontSize: '1.5rem' }}>🇮🇹</span>
+                      <span style={{ fontWeight: 600 }}>Italiano</span>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Contact Card */}
                 <div style={{ background: 'var(--primary)', padding: 32, borderRadius: 12, color: 'white', boxShadow: 'var(--shadow-luxury)' }}>
                   <h3 style={{ fontSize: '1.5rem', marginBottom: 24 }}>Coordonnées</h3>
@@ -205,25 +224,6 @@ export default function Contact() {
                         <p style={{ fontSize: '0.75rem', color: 'var(--secondary-fixed)', marginBottom: 4 }}>Email</p>
                         <a href="mailto:lesclesducharmaix@gmail.com" style={{ opacity: 0.9, color: 'inherit', textDecoration: 'none' }}>lesclesducharmaix@gmail.com</a>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Languages - Mobile sidebar version */}
-                <div className="langues-sidebar" style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
-                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Langues parlées</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇫🇷</span>
-                      <span style={{ fontWeight: 600 }}>Français</span>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇬🇧</span>
-                      <span style={{ fontWeight: 600 }}>English</span>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontSize: '1.5rem' }}>🇮🇹</span>
-                      <span style={{ fontWeight: 600 }}>Italiano</span>
                     </div>
                   </div>
                 </div>
