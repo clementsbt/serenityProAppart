@@ -275,9 +275,9 @@ button {
 }
 
 @media (max-width: 767px) {
-  .stats-grid .stat-item:last-child {
-    grid-column: 1 / -1;
-    justify-items: center;
+  .stats-grid {
+    gap: 16px;
+    padding: 24px;
   }
 }
 
