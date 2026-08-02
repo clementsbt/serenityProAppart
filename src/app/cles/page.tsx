@@ -49,13 +49,13 @@ export default function Cles() {
 
           {/* Bento Grid */}
           <div style={{ display: 'grid', gap: 16 }}>
-            {/* Check-in & Out */}
+            {/* Check-out */}
             <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 24, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.05)' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>concierge</span>
                 <span style={{ fontSize: '0.625rem', color: 'var(--on-surface-variant)', fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>01</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>Check-in & Out</h3>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>Check-out physiques</h3>
               <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.</p>
             </div>
 
