@@ -1102,6 +1102,23 @@ button {
   gap: 24px;
 }
 
+@media (min-width: 1024px) {
+  .contact-sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .contact-sidebar > *:nth-child(1) {
+    order: 2;
+    flex: 1;
+  }
+  
+  .contact-sidebar > *:nth-child(2) {
+    order: 1;
+    flex: 1;
+  }
+}
+
 /* Submit Button */
 .submit-btn {
   background: var(--secondary);
