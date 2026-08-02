@@ -59,13 +59,13 @@ export default function Cles() {
               <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.</p>
             </div>
 
-            {/* Contrôle Propriété */}
+            {/* Contrôle Propreté */}
             <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 24, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.05)', display: 'flex', gap: 16 }}>
               <div style={{ flexShrink: 0 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>inventory</span>
               </div>
               <div>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 4 }}>Contrôle Propriété</h3>
+                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 4 }}>Contrôle Propreté</h3>
                 <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Inspection rigoureuse de l'état du bien avant et après chaque séjour pour garantir votre tranquillité.</p>
               </div>
             </div>
