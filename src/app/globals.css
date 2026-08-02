@@ -1074,6 +1074,21 @@ button {
   .horaires-desktop {
     display: block;
   }
+
+  .contact-sidebar .horaires-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .horaires-desktop {
+    display: none;
+  }
+
+  .contact-sidebar .horaires-sidebar {
+    display: block;
+    margin-top: 24px;
+  }
 }
 
 .contact-sidebar {
