@@ -120,13 +120,13 @@ export default function Home() {
 
       {/* Stats */}
       <section className="stats">
-        <div className="stats-grid">
+        <div className="stats-grid" style={{ justifyContent: 'space-between' }}>
           <div className="stat-item">
             <p className="stat-number">7/7J</p>
             <p className="stat-label">Disponibilité</p>
           </div>
 
-          <div className="stat-item">
+          <div className="stat-item" style={{ marginLeft: 'auto' }}>
             <p className="stat-number">Présente</p>
             <p className="stat-label">À l'année</p>
           </div>
