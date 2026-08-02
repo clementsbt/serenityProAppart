@@ -37,7 +37,7 @@ const services = [
     title: "Travaux d'appoint",
     description:
       "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
-    tags: ["Maintenance", "Réparations", "Hivernage"],
+    tags: ["Maintenance", "Réparations"],
     large: true,
     href: "/travaux",
   },
