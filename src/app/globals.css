@@ -1065,27 +1065,32 @@ button {
   }
 }
 
-/* Horaires desktop/mobile toggle */
-.horaires-desktop {
+/* Horaires & Langues desktop/mobile toggle */
+.horaires-desktop,
+.langues-desktop {
   display: none;
 }
 
 @media (min-width: 1024px) {
-  .horaires-desktop {
+  .horaires-desktop,
+  .langues-desktop {
     display: block;
   }
 
-  .contact-sidebar .horaires-sidebar {
+  .contact-sidebar .horaires-sidebar,
+  .contact-sidebar .langues-sidebar {
     display: none;
   }
 }
 
 @media (max-width: 1023px) {
-  .horaires-desktop {
+  .horaires-desktop,
+  .langues-desktop {
     display: none;
   }
 
-  .contact-sidebar .horaires-sidebar {
+  .contact-sidebar .horaires-sidebar,
+  .contact-sidebar .langues-sidebar {
     display: block;
     margin-top: 24px;
   }
