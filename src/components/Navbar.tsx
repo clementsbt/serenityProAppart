@@ -27,6 +27,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <Link href="/blanchisserie" className={currentPage === 'blanchisserie' ? 'active' : ''}>Blanchisserie</Link>
           <Link href="/travaux" className={currentPage === 'travaux' ? 'active' : ''}>Travaux</Link>
         </div>
+        <Link href="/contact" className="btn-primary">Nous contacter</Link>
       </header>
 
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>

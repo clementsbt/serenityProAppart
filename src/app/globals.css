@@ -133,6 +133,8 @@ button {
 .navbar-links {
   display: none;
   gap: 32px;
+  flex: 1;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
