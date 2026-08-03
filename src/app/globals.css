@@ -1043,30 +1043,30 @@ button {
     gap: 24px;
   }
   
-  /* Left column: form + coordonnées side by side */
+  /* Left column: form */
   .left-column {
     display: flex;
     flex-direction: column;
-    gap: 24px;
   }
   
   .contact-form {
     flex: 1;
   }
   
-  .coordonnees-card {
-    flex: 1;
+  /* Right column: horaires + coordonnées/langues */
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .coord-langues {
     display: flex;
     gap: 24px;
   }
   
-  .coordonnees-card > div {
+  .coord-langues > div {
     flex: 1;
-  }
-  
-  .horaires-column {
-    display: flex;
-    flex-direction: column;
   }
 }
 
