@@ -125,11 +125,34 @@ export default function Contact() {
               <div className="card">
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Horaires d'ouverture</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12, alignItems: 'center', textAlign: 'center' }}>
-                    <div style={{ padding: 16, borderRadius: 8, background: 'var(--surface-container)', width: '100%' }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32, marginBottom: 8, display: 'block' }}>schedule</span>
-                      <p style={{ fontWeight: 600, fontSize: '1.125rem' }}>7j/7</p>
-                      <p style={{ color: 'var(--on-surface-variant)' }}>08h00 à 20h00</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Lundi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Mardi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Mercredi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Jeudi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Vendredi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Samedi</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span style={{ fontWeight: 500 }}>Dimanche</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
                     </div>
                   </div>
                 </div>
