@@ -53,146 +53,110 @@ export default function Contact() {
         <section style={{ padding: '48px 16px', background: '#F2F5F7' }}>
           <div className="container" style={{ maxWidth: 1280, margin: '0 auto' }}>
             <div className="contact-grid">
-              {/* Form */}
-              <div className="contact-form">
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 32 }}>Envoyez-nous un message</h2>
-                {status === 'success' ? (
-                  <div style={{ padding: 24, background: '#d4edda', borderRadius: 8, color: '#155724' }}>
-                    <p>✅ Message envoyé avec succès ! Nous vous répondrons rapidement.</p>
-                  </div>
-                ) : (
-                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-                  <div className="form-row">
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Nom complet</label>
-                      <input 
-                        type="text" 
-                        placeholder="Jean Dupont" 
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        required
-                        style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
-                      />
+              {/* Left column: Form + Coordonnées (same height) */}
+              <div className="left-column">
+                {/* Form */}
+                <div className="contact-form">
+                  <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 32 }}>Envoyez-nous un message</h2>
+                  {status === 'success' ? (
+                    <div style={{ padding: 24, background: '#d4edda', borderRadius: 8, color: '#155724' }}>
+                      <p>✅ Message envoyé avec succès ! Nous vous répondrons rapidement.</p>
                     </div>
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Email</label>
-                      <input 
-                        type="email" 
-                        placeholder="jean@exemple.com" 
-                        value={formData.email}
-                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        required
-                        style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Objet</label>
-                    <select 
-                      value={formData.subject}
-                      onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                      style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }}
-                    >
-                      <option value="">Sélectionner...</option>
-                      <option value="Gestion locative">Gestion locative</option>
-                      <option value="Services de conciergerie">Services de conciergerie</option>
-                      <option value="Réservation">Réservation</option>
-                      <option value="Autre demande">Autre demande</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Message</label>
-                    <textarea 
-                      placeholder="Comment pouvons-nous vous aider ?" 
-                      rows={5} 
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      required
-                      style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none', resize: 'vertical' }}
-                    ></textarea>
-                  </div>
-                  {status === 'error' && (
-                    <p style={{ color: 'red' }}>❌ Erreur lors de l'envoi. Veuillez réessayer.</p>
+                  ) : (
+                    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+                      <div className="form-row">
+                        <div>
+                          <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Nom complet</label>
+                          <input 
+                            type="text" 
+                            placeholder="Jean Dupont" 
+                            value={formData.name}
+                            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                            required
+                            style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
+                          />
+                        </div>
+                        <div>
+                          <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Email</label>
+                          <input 
+                            type="email" 
+                            placeholder="jean@exemple.com" 
+                            value={formData.email}
+                            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                            required
+                            style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }} 
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Objet</label>
+                        <select 
+                          value={formData.subject}
+                          onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                          style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }}
+                        >
+                          <option value="">Sélectionner...</option>
+                          <option value="Gestion locative">Gestion locative</option>
+                          <option value="Services de conciergerie">Services de conciergerie</option>
+                          <option value="Réservation">Réservation</option>
+                          <option value="Autre demande">Autre demande</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>Message</label>
+                        <textarea 
+                          placeholder="Comment pouvons-nous vous aider ?" 
+                          rows={5} 
+                          value={formData.message}
+                          onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                          required
+                          style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none', resize: 'vertical' }}
+                        ></textarea>
+                      </div>
+                      {status === 'error' && (
+                        <p style={{ color: 'red' }}>❌ Erreur lors de l'envoi. Veuillez réessayer.</p>
+                      )}
+                      <button type="submit" className="submit-btn" disabled={status === 'loading'}>
+                        {status === 'loading' ? 'Envoi...' : 'Envoyer le message'}
+                      </button>
+                    </form>
                   )}
-                  <button type="submit" className="submit-btn" disabled={status === 'loading'}>
-                    {status === 'loading' ? 'Envoi...' : 'Envoyer le message'}
-                  </button>
-                </form>
-                )}
-              </div>
+                </div>
 
-              {/* Horaires - Desktop: under form, Mobile: in sidebar */}
-              {/* Sidebar Desktop - Coordonnées + Horaires */}
-              <div className="sidebar-desktop" style={{ display: 'flex', flexDirection: 'column', gap: 24, flex: 1 }}>
-                {/* Coordonnées */}
-                <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
-                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>location_on</span>
-                      <div>
-                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Adresse</p>
-                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>735 rue du cheval, 73500 Valfréjus</p>
+                {/* Coordonnées - same height as form */}
+                <div className="coordonnees-card">
+                  <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
+                    <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>location_on</span>
+                        <div>
+                          <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Adresse</p>
+                          <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>735 rue du cheval, 73500 Valfréjus</p>
+                        </div>
                       </div>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>phone_iphone</span>
-                      <div>
-                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Téléphone</p>
-                        <a href="tel:+33781462132" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>07.81.46.21.32</a>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>phone_iphone</span>
+                        <div>
+                          <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Téléphone</p>
+                          <a href="tel:+33781462132" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>07.81.46.21.32</a>
+                        </div>
                       </div>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>mail</span>
-                      <div>
-                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Email</p>
-                        <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>mail</span>
+                        <div>
+                          <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Email</p>
+                          <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                {/* Horaires */}
+              {/* Right column: Horaires */}
+              <div className="horaires-column">
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
-                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Horaires</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Lundi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>09:00 - 12:00</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Mardi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>09:00 - 12:00</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Mercredi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>09:00 - 12:00</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Jeudi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>09:00 - 12:00</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Vendredi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>09:00 - 12:00</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Samedi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>Sur rendez-vous</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Dimanche</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>Fermé</span>
-                    </div>
-                  </div>
-              </div>
-              {/* Fin Sidebar Desktop */}
-              </div>
-
-              {/* Sidebar */}
-              <div className="contact-sidebar">
-                {/* Horaires - Mobile sidebar version */}
-                <div className="horaires-sidebar" style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Horaires</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>

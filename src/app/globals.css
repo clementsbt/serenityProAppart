@@ -1039,20 +1039,28 @@ button {
 
 @media (min-width: 1024px) {
   .contact-grid {
-    grid-template-columns: 7fr 5fr;
-    align-items: stretch;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  
+  /* Left column: form + coordonnées side by side */
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
   
   .contact-form {
-    grid-column: 1;
+    flex: 1;
   }
   
-  .contact-sidebar,
-  .sidebar-desktop {
-    grid-column: 2;
+  .coordonnees-card {
+    flex: 1;
+  }
+  
+  .horaires-column {
     display: flex;
     flex-direction: column;
-    height: 100%;
   }
 }
 
