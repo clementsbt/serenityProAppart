@@ -210,11 +210,7 @@ export default function Location() {
                   </div>
                 </div>
               </div>
-              <div style={{ marginTop: 32, paddingTop: 24, borderTop: '1px solid var(--surface-variant)', textAlign: 'center' }}>
-                <button style={{ background: 'var(--primary)', color: 'white', padding: '14px 32px', borderRadius: 8, fontWeight: 600, cursor: 'pointer', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                  Demander une intervention
-                </button>
-              </div>
+
             </div>
           </div>
         </section>
