@@ -18,12 +18,12 @@ const services = [
     href: "/cles",
   },
   {
-    icon: "dry_cleaning",
-    title: "Blanchisserie",
+    icon: "inventory_2",
+    title: "Location diverse",
     description:
-      "Gestion complète du linge de maison. Lavage, séchage et repassage de qualité hôtelière pour un confort absolu.",
+      "Location de matériel de ski, luges, raquettes et équipements de montagne. Tout le nécessaire pour vos activités hivernales.",
     large: false,
-    href: "/blanchisserie",
+    href: "/lou",
   },
   {
     icon: "cleaning_services",
