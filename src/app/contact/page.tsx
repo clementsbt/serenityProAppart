@@ -123,7 +123,7 @@ export default function Contact() {
 
               {/* Horaires - Desktop: under form, Mobile: in sidebar */}
               {/* Sidebar Desktop - Coordonnées + Horaires */}
-              <div className="sidebar-desktop" style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 24 }}>
+              <div className="sidebar-desktop" style={{ display: 'flex', flexDirection: 'column', gap: 24, flex: 1 }}>
                 {/* Coordonnées */}
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>

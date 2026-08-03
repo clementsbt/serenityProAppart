@@ -1040,14 +1040,19 @@ button {
 @media (min-width: 1024px) {
   .contact-grid {
     grid-template-columns: 7fr 5fr;
+    align-items: stretch;
   }
   
   .contact-form {
     grid-column: 1;
   }
   
-  .contact-sidebar {
+  .contact-sidebar,
+  .sidebar-desktop {
     grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 }
 
