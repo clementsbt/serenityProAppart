@@ -122,6 +122,37 @@ export default function Contact() {
               </div>
 
               {/* Horaires - Desktop: under form, Mobile: in sidebar */}
+              {/* Coordonnées - Desktop */}
+              <div className="coordonnees-desktop" style={{ marginTop: 24 }}>
+                <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
+                  <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>location_on</span>
+                      <div>
+                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Adresse</p>
+                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>735 rue du cheval, 73500 Valfréjus</p>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>phone_iphone</span>
+                      <div>
+                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Téléphone</p>
+                        <a href="tel:+33781462132" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>07.81.46.21.32</a>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>mail</span>
+                      <div>
+                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Email</p>
+                        <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Horaires - Desktop */}
               <div className="horaires-desktop" style={{ marginTop: 24 }}>
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Horaires</h3>
