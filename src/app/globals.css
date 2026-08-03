@@ -1037,36 +1037,21 @@ button {
   gap: 24px;
 }
 
-@media (min-width: 1024px) {
-  .contact-grid {
+/* Grid 4 cartes même taille */
+.contact-grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .contact-grid-4 {
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
   }
   
-  /* Left column: form */
-  .left-column {
+  .contact-grid-4 .card,
+  .contact-grid-4 .contact-form {
     display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form {
-    flex: 1;
-  }
-  
-  /* Right column: horaires + coordonnées/langues */
-  .right-column {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  
-  .coord-langues {
-    display: flex;
-    gap: 24px;
-  }
-  
-  .coord-langues > div {
-    flex: 1;
   }
 }
 
