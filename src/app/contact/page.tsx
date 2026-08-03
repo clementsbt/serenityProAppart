@@ -186,14 +186,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Urgences */}
-              <div className="card">
-                <div style={{ background: 'var(--primary)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 16 }}>emergency</span>
-                  <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>Urgences 24h/24</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '0.875rem' }}>Disponible pour vos urgences</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
