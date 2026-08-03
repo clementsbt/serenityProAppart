@@ -1037,21 +1037,28 @@ button {
   gap: 24px;
 }
 
-/* Grid 4 cartes même taille */
+/* Grid 4 cartes même taille - style Les Clés du Charmaix */
 .contact-grid-4 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .contact-grid-4 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
   }
   
   .contact-grid-4 .card,
   .contact-grid-4 .contact-form {
     display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-grid-4 .card > div,
+  .contact-grid-4 .contact-form {
+    flex: 1;
   }
 }
 
