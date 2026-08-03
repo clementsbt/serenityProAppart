@@ -124,8 +124,8 @@ export default function Contact() {
                 </div>
 
                 {/* Coordonnées - same height as form */}
-                <div className="coordonnees-card">
-                  <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
+                <div className="coordonnees-card" style={{ display: 'flex', gap: 24 }}>
+                  <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', flex: 1 }}>
                     <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -148,6 +148,25 @@ export default function Contact() {
                           <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Email</p>
                           <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Langues parlées */}
+                  <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', flex: 1 }}>
+                    <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Langues parlées</h3>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.5rem' }}>🇫🇷</span>
+                        <span style={{ fontWeight: 600 }}>Français</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.5rem' }}>🇬🇧</span>
+                        <span style={{ fontWeight: 600 }}>English</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                        <span style={{ fontSize: '1.5rem' }}>🇮🇹</span>
+                        <span style={{ fontWeight: 600 }}>Italiano</span>
                       </div>
                     </div>
                   </div>
