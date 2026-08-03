@@ -128,31 +128,31 @@ export default function Contact() {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Lundi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Mardi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Mercredi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Jeudi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Vendredi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Samedi</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span style={{ fontWeight: 500 }}>Dimanche</span>
-                      <span style={{ color: 'var(--on-surface-variant)' }}>08:00 - 20:00</span>
+                      <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                   </div>
                 </div>
