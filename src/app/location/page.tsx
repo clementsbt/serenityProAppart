@@ -164,59 +164,54 @@ export default function Location() {
             <p style={{ color: 'var(--on-surface-variant)' }}>La tranquillité d'esprit garantie par nos professionnels.</p>
           </div>
           
-          <div style={{ background: 'var(--surface-container-low)', borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)', display: 'grid', gridTemplateColumns: '1fr' }}>
-            {/* Image side */}
-            <div style={{ position: 'relative', minHeight: 300, background: 'var(--primary)' }}>
-              <img 
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop" 
-                alt="Technicien professionnel" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }}
-              />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(0,5,19,0.9), rgba(0,5,19,0.4))', display: 'flex', alignItems: 'center', padding: 32 }}>
-                <div style={{ color: 'white', maxWidth: 300 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 16, display: 'block' }}>engineering</span>
-                  <h3 style={{ fontSize: '1.5rem', marginBottom: 8 }}>Vérification Technique</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.875rem' }}>
-                    Un contrôle rigoureux avant, pendant ou après votre séjour pour assurer le parfait état de marche de l'ensemble des installations.
-                  </p>
-                </div>
-              </div>
+          <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
+            {/* Left column - dark */}
+            <div style={{ background: 'var(--primary)', padding: 48, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>engineering</span>
+              <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Vérification Technique</h3>
+              <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
+                Un contrôle rigoureux avant, pendant ou après votre séjour pour assurer le parfait état de marche de l'ensemble des installations du chalet.
+              </p>
             </div>
             
-            {/* Content side */}
-            <div style={{ padding: 32 }}>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 24 }}>
-                <div style={{ display: 'flex', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>thermostat</span>
+            {/* Right column - light with 2x2 grid */}
+            <div style={{ background: 'var(--surface-container-low)', padding: 48 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 32 }}>
+                {/* Chauffage */}
+                <div style={{ display: 'flex', gap: 16 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>thermostat</span>
                   <div>
                     <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Chauffage &amp; Climatisation</h4>
                     <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Contrôle des températures et purge des radiateurs.</p>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>water_drop</span>
+                {/* Plomberie */}
+                <div style={{ display: 'flex', gap: 16 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>water_drop</span>
                   <div>
                     <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Plomberie &amp; Sanitaires</h4>
                     <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Vérification des fuites, pression d'eau et chauffe-eau.</p>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>bolt</span>
+                {/* Electricité */}
+                <div style={{ display: 'flex', gap: 16 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bolt</span>
                   <div>
                     <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Systèmes Électriques</h4>
-                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Tests des disjoncteurs, éclairages et appareils.</p>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Tests des disjoncteurs, éclairages et appareils électroménagers.</p>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>wifi</span>
+                {/* Wifi */}
+                <div style={{ display: 'flex', gap: 16 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>wifi</span>
                   <div>
                     <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Connectivité</h4>
                     <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Diagnostic réseau internet et équipements connectés.</p>
                   </div>
                 </div>
               </div>
-              <div style={{ marginTop: 32, paddingTop: 24, borderTop: '1px solid var(--surface-variant)' }}>
-                <button style={{ background: 'var(--primary)', color: 'white', padding: '12px 24px', borderRadius: 8, fontWeight: 600, cursor: 'pointer', width: '100%' }}>
+              <div style={{ marginTop: 32, paddingTop: 24, borderTop: '1px solid var(--surface-variant)', textAlign: 'center' }}>
+                <button style={{ background: 'var(--primary)', color: 'white', padding: '14px 32px', borderRadius: 8, fontWeight: 600, cursor: 'pointer', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   Demander une intervention
                 </button>
               </div>
