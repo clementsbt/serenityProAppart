@@ -23,7 +23,7 @@ const services = [
     description:
       "Location de matériel de ski, luges, raquettes et équipements de montagne. Tout le nécessaire pour vos activités hivernales.",
     large: false,
-    href: "/lou",
+    href: "/location",
   },
   {
     icon: "cleaning_services",
