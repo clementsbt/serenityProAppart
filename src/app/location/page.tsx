@@ -4,7 +4,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
 
-export default function Blanchisserie() {
+export default function Location() {
   return (
     <>
       <Navbar />
@@ -20,85 +20,212 @@ export default function Blanchisserie() {
             />
             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
           </div>
-          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
+          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
               <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
-              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Premium Service</span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Catalogue Premium</span>
             </div>
-            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>Ménage & Blanchisserie</h1>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
+              Services &amp; Locations Diverses
+            </h1>
+            <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
+              Découvrez notre sélection de services sur-mesure et d'équipements de qualité pour sublimer votre séjour alpin.
+            </p>
           </div>
         </section>
 
-        {/* Bento Grid */}
-        <section style={{ padding: '0 16px', marginTop: -16, maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gap: 24, gridTemplateColumns: '1fr' }}>
-            
-            {/* Ménage Hôtelier */}
-            <div style={{ background: 'var(--surface-container-low)', padding: 32, borderRadius: 12, borderTop: '4px solid var(--secondary)', boxShadow: 'var(--shadow-luxury)' }}>
-              <div style={{ background: 'rgba(0,5,19,0.05)', width: 48, height: 48, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8, marginBottom: 24 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontSize: 32 }}>cleaning_services</span>
-              </div>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16 }}>Ménage Hôtelier</h3>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>Nettoyage complet conforme aux standards de l'hôtellerie de luxe. Nous assurons une hygiène irréprochable pour chaque séjour.</p>
-              <ul style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
-                  <span>Désinfection approfondie</span>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
-                  <span>Vérification technique 20 points</span>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: 12, color: 'var(--on-surface)' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20 }}>check_circle</span>
-                  <span>Mise en place prestige</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Gestion du Linge */}
-            <div style={{ background: 'var(--surface-container-low)', padding: 32, borderRadius: 12, borderTop: '4px solid var(--secondary)', boxShadow: 'var(--shadow-luxury)' }}>
-              <div style={{ background: 'rgba(0,5,19,0.05)', width: 48, height: 48, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8, marginBottom: 24 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontSize: 32 }}>laundry</span>
-              </div>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16 }}>Gestion du Linge</h3>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>Un linge de haute qualité pour un confort optimal. Notre processus assure fraîcheur et douceur à vos convives.</p>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 24 }}>
-                <span style={{ padding: '4px 12px', background: 'var(--surface-variant)', borderRadius: 20, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Lavage</span>
-                <span style={{ padding: '4px 12px', background: 'var(--surface-variant)', borderRadius: 20, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Séchage</span>
-                <span style={{ padding: '4px 12px', background: 'var(--surface-variant)', borderRadius: 20, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Repassage</span>
-              </div>
-              <p style={{ fontWeight: 700, color: 'var(--secondary)', display: 'flex', alignItems: 'center', gap: 8 }}>
-                <span className="material-symbols-outlined">verified</span>
-                Coton égyptien & Traitement Bio
-              </p>
-            </div>
-
-            {/* Kits de Bienvenue */}
-            <div style={{ background: 'var(--primary)', color: 'white', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-              <div>
-                <div style={{ background: 'rgba(255,255,255,0.1)', width: 48, height: 48, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 8, marginBottom: 24 }}>
-                  <span className="material-symbols-outlined" style={{ color: 'white', fontSize: 32 }}>featured_seasonal_and_gifts</span>
-                </div>
-                <h3 style={{ fontSize: '1.5rem', marginBottom: 16 }}>Kits de Bienvenue</h3>
-                <p style={{ color: 'rgba(255,255,255,0.8)' }}>La petite attention qui fait la différence. Nos kits incluent des produits locaux et essentiels pour un accueil chaleureux.</p>
-              </div>
-              <div style={{ marginTop: 32, padding: 16, background: 'rgba(255,255,255,0.05)', borderRadius: 8, border: '1px solid rgba(255,255,255,0.1)' }}>
-                <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.1em', opacity: 0.6, marginBottom: 8 }}>Inclus dans le kit :</p>
-                <p style={{ fontSize: '0.875rem' }}>Savons artisanaux, produits de première nécessité, guide de bienvenue personnalisé.</p>
-              </div>
-            </div>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
+          {/* Divider avec clé */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+            <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
           </div>
-
-          
-        </section>
-
-        <div style={{ marginTop: 24 }}>
-          <ContactCTA />
         </div>
-      </main>
 
-      <div style={{ marginTop: 24 }}></div>
+        {/* Linge de Maison Section */}
+        <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 48 }}>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Linge de Maison</h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>La douceur d'un linge immaculé pour un repos absolu.</p>
+          </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+            {/* Draps Card */}
+            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
+              </div>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Location de Draps</h3>
+              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
+                Parures de lit complètes de qualité hôtelière. Coton percale frais et respirant, adapté à la température de nos montagnes.
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
+                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>À partir de 15€</span>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)' }}>arrow_forward</span>
+              </div>
+            </div>
+
+            {/* Serviettes Card */}
+            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
+              </div>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Kit de Serviettes</h3>
+              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
+                Ensemble de bain luxueux comprenant drap de bain, serviette de toilette et tapis de bain. Épaisseur et moelleux garantis.
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
+                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>À partir de 10€</span>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)' }}>arrow_forward</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Divider */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+        </div>
+
+        {/* Kits de Bienvenue Section */}
+        <section style={{ padding: '48px 16px', maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 48 }}>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>
+              Kits de Bienvenue <span style={{ color: 'var(--on-surface-variant)', fontWeight: 400, fontStyle: 'italic' }}>(En Option)</span>
+            </h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>L'attention aux détails dès votre arrivée.</p>
+          </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+            {/* Alimentaire Card */}
+            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+              <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
+                <img 
+                  src="https://images.unsplash.com/photo-1455853828816-0c301a011711?w=600&h=400&fit=crop" 
+                  alt="Produits locaux Alpine" 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
+                <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
+                  <span className="material-symbols-outlined" style={{ fontVariationSettings: 'FILL 1' }}>restaurant</span>
+                  <h3 style={{ fontSize: '1.25rem' }}>Alimentaire</h3>
+                </div>
+              </div>
+              <div style={{ padding: 24 }}>
+                <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
+                  Découvrez les saveurs de Valfréjus. Notre kit comprend du miel de montagne, des fromages locaux affinés et d'autres délices régionaux.
+                </p>
+                <button style={{ color: 'var(--secondary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4, background: 'none', border: 'none', cursor: 'pointer' }}>
+                  Ajouter à la réservation <span className="material-symbols-outlined" style={{ fontSize: 18 }}>add</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Hygiène Card */}
+            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+              <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
+                <img 
+                  src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=600&h=400&fit=crop" 
+                  alt="Produits d'hygiène" 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
+                <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
+                  <span className="material-symbols-outlined" style={{ fontVariationSettings: 'FILL 1' }}>cleaning_services</span>
+                  <h3 style={{ fontSize: '1.25rem' }}>Hygiène</h3>
+                </div>
+              </div>
+              <div style={{ padding: 24 }}>
+                <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
+                  Kit d'entretien comprenant éponge neufs, liquide vaisselle écologique, pastilles lave-vaisselle et sacs poubelle.
+                </p>
+                <button style={{ color: 'var(--secondary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4, background: 'none', border: 'none', cursor: 'pointer' }}>
+                  Ajouter à la réservation <span className="material-symbols-outlined" style={{ fontSize: 18 }}>add</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Divider */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+        </div>
+
+        {/* Expertise Technique Section */}
+        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 48 }}>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Expertise Technique</h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>La tranquillité d'esprit garantie par nos professionnels.</p>
+          </div>
+          
+          <div style={{ background: 'var(--surface-container-low)', borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)', display: 'grid', gridTemplateColumns: '1fr' }}>
+            {/* Image side */}
+            <div style={{ position: 'relative', minHeight: 300, background: 'var(--primary)' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop" 
+                alt="Technicien professionnel" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }}
+              />
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(0,5,19,0.9), rgba(0,5,19,0.4))', display: 'flex', alignItems: 'center', padding: 32 }}>
+                <div style={{ color: 'white', maxWidth: 300 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 16, display: 'block' }}>engineering</span>
+                  <h3 style={{ fontSize: '1.5rem', marginBottom: 8 }}>Vérification Technique</h3>
+                  <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.875rem' }}>
+                    Un contrôle rigoureux avant, pendant ou après votre séjour pour assurer le parfait état de marche de l'ensemble des installations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Content side */}
+            <div style={{ padding: 32 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 24 }}>
+                <div style={{ display: 'flex', gap: 12 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>thermostat</span>
+                  <div>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Chauffage &amp; Climatisation</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Contrôle des températures et purge des radiateurs.</p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: 12 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>water_drop</span>
+                  <div>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Plomberie &amp; Sanitaires</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Vérification des fuites, pression d'eau et chauffe-eau.</p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: 12 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>bolt</span>
+                  <div>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Systèmes Électriques</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Tests des disjoncteurs, éclairages et appareils.</p>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: 12 }}>
+                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24, marginTop: 2 }}>wifi</span>
+                  <div>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Connectivité</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Diagnostic réseau internet et équipements connectés.</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ marginTop: 32, paddingTop: 24, borderTop: '1px solid var(--surface-variant)' }}>
+                <button style={{ background: 'var(--primary)', color: 'white', padding: '12px 24px', borderRadius: 8, fontWeight: 600, cursor: 'pointer', width: '100%' }}>
+                  Demander une intervention
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ContactCTA />
+      </main>
 
       {/* Footer */}
       <footer className="footer">
