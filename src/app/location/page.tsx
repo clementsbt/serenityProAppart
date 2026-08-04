@@ -162,7 +162,7 @@ export default function Location() {
               <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>engineering</span>
               <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Vérification Technique</h3>
               <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
-                Un contrôle rigoureux avant, pendant ou après votre séjour pour assurer le parfait état de marche de l'ensemble des installations du chalet.
+                Un contrôle rigoureux avant, pendant ou après le séjour de vos locataires pour assurer le parfait état de marche de l'ensemble des installations de votre bien immobilier.
               </p>
             </div>
             
