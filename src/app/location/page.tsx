@@ -158,7 +158,7 @@ export default function Location() {
           
           <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
             {/* Left column - dark */}
-            <div style={{ background: 'var(--primary)', padding: 48, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>engineering</span>
               <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Vérification Technique</h3>
               <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
@@ -167,8 +167,8 @@ export default function Location() {
             </div>
             
             {/* Right column - light with 2x2 grid */}
-            <div style={{ background: 'var(--surface-container-low)', padding: 48 }}>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 32 }}>
+            <div style={{ background: 'var(--surface-container-low)', padding: '32px 24px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
                 {/* Chauffage */}
                 <div style={{ display: 'flex', gap: 16 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>thermostat</span>
