@@ -116,9 +116,6 @@ export default function Location() {
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
                   Découvrez les saveurs de Valfréjus. Avec notre kit de bienvenue, celui-ci peut être composé par vous-même chez Les Délices Alpins.
                 </p>
-                <button style={{ color: 'var(--secondary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4, background: 'none', border: 'none', cursor: 'pointer' }}>
-                  Ajouter à la réservation <span className="material-symbols-outlined" style={{ fontSize: 18 }}>add</span>
-                </button>
               </div>
             </div>
 
@@ -138,11 +135,8 @@ export default function Location() {
               </div>
               <div style={{ padding: 24 }}>
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
-                  Kit d'entretien comprenant éponge neufs, liquide vaisselle écologique, pastilles lave-vaisselle et sacs poubelle.
+                  Kit d'entretien comprenant éponge neuf, liquide vaisselle écologique, pastilles lave-vaisselle et sacs poubelle.
                 </p>
-                <button style={{ color: 'var(--secondary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4, background: 'none', border: 'none', cursor: 'pointer' }}>
-                  Ajouter à la réservation <span className="material-symbols-outlined" style={{ fontSize: 18 }}>add</span>
-                </button>
               </div>
             </div>
           </div>
