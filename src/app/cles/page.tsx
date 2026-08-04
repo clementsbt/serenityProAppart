@@ -104,7 +104,7 @@ export default function Cles() {
                 <div style={{ width: 56, height: 56, background: 'var(--surface-container-highest)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 8 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--primary)' }}>schedule</span>
                 </div>
-                <span style={{ fontSize: '0.625rem', textTransform: 'uppercase', fontWeight: 700, color: 'var(--on-surface-variant)' }}>24/7 Support</span>
+                <span style={{ fontSize: '0.625rem', textTransform: 'uppercase', fontWeight: 700, color: 'var(--on-surface-variant)' }}>7/7 Support</span>
               </div>
             </div>
           </div>
