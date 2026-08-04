@@ -135,7 +135,7 @@ export default function Location() {
               </div>
               <div style={{ padding: 24 }}>
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
-                  Kit d'entretien comprenant éponge neuf, liquide vaisselle écologique, pastilles lave-vaisselle et sacs poubelle.
+                  Kit d'entretien comprenant éponge, liquide vaisselle, pastilles lave-vaisselle et sacs poubelle.
                 </p>
               </div>
             </div>
