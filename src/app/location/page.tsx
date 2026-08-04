@@ -26,7 +26,7 @@ export default function Location() {
               <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Catalogue Premium</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Services &amp; Locations Diverses
+              Locations Diverses
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
               Découvrez notre sélection de services sur-mesure et d'équipements de qualité pour sublimer votre séjour alpin.
