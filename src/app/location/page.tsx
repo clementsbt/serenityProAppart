@@ -114,7 +114,7 @@ export default function Location() {
               </div>
               <div style={{ padding: 24 }}>
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
-                  Découvrez les saveurs de Valfréjus. Notre kit comprend du miel de montagne, des fromages locaux affinés et d'autres délices régionaux.
+                  Découvrez les saveurs de Valfréjus. Avec notre kit de bienvenue, celui-ci peut être composé par vous-même chez Les Délices Alpins.
                 </p>
                 <button style={{ color: 'var(--secondary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 4, background: 'none', border: 'none', cursor: 'pointer' }}>
                   Ajouter à la réservation <span className="material-symbols-outlined" style={{ fontSize: 18 }}>add</span>
