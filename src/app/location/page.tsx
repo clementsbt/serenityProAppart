@@ -92,7 +92,7 @@ export default function Location() {
         <section style={{ padding: '48px 16px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>
-              Kits de Bienvenue <span style={{ color: 'var(--on-surface-variant)', fontWeight: 400, fontStyle: 'italic' }}>(En Option)</span>
+              Kits de Bienvenue
             </h2>
             <p style={{ color: 'var(--on-surface-variant)' }}>L'attention aux détails dès votre arrivée.</p>
           </div>
