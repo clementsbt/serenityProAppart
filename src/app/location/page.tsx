@@ -102,7 +102,7 @@ export default function Location() {
             <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img 
-                  src="https://images.unsplash.com/photo-Y31PLwB5gsk?w=600&h=400&fit=crop" 
+                  src="/kit-alimentaire.jpg" 
                   alt="Produits locaux Alpine" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
