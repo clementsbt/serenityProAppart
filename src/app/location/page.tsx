@@ -61,8 +61,7 @@ export default function Location() {
                 Parures de lit complètes de qualité hôtelière. Coton percale frais et respirant, adapté à la température de nos montagnes.
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
-                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>À partir de 15€</span>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)' }}>arrow_forward</span>
+                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Sur devis</span>
               </div>
             </div>
 
@@ -76,8 +75,7 @@ export default function Location() {
                 Ensemble de bain luxueux comprenant drap de bain, serviette de toilette et tapis de bain. Épaisseur et moelleux garantis.
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
-                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>À partir de 10€</span>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)' }}>arrow_forward</span>
+                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Sur devis</span>
               </div>
             </div>
           </div>
