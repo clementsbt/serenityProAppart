@@ -3,7 +3,14 @@
     "siteName": "Serenity Pro Appart",
     "tagline": "Your trusted partner for an exceptional alpine experience in Valfréjus.",
     "contact": "Contact",
-    "backToSite": "Back to site"
+    "backToSite": "Back to site",
+    "disponibilite": "Availability",
+    "presente": "Present",
+    "annee": "Year-round",
+    "louFounder": "Lou - Founder",
+    "needAssistance": "Need assistance?",
+    "louAvailable": "Lou is available for personalized requests and urgent interventions in Valfréjus.",
+    "contactLou": "Contact Lou"
   },
   "nav": {
     "home": "Home",
@@ -27,6 +34,11 @@
     "ctaButton": "Contact us",
     "servicesTitle": "Our Exclusive Services",
     "excellenceTag": "Excellence & Dedication",
+    "aboutText1": "A village resident and passionate about our beautiful resort, I founded Serenity Pro Appart to offer owners absolute peace of mind.",
+    "aboutText2": "My presence on site 365 days a year allows me to act quickly and personally oversee every detail. I'm not just a service provider - I'm your eyes and ears in Valfréjus.",
+    "featureReactivity": "Reactivity and immediate proximity",
+    "featurePersonalized": "100% personalized service",
+    "featureTerritory": "Excellent knowledge of the territory",
     "aboutTitle": "A local presence all year round",
     "ctaTitle": "Ready to entrust us with your keys?",
     "ctaSubtitle": "Contact us today for a personalized estimate for managing your property in Valfréjus."
@@ -44,6 +56,7 @@
     "card2Desc": "Thorough inspection of the property condition before and after each stay to ensure your peace of mind.",
     "card2Tag1": "Inventory check",
     "card2Tag2": "Inventory",
+    "card2Tag3": "Photo report",
     "card2Tag3": "Photo report",
     "commTitle": "Guest Communication",
     "commSubtitle": "Dedicated contact throughout the stay.",

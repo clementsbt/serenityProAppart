@@ -3,7 +3,14 @@
     "siteName": "Serenity Pro Appart",
     "tagline": "Su socio de confianza para una experiencia alpina excepcional en Valfréjus.",
     "contact": "Contacto",
-    "backToSite": "Volver al sitio"
+    "backToSite": "Volver al sitio",
+    "disponibilite": "Disponibilidad",
+    "presente": "Presente",
+    "annee": "Todo el año",
+    "louFounder": "Lou - Fundadora",
+    "needAssistance": "¿Necesita ayuda?",
+    "louAvailable": "Lou está disponible para solicitudes personalizadas e intervenciones urgentes en Valfréjus.",
+    "contactLou": "Contactar a Lou"
   },
   "nav": {
     "home": "Inicio",
@@ -27,6 +34,11 @@
     "ctaButton": "Contactarnos",
     "servicesTitle": "Nuestros servicios exclusivos",
     "excellenceTag": "Excelencia y dedicación",
+    "aboutText1": "Residente del pueblo y apasionada por nuestra hermosa estación, fundé Serenity Pro Appart para ofrecer a los propietarios una tranquilidad absoluta.",
+    "aboutText2": "Mi presencia en el lugar 365 días al año me permite intervenir rápidamente y supervisar personalmente cada detalle. No solo soy una prestadora de servicios - soy sus ojos y oídos en Valfréjus.",
+    "featureReactivity": "Reactividad y proximidad inmediata",
+    "featurePersonalized": "Servicio 100% personalizado",
+    "featureTerritory": "Excelente conocimiento del territorio",
     "aboutTitle": "Una presencia local durante todo el año",
     "ctaTitle": "¿Listo para confiarnos sus llaves?",
     "ctaSubtitle": "Contáctenos hoy mismo para obtener una estimación personalizada de la gestión de su propiedad en Valfréjus."
