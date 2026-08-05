@@ -82,20 +82,7 @@ export default function Location() {
               <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
                 {fr.location.drapsDesc}
               </p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
-                
-            <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
-              </div>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.serviettesTitle}</h3>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
-                {fr.location.serviettesDesc}
-              </p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
-                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>{fr.location.drapsPrice}</span>
-              </div>
-            </div>
+              
           </div>
         </section>
 
