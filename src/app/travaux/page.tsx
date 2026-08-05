@@ -122,6 +122,8 @@ export default function Travaux() {
             </section>
 
             {/* Features Micro-Cards */}
+            <ContactCTA />
+
             <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48 }}>
               <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
@@ -138,8 +140,6 @@ export default function Travaux() {
                 </div>
               </div>
             </div>
-
-            <ContactCTA />
 
           </div>
         </section>
