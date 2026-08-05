@@ -388,6 +388,16 @@ button {
   transform: translateY(-4px);
 }
 
+/* Card Hover Effect */
+.card-hover {
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.card-hover:hover {
+  border-color: var(--secondary);
+  transform: translateY(-4px);
+}
+
 .service-card-large {
   grid-column: 1 / -1;
 }

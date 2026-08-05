@@ -52,7 +52,7 @@ export default function Location() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Draps Card */}
-            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
+            <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
               <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
               </div>
@@ -66,7 +66,7 @@ export default function Location() {
             </div>
 
             {/* Serviettes Card */}
-            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
+            <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
               <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
               </div>
@@ -99,7 +99,7 @@ export default function Location() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Alimentaire Card */}
-            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+            <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img 
                   src="/kit-alimentaire.jpg" 
@@ -120,7 +120,7 @@ export default function Location() {
             </div>
 
             {/* Hygiène Card */}
-            <div style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+            <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img 
                   src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=600&h=400&fit=crop" 
