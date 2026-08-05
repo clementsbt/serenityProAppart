@@ -44,22 +44,22 @@ export default function Travaux() {
                 <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>architecture</span>
                 </div>
-                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Gros travaux et rénovation</h3>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.card1Title}</h3>
                 <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
-                  Chez Serenity pro appart, nous pouvons vous mettre en relation avec les meilleurs artisans de la région.
+                  {fr.travaux.card1Desc}
                 </p>
                 <ul style={{ display: 'flex', flexDirection: 'column', gap: 12, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                     <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                    Mise en relation avec des experts locaux.
+                    {fr.travaux.card1Feature1}
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                     <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                    Suivi de chantier et rapports réguliers.
+                    {fr.travaux.card1Feature2}
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                     <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                    Réception des travaux en votre absence.
+                    {fr.travaux.card1Feature3}
                   </li>
                 </ul>
               </div>
@@ -69,9 +69,9 @@ export default function Travaux() {
                 <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>handyman</span>
                 </div>
-                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Réparations Rapides</h3>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.card2Title}</h3>
                 <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
-                  Intervention sur demande pour les petits problèmes - du remplacement de luminaire à l'ajustement de porte.
+                  {fr.travaux.card2Desc}
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                   <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Électricité mineure</span>
@@ -91,17 +91,17 @@ export default function Travaux() {
 
             <section style={{ padding: '48px 16px', maxWidth: 1280, margin: '0 auto' }}>
               <div style={{ textAlign: 'center', marginBottom: 48 }}>
-                <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Expertise Technique</h2>
-                <p style={{ color: 'var(--on-surface-variant)' }}>La tranquillité d'esprit garantie par nos professionnels.</p>
+                <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.travaux.expertiseTitle}</h2>
+                <p style={{ color: 'var(--on-surface-variant)' }}>{fr.travaux.expertiseSubtitle}</p>
               </div>
 
               <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
                 {/* Left column - dark */}
                 <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>engineering</span>
-                  <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Vérification Technique</h3>
+                  <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.expertiseSectionTitle}</h3>
                   <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
-                    Un contrôle rigoureux avant, pendant ou après le séjour de vos locataires pour assurer le parfait état de marche de l'ensemble des installations de votre bien immobilier.
+                    {fr.travaux.expertiseSectionDesc}
                   </p>
                 </div>
 
@@ -112,32 +112,32 @@ export default function Travaux() {
                     <div style={{ display: 'flex', gap: 16 }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>thermostat</span>
                       <div>
-                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Chauffage &amp; Climatisation</h4>
-                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Contrôle des températures et purge des radiateurs.</p>
+                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature1Title}</h4>
+                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature1Desc}</p>
                       </div>
                     </div>
                     {/* Plomberie */}
                     <div style={{ display: 'flex', gap: 16 }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>water_drop</span>
                       <div>
-                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Plomberie &amp; Sanitaires</h4>
-                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Vérification des fuites, pression d'eau et chauffe-eau.</p>
+                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature2Title}</h4>
+                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature2Desc}</p>
                       </div>
                     </div>
                     {/* Electricité */}
                     <div style={{ display: 'flex', gap: 16 }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bolt</span>
                       <div>
-                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Systèmes Électriques</h4>
-                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Tests des disjoncteurs, éclairages et appareils électroménagers.</p>
+                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature3Title}</h4>
+                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature3Desc}</p>
                       </div>
                     </div>
                     {/* Wifi */}
                     <div style={{ display: 'flex', gap: 16 }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>wifi</span>
                       <div>
-                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Connectivité</h4>
-                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Diagnostic réseau internet et équipements connectés.</p>
+                        <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature4Title}</h4>
+                        <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature4Desc}</p>
                       </div>
                     </div>
                   </div>
@@ -152,15 +152,15 @@ export default function Travaux() {
               <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
                 <div>
-                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Accès 365 Jours</h5>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Disponibilité totale pour la maintenance technique critique.</p>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.travaux.micro1Title}</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.travaux.micro1Desc}</p>
                 </div>
               </div>
               <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
                 <div>
-                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Partenaires de Confiance</h5>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Coordination avec des artisans locaux certifiés pour les rénovations complexes.</p>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.travaux.micro2Title}</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.travaux.micro2Desc}</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function Travaux() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
+            <h4>{fr.common.siteName}</h4>
             <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
           </div>
           <div>

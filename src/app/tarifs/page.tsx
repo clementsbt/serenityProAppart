@@ -55,18 +55,18 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>cleaning_services</span>
               </div>
               <div style={{ marginTop: 48, marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Ménage de l'appartement</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.card1Title}</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Un ménage complet et soigné pour remettre votre appartement propre et prêt à accueillir vos voyageurs.
+                  {fr.tarifs.card1Desc}
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Ménage complet par appartement</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card1Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>70 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Supplément par chambre</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card1Price3}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
                 </div>
               </div>
@@ -78,14 +78,14 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
               <div style={{ marginTop: 48, marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Remises des clés et check-out</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.card2Title}</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Une remise des clés simple et organisée pour faciliter l'arrivée, le départ de vos locataires et la vérification de l'état des lieux au moment du check-out.
+                  {fr.tarifs.card2Desc}
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Remise des clés</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card2Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>60 €</span>
                 </div>
               </div>
@@ -97,22 +97,22 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>checkroom</span>
               </div>
               <div style={{ marginTop: 48, marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Location de linge</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.card3Title}</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Des kits de draps et de serviettes prêts à l'emploi pour équiper votre appartement facilement.
+                  {fr.tarifs.card3Desc}
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Kit drap double</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>15 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Kit drap simple</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price3}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Serviette</span>
+                  <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price5}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>5 €</span>
                 </div>
               </div>
@@ -124,12 +124,12 @@ export default function Tarifs() {
         {/* Call to Action */}
         <section style={{ background: 'var(--primary-container)', borderRadius: 12, padding: 48, textAlign: 'center', margin: '0 16px 96px', maxWidth: 1280, marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'relative', zIndex: 10, maxWidth: 600, margin: '0 auto' }}>
-            <h3 style={{ fontSize: '2rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Besoin d'une prestation adaptée ?</h3>
+            <h3 style={{ fontSize: '2rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.ctaTitle}</h3>
             <p style={{ fontSize: '1.125rem', color: 'var(--on-primary-container)', lineHeight: 1.7 }}>
-              Chaque appartement a ses besoins. Contactez-nous pour définir une prestation adaptée à votre logement et à vos locataires.
+              {fr.tarifs.ctaSubtitle}
             </p>
             <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: '#e9c176', color: '#261900', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
-              Demander un devis
+              {fr.tarifs.ctaButton}
             </Link>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default function Tarifs() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
+            <h4>{fr.common.siteName}</h4>
             <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
           </div>
           <div>
