@@ -157,7 +157,7 @@ export default function Tarifs() {
           <div>
             <h4>Légal</h4>
             <ul className="footer-links">
-              <li><a href="#">Mentions Légales</a></li>
+              <li><a href="/mentions-legales">Mentions Légales</a></li>
             </ul>
           </div>
         </div>
