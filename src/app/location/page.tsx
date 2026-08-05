@@ -93,7 +93,7 @@ export default function Location() {
                 {fr.location.serviettesDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
-                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Sur devis</span>
+                <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>{fr.location.drapsPrice}</span>
               </div>
             </div>
           </div>
