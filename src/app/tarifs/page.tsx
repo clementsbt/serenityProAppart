@@ -76,9 +76,9 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
               <div style={{ marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Remise des clés</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Remises des clés et check-out</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Une remise des clés simple et organisée pour faciliter l'arrivée et le départ de vos locataires.
+                  Une remise des clés simple et organisée pour faciliter l'arrivée, le départ de vos locataires et la vérification de l'état des lieux au moment du check-out.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
