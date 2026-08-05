@@ -39,9 +39,18 @@
     "featureReactivity": "Reactividad y proximidad inmediata",
     "featurePersonalized": "Servicio 100% personalizado",
     "featureTerritory": "Excelente conocimiento del territorio",
-    "aboutTitle": "Una presencia local durante todo el año",
+    "aboutTitle": "Nuestro espíritu",
     "ctaTitle": "¿Listo para confiarnos sus llaves?",
-    "ctaSubtitle": "Contáctenos hoy mismo para obtener una estimación personalizada de la gestión de su propiedad en Valfréjus."
+    "ctaSubtitle": "Contáctenos hoy mismo para obtener una estimación personalizada de la gestión de su propiedad en Valfréjus.",
+    "clesCardDesc": "Acogida física personalizada para sus inquilinos. Entrega de llaves en mano e instrucciones de seguridad para una experiencia tranquila desde la llegada.",
+    "clesCardFeature1": "Check-outs físicos",
+    "clesCardFeature2": "Inventario riguroso",
+    "locationCardDesc": "Todo lo necesario para preparar su apartamento antes de la llegada de los viajeros.",
+    "menageCardDesc": "Un servicio cuidado para preparar su apartamento entre dos estancias.",
+    "travauxCardTitle": "Grandes obras / Renovación y Reparaciones rápidas",
+    "travauxCardDesc": "Mantenimiento menor y reparaciones rápidas para mantener su propiedad en perfecto estado.",
+    "travauxCardTag1": "Mantenimiento",
+    "travauxCardTag2": "Reparaciones"
   },
   "cles": {
     "heroTag": "Servicio Premium",

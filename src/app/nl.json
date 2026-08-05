@@ -39,9 +39,18 @@
     "featureReactivity": "Reactiviteit en directe nabijheid",
     "featurePersonalized": "100% gepersonaliseerde service",
     "featureTerritory": "Uitstekende kennis van het gebied",
-    "aboutTitle": "Een lokale aanwezigheid het hele jaar door",
+    "aboutTitle": "Onze geest",
     "ctaTitle": "Klaar om uw sleutels aan ons toe te vertrouwen?",
-    "ctaSubtitle": "Neem vandaag nog contact met ons op voor een gepersonaliseerde schatting van het beheer van uw woning in Valfréjus."
+    "ctaSubtitle": "Neem vandaag nog contact met ons op voor een gepersonaliseerde schatting van het beheer van uw woning in Valfréjus.",
+    "clesCardDesc": "Persoonlijke fysieke ontvangst voor uw huurders. Sleuteloverdracht uit hand en veiligheidsinstructies voor een zorgeloze ervaring vanaf aankomst.",
+    "clesCardFeature1": "Fysieke check-outs",
+    "clesCardFeature2": "Grondige inventarisatie",
+    "locationCardDesc": "Alles wat nodig is om uw appartement voor te bereiden voor de komst van gasten.",
+    "menageCardDesc": "Een verzorgde service om uw appartement tussen twee verblijven voor te bereiden.",
+    "travauxCardTitle": "Grote werken / Renovatie en Snelle Reparaties",
+    "travauxCardDesc": "Kleine onderhoud en snelle reparaties om uw eigendom in perfecte staat te houden.",
+    "travauxCardTag1": "Onderhoud",
+    "travauxCardTag2": "Reparaties"
   },
   "cles": {
     "heroTag": "Premium service",

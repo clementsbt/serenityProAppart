@@ -39,9 +39,18 @@
     "featureReactivity": "Réactivité et proximité immédiate",
     "featurePersonalized": "Service 100% personnalisé",
     "featureTerritory": "Excellente connaissance du territoire",
-    "aboutTitle": "Une présence locale toute l'année",
-    "ctaTitle": "Prêt à confier vos clés ?",
-    "ctaSubtitle": "Contactez-nous dès aujourd'hui pour une estimation personnalisée de la gestion de votre bien à Valfréjus."
+    "ctaTitle": "Prêt à confie vos clés ?",
+    "ctaSubtitle": "Contactez-nous dès aujourd'hui pour une estimation personnalisée de la gestion de votre bien à Valfréjus.",
+    "aboutTitle": "Notre esprit",
+    "clesCardDesc": "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
+    "clesCardFeature1": "Check-out physiques",
+    "clesCardFeature2": "État des lieux rigoureux",
+    "locationCardDesc": "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
+    "menageCardDesc": "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
+    "travauxCardTitle": "Gros travaux / rénovation et Réparation rapides",
+    "travauxCardDesc": "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
+    "travauxCardTag1": "Maintenance",
+    "travauxCardTag2": "Réparations"
   },
   "cles": {
     "heroTag": "Premium Service",

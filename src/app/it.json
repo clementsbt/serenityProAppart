@@ -41,7 +41,16 @@
     "featureTerritory": "Eccellente conoscenza del territorio",
     "aboutTitle": "Una presenza locale tutto l'anno",
     "ctaTitle": "Pronti ad affidarci le vostre chiavi?",
-    "ctaSubtitle": "Contattateci oggi stesso per una stima personalizzata della gestione del vostro immobile a Valfréjus."
+    "ctaSubtitle": "Contattateci oggi stesso per una stima personalizzata della gestione del vostro immobile a Valfréjus.",
+    "clesCardDesc": "Accoglienza fisica personalizzata per i vostri inquilini. Consegna delle chiavi in mano e istruzioni di sicurezza per un'esperienza serena fin dall'arrivo.",
+    "clesCardFeature1": "Check-out fisici",
+    "clesCardFeature2": "Inventario rigoroso",
+    "locationCardDesc": "Tutto il necessario per preparare il vostro appartamento prima dell'arrivo degli ospiti.",
+    "menageCardDesc": "Un servizio curato per preparare il vostro appartamento tra due soggiorni.",
+    "travauxCardTitle": "Grandi lavori / Ristrutturazione e Riparazioni veloci",
+    "travauxCardDesc": "Manutenzione minore e riparazioni veloci per mantenere il vostro immobile in perfette condizioni.",
+    "travauxCardTag1": "Manutenzione",
+    "travauxCardTag2": "Riparazioni"
   },
   "cles": {
     "heroTag": "Servizio Premium",

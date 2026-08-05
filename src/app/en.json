@@ -39,9 +39,18 @@
     "featureReactivity": "Reactivity and immediate proximity",
     "featurePersonalized": "100% personalized service",
     "featureTerritory": "Excellent knowledge of the territory",
-    "aboutTitle": "A local presence all year round",
+    "aboutTitle": "Our Spirit",
     "ctaTitle": "Ready to entrust us with your keys?",
-    "ctaSubtitle": "Contact us today for a personalized estimate for managing your property in Valfréjus."
+    "ctaSubtitle": "Contact us today for a personalized estimate for managing your property in Valfréjus.",
+    "clesCardDesc": "Personalized in-person welcome for your guests. Key handover in person and safety instructions for a worry-free arrival experience.",
+    "clesCardFeature1": "Physical Check-out",
+    "clesCardFeature2": "Rigorous inventory check",
+    "locationCardDesc": "Everything needed to prepare your apartment before guests arrive. We offer sheet, towel and household linen kits, suited for mountain stays.",
+    "menageCardDesc": "A careful service to prepare your apartment between two stays. Full cleaning, airing out, and checking essential points.",
+    "travauxCardTitle": "Major Works / Renovation and Quick Repairs",
+    "travauxCardDesc": "Small maintenance and quick repairs to keep your property in perfect condition. Reactivity and reliability at the heart of our mountains.",
+    "travauxCardTag1": "Maintenance",
+    "travauxCardTag2": "Repairs"
   },
   "cles": {
     "heroTag": "Premium Service",

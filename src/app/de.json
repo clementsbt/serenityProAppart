@@ -39,9 +39,18 @@
     "featureReactivity": "Reaktivität und unmittelbare Nähe",
     "featurePersonalized": "100% personalisierter Service",
     "featureTerritory": "Ausgezeichnete Gebietskenntnis",
-    "aboutTitle": "Ganzjährige lokale Präsenz",
+    "aboutTitle": "Unser Geist",
     "ctaTitle": "Bereit, uns Ihre Schlüssel anzuvertrauen?",
-    "ctaSubtitle": "Kontaktieren Sie uns noch heute für ein persönliches Angebot zur Verwaltung Ihrer Immobilie in Valfréjus."
+    "ctaSubtitle": "Kontaktieren Sie uns noch heute für ein persönliches Angebot zur Verwaltung Ihrer Immobilie in Valfréjus.",
+    "clesCardDesc": "Persönliche Begrüßung für Ihre Gäste. Persönliche Schlüsselübergabe und Sicherheitshinweise für ein sorgenfreies Ankommen.",
+    "clesCardFeature1": "Persönliche Check-outs",
+    "clesCardFeature2": "Strenge Inventarkontrolle",
+    "locationCardDesc": "Alles Notwendige zur Vorbereitung Ihrer Wohnung vor der Ankunft der Gäste.",
+    "menageCardDesc": "Ein sorgfältiger Service zur Vorbereitung Ihrer Wohnung zwischen zwei Aufenthalten.",
+    "travauxCardTitle": "Große Arbeiten / Renovierung und schnelle Reparaturen",
+    "travauxCardDesc": "Kleine Wartung und schnelle Reparaturen, um Ihre Immobilie in perfektem Zustand zu halten.",
+    "travauxCardTag1": "Wartung",
+    "travauxCardTag2": "Reparaturen"
   },
   "cles": {
     "heroTag": "Premium-Service",

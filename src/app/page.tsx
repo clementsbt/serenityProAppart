@@ -12,11 +12,10 @@ export default function Home() {
     {
       icon: "vpn_key",
       title: fr.nav.cles,
-      description:
-        "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
+      description: fr.home.clesCardDesc,
       features: [
-        "Check-out physiques",
-        "État des lieux rigoureux",
+        fr.home.clesCardFeature1,
+        fr.home.clesCardFeature2,
       ],
       large: true,
       href: "/cles",
@@ -24,25 +23,22 @@ export default function Home() {
     {
       icon: "inventory_2",
       title: fr.nav.location,
-      description:
-        "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
+      description: fr.home.locationCardDesc,
       large: false,
       href: "/location",
     },
     {
       icon: "cleaning_services",
       title: fr.nav.menage,
-      description:
-        "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
+      description: fr.home.menageCardDesc,
       large: false,
       href: "/menage",
     },
     {
       icon: "build",
-      title: "Gros travaux / rénovation et Réparation rapides",
-      description:
-        "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
-      tags: ["Maintenance", "Réparations"],
+      title: fr.home.travauxCardTitle,
+      description: fr.home.travauxCardDesc,
+      tags: [fr.home.travauxCardTag1, fr.home.travauxCardTag2],
       large: true,
       href: "/travaux",
     },
