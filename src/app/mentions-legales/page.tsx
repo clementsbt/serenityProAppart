@@ -10,20 +10,10 @@ export default function MentionsLegales() {
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}
-        <section style={{ position: 'relative', height: 300, overflow: 'hidden' }}>
-          <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img 
-              src="/cles-hero.jpg" 
-              alt="Valfréjus" 
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
-          </div>
-          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
-            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Mentions Légales
-            </h1>
-          </div>
+        <section style={{ padding: '48px 16px', background: 'var(--surface)', textAlign: 'center' }}>
+          <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
+            Mentions Légales
+          </h1>
         </section>
 
         <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 16px' }}>
