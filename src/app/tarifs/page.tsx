@@ -26,10 +26,10 @@ export default function Tarifs() {
               <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Tarifs</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Tarifs & Services
+              Tarifs & Prestations
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
-              L'excellence au service de votre sérénité. Découvrez nos prestations sur-mesure pour sublimer votre séjour à Valfréjus.
+              Des prestations simples et pratiques pour préparer votre appartement à Valfréjus, entre ménage, remise des clés et location de linge.
             </p>
           </div>
         </section>
@@ -53,14 +53,14 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>cleaning_services</span>
               </div>
               <div style={{ marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Ménage Hôtelier</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Ménage de l'appartement</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Une propreté irréprochable et un soin minutieux apporté à chaque espace, pour un accueil digne des plus grands établissements.
+                  Un ménage complet et soigné pour remettre votre appartement propre et prêt à accueillir vos voyageurs.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
-                  <span style={{ color: 'var(--on-surface)' }}>Ménage par appartement</span>
+                  <span style={{ color: 'var(--on-surface)' }}>Ménage complet par appartement</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>70 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(197, 160, 89, 0.2)' }}>
@@ -76,9 +76,9 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
               <div style={{ marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Conciergerie</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Remise des clés</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Un accueil chaleureux et personnalisé, garantissant une remise des clés fluide et professionnelle dès votre arrivée.
+                  Une remise des clés simple et organisée pour faciliter l'arrivée et le départ de vos locataires.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -95,9 +95,9 @@ export default function Tarifs() {
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>checkroom</span>
               </div>
               <div style={{ marginBottom: 32 }}>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Location de Linge</h2>
+                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Location de linge</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
-                  Du linge de maison d'une douceur exceptionnelle, soigneusement préparé pour sublimer vos nuits en altitude.
+                  Des kits de draps et de serviettes prêts à l'emploi pour équiper votre appartement facilement.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -122,12 +122,12 @@ export default function Tarifs() {
         {/* Call to Action */}
         <section style={{ background: 'var(--primary-container)', borderRadius: 12, padding: 48, textAlign: 'center', margin: '0 16px 96px', maxWidth: 1280, marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'relative', zIndex: 10, maxWidth: 600, margin: '0 auto' }}>
-            <h3 style={{ fontSize: '2rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Des besoins spécifiques ?</h3>
+            <h3 style={{ fontSize: '2rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Besoin d'une prestation adaptée ?</h3>
             <p style={{ fontSize: '1.125rem', color: 'var(--on-primary-container)', lineHeight: 1.7 }}>
-              Chaque séjour est unique. Contactez-nous pour concevoir une offre sur-mesure adaptée à vos exigences et à celles de vos locataires.
+              Chaque appartement a ses besoins. Contactez-nous pour définir une prestation adaptée à votre logement et à vos locataires.
             </p>
             <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: '#e9c176', color: '#261900', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
-              Demander un devis personnalisé
+              Demander un devis
             </Link>
           </div>
         </section>
