@@ -1,12 +1,13 @@
 "use client";
 
-import fr from "../fr.json";
+import { useLanguage } from "@/context/LanguageContext";
 
 import { useState } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export default function Contact() {
+  const { t: fr } = useLanguage();
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 

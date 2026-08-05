@@ -3,96 +3,98 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
-import fr from "./fr.json";
+import { useLanguage } from "@/context/LanguageContext";
 
-const services = [
-  {
-    icon: "vpn_key",
-    title: fr.nav.cles,
-    description:
-      "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
-    features: [
-      "Check-out physiques",
-      "État des lieux rigoureux",
-    ],
-    large: true,
-    href: "/cles",
-  },
-  {
-    icon: "inventory_2",
-    title: fr.nav.location,
-    description:
-      "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
-    large: false,
-    href: "/location",
-  },
-  {
-    icon: "cleaning_services",
-    title: fr.nav.menage,
-    description:
-      "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
-    large: false,
-    href: "/menage",
-  },
-  {
-    icon: "build",
-    title: "Gros travaux / rénovation et Réparation rapides",
-    description:
-      "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
-    tags: ["Maintenance", "Réparations"],
-    large: true,
-    href: "/travaux",
-  },
-];
+export default function Home() {
+  const { t: fr } = useLanguage();
 
-function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
-  const cardContent = (
-    <>
-      <div className="service-icon">
-        <span className="material-symbols-outlined">{service.icon}</span>
-      </div>
-      <h3>{service.title}</h3>
-      <p>{service.description}</p>
-      {service.features && (
-        <ul className="service-features">
-          {service.features.map((feature, i) => (
-            <li key={i}>
-              <span className="material-symbols-outlined">check_circle</span>
-              {feature}
-            </li>
-          ))}
-        </ul>
-      )}
-      {service.tags && (
-        <div className="service-tags">
-          {service.tags.map((tag, i) => (
-            <span key={i} className="service-tag">
-              {tag}
-            </span>
-          ))}
+  const services = [
+    {
+      icon: "vpn_key",
+      title: fr.nav.cles,
+      description:
+        "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
+      features: [
+        "Check-out physiques",
+        "État des lieux rigoureux",
+      ],
+      large: true,
+      href: "/cles",
+    },
+    {
+      icon: "inventory_2",
+      title: fr.nav.location,
+      description:
+        "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
+      large: false,
+      href: "/location",
+    },
+    {
+      icon: "cleaning_services",
+      title: fr.nav.menage,
+      description:
+        "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
+      large: false,
+      href: "/menage",
+    },
+    {
+      icon: "build",
+      title: "Gros travaux / rénovation et Réparation rapides",
+      description:
+        "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
+      tags: ["Maintenance", "Réparations"],
+      large: true,
+      href: "/travaux",
+    },
+  ];
+
+  function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
+    const cardContent = (
+      <>
+        <div className="service-icon">
+          <span className="material-symbols-outlined">{service.icon}</span>
         </div>
-      )}
-    </>
-  );
+        <h3>{service.title}</h3>
+        <p>{service.description}</p>
+        {service.features && (
+          <ul className="service-features">
+            {service.features.map((feature, i) => (
+              <li key={i}>
+                <span className="material-symbols-outlined">check_circle</span>
+                {feature}
+              </li>
+            ))}
+          </ul>
+        )}
+        {service.tags && (
+          <div className="service-tags">
+            {service.tags.map((tag, i) => (
+              <span key={i} className="service-tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </>
+    );
 
-  const cardClass = `service-card ${service.large ? "service-card-large" : "service-card-small"}`;
+    const cardClass = `service-card ${service.large ? "service-card-large" : "service-card-small"}`;
 
-  if (service.href) {
+    if (service.href) {
+      return (
+        <Link href={service.href} key={index} className={cardClass}>
+          {cardContent}
+        </Link>
+      );
+    }
+
     return (
-      <Link href={service.href} key={index} className={cardClass}>
+      <div key={index} className={cardClass}>
         {cardContent}
-      </Link>
+      </div>
     );
   }
 
-  return (
-    <div key={index} className={cardClass}>
-      {cardContent}
-    </div>
-  );
-}
-
-export default function Home() {
   return (
     <>
       <Navbar />

@@ -1,12 +1,14 @@
 "use client";
 
-import fr from "../fr.json";
+import { useLanguage } from "@/context/LanguageContext";
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
 
 export default function Menage() {
+  const { t: fr } = useLanguage();
+  const { t: fr } = useLanguage();
   return (
     <>
       <Navbar />

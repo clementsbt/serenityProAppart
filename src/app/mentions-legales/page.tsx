@@ -1,11 +1,12 @@
 "use client";
 
-import fr from "../fr.json";
+import { useLanguage } from "@/context/LanguageContext";
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export default function MentionsLegales() {
+  const { t: fr } = useLanguage();
   return (
     <>
       <Navbar />

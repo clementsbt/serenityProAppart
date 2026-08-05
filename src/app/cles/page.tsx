@@ -3,9 +3,10 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
-import fr from "../fr.json";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Cles() {
+  const { t: fr } = useLanguage();
   return (
     <>
       <Navbar />
