@@ -119,14 +119,6 @@ export default function Tarifs() {
           </div>
         </section>
 
-        {/* Immersive Image Section */}
-        <section style={{ padding: '0 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ borderRadius: 12, overflow: 'hidden', height: 384, position: 'relative', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)' }}>
-            <div style={{ position: 'absolute', inset: 0, backgroundImage: 'url(https://lh3.googleusercontent.com/aida-public/AB6AXuBnmmG5XitX1wL2UVH3H5Sp6gk1G6QJAZI51D5Y0lpw8Evxkq4QCLuAv1AT14k_miuJc4HZ2ENRprP2jV4gCEGRuOdie7moNtomm0gSBNZRE5i-12TVlmbTc7JGe0ES_xOHeYDIsPOcXigQRoEJsXFSJGkuNAx1AxZTS6a2puMVDu8WGoWIVHixnT2dbYf9iKgOhEBQ0XlECkCnxeFVL23SU5oasxOqRPN57aE0FB9Fzya1wQZue3Wy)', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-            <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 5, 19, 0.2)', backdropFilter: 'blur(2px)' }}></div>
-          </div>
-        </section>
-
         {/* Call to Action */}
         <section style={{ background: 'var(--primary-container)', borderRadius: 12, padding: 48, textAlign: 'center', margin: '0 16px 96px', maxWidth: 1280, marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'relative', zIndex: 10, maxWidth: 600, margin: '0 auto' }}>
