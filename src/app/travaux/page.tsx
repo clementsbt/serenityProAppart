@@ -38,7 +38,7 @@ export default function Travaux() {
             {/* Services Grid - Responsive */}
             <div style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
               {/* Gros Travaux */}
-              <div style={{ background: 'var(--surface-container-lowest)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)' }}>
+              <div style={{ background: '#ffffff', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
                 <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>architecture</span>
                 </div>
@@ -63,7 +63,7 @@ export default function Travaux() {
               </div>
 
               {/* Réparations Rapides */}
-              <div style={{ background: 'var(--surface-container-lowest)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)' }}>
+              <div style={{ background: '#ffffff', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
                 <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>handyman</span>
                 </div>
