@@ -127,12 +127,12 @@ export default function Home() {
         <div className="stats-grid">
           <div className="stat-item">
             <p className="stat-number">7/7J</p>
-            <p className="stat-label">Disponibilité</p>
+            <p className="stat-label">{fr.common.disponibilite}</p>
           </div>
 
           <div className="stat-item">
-            <p className="stat-number">Présente</p>
-            <p className="stat-label">À l'année</p>
+            <p className="stat-number">{fr.common.presente}</p>
+            <p className="stat-label">{fr.common.annee}</p>
           </div>
         </div>
       </section>
@@ -168,23 +168,23 @@ export default function Home() {
             <span className="section-tag">Notre esprit</span>
             <h2>{fr.home.aboutTitle}</h2>
             <p>
-              Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Serenity Pro Appart</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
+              {fr.home.aboutText1}
             </p>
             <p>
-              Ma présence sur place 365 jours par an me permet d'intervenir rapidement et de veillez personnellement à chaque détail. Je ne suis pas seulement une prestataire, je suis vos yeux et vos oreilles à Valfréjus.
+              {fr.home.aboutText2}
             </p>
             <ul className="about-features">
               <li>
                 <span className="material-symbols-outlined">verified</span>
-                Réactivité et proximité immédiate
+                {fr.home.featureReactivity}
               </li>
               <li>
                 <span className="material-symbols-outlined">verified</span>
-                Service 100% personnalisé
+                {fr.home.featurePersonalized}
               </li>
               <li>
                 <span className="material-symbols-outlined">verified</span>
-                Excellente connaissance du territoire
+                {fr.home.featureTerritory}
               </li>
             </ul>
           </div>
