@@ -34,7 +34,7 @@ const services = [
   },
   {
     icon: "build",
-    title: "Travaux d'appoint",
+    title: "Gros travaux / rénovation et Réparation快速",
     description:
       "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
     tags: ["Maintenance", "Réparations"],
