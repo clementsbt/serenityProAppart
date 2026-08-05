@@ -79,10 +79,8 @@ export default function Location() {
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
                 <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>{fr.location.drapsPrice}</span>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
-                {fr.location.drapsDesc}
-              </p>
-              
+              </div>
+            </div>
           </div>
         </section>
 
