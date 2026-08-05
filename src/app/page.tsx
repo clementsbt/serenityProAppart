@@ -27,7 +27,7 @@ const services = [
   },
   {
     icon: "cleaning_services",
-    title: "Ménage de remise en état",
+    title: "Ménage",
     description:
       "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
     large: false,
