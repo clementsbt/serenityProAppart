@@ -13,9 +13,9 @@ export default function Travaux() {
         {/* Hero Section */}
         <section style={{ position: 'relative', height: 400, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img 
-              src="/travaux-hero.jpg" 
-              alt="Valfréjus ski resort at dusk" 
+            <img
+              src="/travaux-hero.jpg"
+              alt="Valfréjus ski resort at dusk"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface) 0%, var(--surface) 40%, transparent 100%)' }}></div>
@@ -34,7 +34,7 @@ export default function Travaux() {
         {/* Content */}
         <section style={{ padding: '32px 16px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gap: 24, gridTemplateColumns: '1fr' }}>
-            
+
             {/* Main Description Card */}
             <div style={{ background: 'var(--surface)', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 24 }}>
@@ -60,24 +60,6 @@ export default function Travaux() {
 
             <ContactCTA />
 
-            {/* Features Micro-Cards */}
-            <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
-              <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
-                <div>
-                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Accès 365 Jours</h5>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Disponibilité totale pour la maintenance technique critique.</p>
-                </div>
-              </div>
-              <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
-                <div>
-                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Partenaires de Confiance</h5>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Coordination avec des artisans locaux certifiés pour les rénovations complexes.</p>
-                </div>
-              </div>
-            </div>
-
             {/* Expertise Technique Section */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5, padding: '48px 0' }}>
               <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
@@ -90,7 +72,7 @@ export default function Travaux() {
                 <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Expertise Technique</h2>
                 <p style={{ color: 'var(--on-surface-variant)' }}>La tranquillité d'esprit garantie par nos professionnels.</p>
               </div>
-              
+
               <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
                 {/* Left column - dark */}
                 <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -100,7 +82,7 @@ export default function Travaux() {
                     Un contrôle rigoureux avant, pendant ou après le séjour de vos locataires pour assurer le parfait état de marche de l'ensemble des installations de votre bien immobilier.
                   </p>
                 </div>
-                
+
                 {/* Right column - light with 2x2 grid */}
                 <div style={{ background: 'var(--surface-container-low)', padding: '32px 24px' }}>
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
@@ -140,6 +122,24 @@ export default function Travaux() {
                 </div>
               </div>
             </section>
+
+            {/* Features Micro-Cards */}
+            <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48 }}>
+              <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
+                <div>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Accès 365 Jours</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Disponibilité totale pour la maintenance technique critique.</p>
+                </div>
+              </div>
+              <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
+                <div>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Partenaires de Confiance</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Coordination avec des artisans locaux certifiés pour les rénovations complexes.</p>
+                </div>
+              </div>
+            </div>
 
             
 
