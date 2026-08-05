@@ -49,7 +49,7 @@ export default function MentionsLegales() {
               Serenity Pro Appart<br />
               Forme juridique : Auto-entreprise<br />
               Adresse du siège social : 120 Rue des Bettets, 73500 Modane<br />
-              SIRET : 948 374 478 00018
+              SIRET : [à remplacer]
             </p>
           </section>
 
