@@ -21,14 +21,14 @@ export default function MentionsLegales() {
         <div style={{ maxWidth: 900, margin: '0 auto', padding: '48px 16px' }}>
           
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Éditeur du site</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.editorTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Le présent site est édité par Serenity Pro Appart, agence de conciergerie spécialisée dans la gestion et l'entretien de logements à Valfréjus.
+              {fr.mentionsLegales.editorText}
             </p>
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Responsable de la publication</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.responsableTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
               Léa Lou Simon<br />
               120 Rue des Bettets<br />
@@ -39,14 +39,14 @@ export default function MentionsLegales() {
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Développement du site</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.developperTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Site conçu et développé par Clément Subtil.
+              {fr.mentionsLegales.developperText}
             </p>
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Entreprise</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.companyTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
               Serenity Pro Appart<br />
               Forme juridique : Auto-entreprise<br />
@@ -56,9 +56,9 @@ export default function MentionsLegales() {
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Hébergement du site</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.hostingTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Le site est hébergé par Vercel Inc.<br />
+              {fr.mentionsLegales.hostingText}
               440 N Barranca Ave #4133<br />
               Covina, CA 91723<br />
               États-Unis
@@ -66,23 +66,23 @@ export default function MentionsLegales() {
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Propriété intellectuelle</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.copyrightTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              L'ensemble du contenu présent sur le site, notamment les textes, images, graphismes, logo, icônes, structure et mise en page, est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation, modification, publication ou adaptation, totale ou partielle, de tout élément du site est interdite sans autorisation écrite préalable.
+              {fr.mentionsLegales.copyrightText}
             </p>
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Responsabilité</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.responsabilityTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Serenity Pro Appart s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes ou des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations. L'utilisateur reconnaît utiliser ces informations sous sa responsabilité exclusive.
+              {fr.mentionsLegales.responsabilityText}
             </p>
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Données personnelles</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.dataTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Les informations recueillies via le site sont destinées uniquement au traitement des demandes de contact et à la gestion des prestations proposées par Serenity Pro Appart.
+              {fr.mentionsLegales.dataText1}
             </p>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7, marginTop: 16 }}>
               Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, d'opposition, de suppression et de portabilité des données vous concernant.
@@ -93,16 +93,16 @@ export default function MentionsLegales() {
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Cookies</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.cookiesTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Le site peut utiliser des cookies afin d'assurer son bon fonctionnement et, le cas échéant, de mesurer son audience. Vous pouvez configurer votre navigateur pour refuser tout ou partie des cookies.
+              {fr.mentionsLegales.cookiesText}
             </p>
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Droit applicable</h2>
+            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.lawTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              Le présent site et ses mentions légales sont soumis au droit français. En cas de litige et à défaut de résolution amiable, les tribunaux français seront seuls compétents.
+              {fr.mentionsLegales.lawText}
             </p>
           </section>
 
@@ -113,7 +113,7 @@ export default function MentionsLegales() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
+            <h4>{fr.common.siteName}</h4>
             <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
           </div>
           <div>
