@@ -79,56 +79,6 @@ export default function Menage() {
           </div>
         </section>
 
-        {/* Divider */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
-          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
-        </div>
-
-        {/* Equipment Section */}
-        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 48, alignItems: 'center' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
-              <div style={{ aspectRatio: '1/1', borderRadius: 12, overflow: 'hidden' }}>
-                <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCroEAJBT5sP8esssfCyMGxm75FZYij6FwIyVPVPpwpTk1ld2mOkexwTueutukKwsJe_Xtl7mXXEzgxL-lZ3dcBPUvLvFLh9Nf0WD3FPBqZI6p3RzN4K09FTkIx0XbDJxbtkitwnZtvlYQtB81Jzi5poHblqpjFr2HNznb4WxhgYWQOVUXPEhcqObCMIiBuMhXsSDFzVZlW42_j8e_WZFPAQH1yUN2InlIj5zCyPthTGtf0-qkNKVmT"
-                  alt="Professional cleaning equipment"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-              </div>
-              <div style={{ aspectRatio: '1/1', borderRadius: 12, overflow: 'hidden', marginTop: 32 }}>
-                <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS93hBWm_k-rbKMK2FiYs-31IjKcqHjOmuzCEfMin0Oef0wMVkWx5hGTmugi0sIMAeSeJ6M93qGyq-aJv4Wer7P23YjXuF2GOxnsQn7WUtkC8AVlyJH1rJBsiOT-VZle_mKyttCVxDOj9II9IkmiaOHAO8yZ5JpTgYSUKyq8rvx1GwqKHin8UwbUsXbEIIEFtswavNgi_05fzYUjmJx9u5OEmXkU609MJIELnILvTmyakvcZipnyj5"
-                  alt="Pristine bed linens"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-              </div>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-              <span style={{ display: 'inline-block', padding: '8px 16px', background: 'rgba(0,5,19,0.05)', color: 'var(--primary)', borderRadius: 20, fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', alignSelf: 'flex-start' }}>Équipement Pro</span>
-              <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Matériel et Produits de Haute Performance</h2>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-                Nous refusons les compromis. Nos équipes interviennent avec du matériel de qualité industrielle, garantissant un nettoyage en profondeur impossible à atteindre avec des équipements domestiques.
-              </p>
-              <ul style={{ display: 'flex', flexDirection: 'column', gap: 16, marginTop: 8 }}>
-                <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: '#c5a059', marginTop: 4 }}>check_circle</span>
-                  <span style={{ color: 'var(--on-surface)' }}>Aspirateurs HEPA professionnels pour une qualité de l'air optimale.</span>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: '#c5a059', marginTop: 4 }}>check_circle</span>
-                  <span style={{ color: 'var(--on-surface)' }}>Produits éco-responsables respectueux des matériaux nobles de montagne.</span>
-                </li>
-                <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
-                  <span className="material-symbols-outlined" style={{ color: '#c5a059', marginTop: 4 }}>check_circle</span>
-                  <span style={{ color: 'var(--on-surface)' }}>Nettoyeurs vapeur pour une désinfection thermique sans produits chimiques.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
         <ContactCTA />
       </main>
 
