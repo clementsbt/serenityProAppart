@@ -21,7 +21,7 @@ const services = [
     icon: "inventory_2",
     title: "Location diverse",
     description:
-      "Location de matériel de ski, luges, raquettes et équipements de montagne. Tout le nécessaire pour vos activités hivernales.",
+      "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
     large: false,
     href: "/location",
   },
