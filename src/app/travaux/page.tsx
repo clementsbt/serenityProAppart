@@ -77,10 +77,10 @@ export default function Travaux() {
                 </div>
               </div>
               <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>receipt_long</span>
+                <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
                 <div>
-                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Reporting Transparent</h5>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Rapports photo détaillés et factures numériques pour chaque intervention.</p>
+                  <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Partenaires de Confiance</h5>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Coordination avec des artisans locaux certifiés pour les rénovations complexes.</p>
                 </div>
               </div>
             </div>
