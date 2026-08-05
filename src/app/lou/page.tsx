@@ -97,7 +97,31 @@ export default function Lou() {
 
       <footer className="footer">
         <div className="footer-grid">
-          <div><h4>Serenity Pro Appart</h4><p>Conciergerie de Luxe à Valfréjus.</p></div>
+          <div>
+            <h4>Serenity Pro Appart</h4>
+            <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
+          </div>
+          <div>
+            <h4>Navigation</h4>
+            <ul className="footer-links">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/cles">Gestion clés</a></li>
+              <li><a href="/location">Location</a></li>
+              <li><a href="/menage">Ménage</a></li>
+              <li><a href="/travaux">Travaux</a></li>
+              <li><a href="/tarifs">Tarifs</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Légal</h4>
+            <ul className="footer-links">
+              <li><a href="#">Mentions Légales</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>© 2024 Serenity Pro Appart by Lou. All rights reserved.</p>
         </div>
       </footer>
     </>

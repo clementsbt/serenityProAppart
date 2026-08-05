@@ -93,7 +93,11 @@ export default function Menage() {
             <h4>Navigation</h4>
             <ul className="footer-links">
               <li><a href="/">Accueil</a></li>
-              <li><a href="#services">Services</a></li>
+              <li><a href="/cles">Gestion clés</a></li>
+              <li><a href="/location">Location</a></li>
+              <li><a href="/menage">Ménage</a></li>
+              <li><a href="/travaux">Travaux</a></li>
+              <li><a href="/tarifs">Tarifs</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
