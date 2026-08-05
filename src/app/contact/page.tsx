@@ -122,7 +122,7 @@ export default function Contact() {
               </div>
 
               {/* Horaires */}
-              <div className="card">
+              <div className="card card-hover">
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Horaires d'ouverture</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
@@ -159,7 +159,7 @@ export default function Contact() {
               </div>
 
               {/* Coordonnées */}
-              <div className="card">
+              <div className="card card-hover">
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Coordonnées</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -198,7 +198,7 @@ export default function Contact() {
               </div>
 
               {/* Langues parlées */}
-              <div className="card">
+              <div className="card card-hover">
                 <div style={{ background: '#F4F1EA', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>Langues parlées</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
