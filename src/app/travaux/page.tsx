@@ -44,7 +44,7 @@ export default function Travaux() {
                 </div>
                 <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Gros travaux et rénovation</h3>
                 <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
-                  Pour vos projets d'envergure, nous ne laissons rien au hasard. Nous vous connectons avec notre réseau exclusif d'artisans locaux, sélectionnés pour leur fiabilité et leur maîtrise des contraintes montagnardes.
+                  Chez Serenity pro appart, nous pouvons vous mettre en relation avec les meilleurs artisans de la région.
                 </p>
                 <ul style={{ display: 'flex', flexDirection: 'column', gap: 12, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
@@ -69,7 +69,7 @@ export default function Travaux() {
                 </div>
                 <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Réparations Rapides</h3>
                 <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
-                  Un problème d'éclairage ? Une porte qui grince ? Nous intervenons rapidement pour les petits dépannages afin de garantir un confort optimal et immédiat à vous ou à vos locataires.
+                  Intervention sur demande pour les petits problèmes - du remplacement de luminaire à l'ajustement de porte.
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                   <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Électricité mineure</span>
