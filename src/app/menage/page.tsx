@@ -8,7 +8,6 @@ import ContactCTA from "@/components/ContactCTA";
 
 export default function Menage() {
   const { t: fr } = useLanguage();
-  const { t: fr } = useLanguage();
   return (
     <>
       <Navbar />
