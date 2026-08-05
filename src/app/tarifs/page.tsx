@@ -52,7 +52,7 @@ export default function Tarifs() {
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>cleaning_services</span>
               </div>
-              <div style={{ marginBottom: 32 }}>
+              <div style={{ marginTop: 48, marginBottom: 32 }}>
                 <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Ménage de l'appartement</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
                   Un ménage complet et soigné pour remettre votre appartement propre et prêt à accueillir vos voyageurs.
@@ -75,7 +75,7 @@ export default function Tarifs() {
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
-              <div style={{ marginBottom: 32 }}>
+              <div style={{ marginTop: 48, marginBottom: 32 }}>
                 <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Remises des clés et check-out</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
                   Une remise des clés simple et organisée pour faciliter l'arrivée, le départ de vos locataires et la vérification de l'état des lieux au moment du check-out.
@@ -94,7 +94,7 @@ export default function Tarifs() {
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>checkroom</span>
               </div>
-              <div style={{ marginBottom: 32 }}>
+              <div style={{ marginTop: 48, marginBottom: 32 }}>
                 <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 12, fontFamily: 'Libre Caslon Text, serif' }}>Location de linge</h2>
                 <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>
                   Des kits de draps et de serviettes prêts à l'emploi pour équiper votre appartement facilement.
