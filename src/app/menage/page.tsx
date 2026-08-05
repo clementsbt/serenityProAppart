@@ -34,47 +34,11 @@ export default function Menage() {
           </div>
         </section>
 
-        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
-          {/* Divider avec clé */}
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
-            <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
-          </div>
-        </div>
-
-        {/* Philosophy Section */}
-        <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 48, alignItems: 'center' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-              <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Le Standard Serenity</h2>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-                Nous ne faisons pas que nettoyer, nous restaurons l'harmonie de votre espace. Chaque recoin est inspecté, chaque surface est traitée avec les produits adaptés pour préserver la qualité de vos matériaux (bois massif, pierre naturelle, laiton).
-              </p>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-                Nos équipes sont formées aux techniques de l'hôtellerie de luxe, garantissant une discrétion absolue et un résultat impeccable qui ravit vos locataires dès qu'ils franchissent la porte.
-              </p>
-            </div>
-            <div style={{ position: 'relative', height: 400, borderRadius: 12, overflow: 'hidden', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.08)' }}>
-              <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVh-UWZaxqC9xvwZpbbNsZV9ui1vS94SA_XMHpwKHHETeHg2FJCxgIA6urDXZgCAOYauiUbGlGeE4sNk5n8lav79VBjWcKcQ9GiC0zVZ2VDV-2HuQNqrGmle9qf-aBG2keQMwXT7_JVZoEd1LXrTt4vRGgJD0Z7KyygZD2Pr2ZER6v1wil6eAKiGgFy1_R3bqY5wCHq2x2qEnC2m_szp1ChFuE-Rho4RXi6f6_DsRt33wUJlhEv8aR"
-                alt="Cleaning luxury bathroom"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: 24, background: 'rgba(255,255,255,0.9)', backdropFilter: 'blur(12px)', margin: 16, borderRadius: 8, borderTop: '3px solid #c5a059' }}>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>Détail Inégalé</h3>
-                <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Des contrôles qualité systématiques après chaque intervention.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Divider */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
-          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+        {/* Divider avec clé */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
+          <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+          <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
+          <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
         </div>
 
         {/* Protocol Section - Bento Grid */}
