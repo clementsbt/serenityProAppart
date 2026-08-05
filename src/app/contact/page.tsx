@@ -1,5 +1,6 @@
-import fr from "../fr.json";
 "use client";
+
+import fr from "../fr.json";
 
 import { useState } from "react";
 import Link from "next/link";
