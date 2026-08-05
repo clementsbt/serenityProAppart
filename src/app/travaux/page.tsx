@@ -58,21 +58,6 @@ export default function Travaux() {
               </div>
             </div>
 
-            {/* Value Preservation Card */}
-            <div style={{ background: 'var(--primary)', color: 'white', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', position: 'relative', overflow: 'hidden', minHeight: 200 }}>
-              <div style={{ position: 'relative', zIndex: 10 }}>
-                <h3 style={{ fontSize: '1.5rem', marginBottom: 16 }}>Valorisation du Bien</h3>
-                <p style={{ opacity: 0.8, marginBottom: 24 }}>Suivi proactif des rénovation et améliorations esthétiques mineures pour maintenir votre propriété à sa valeur maximale.</p>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginTop: 'auto' }}>
-                  <div style={{ width: 40, height: 40, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <span className="material-symbols-outlined">trending_up</span>
-                  </div>
-                  <span style={{ fontWeight: 600 }}>Focus Croissance des Actifs</span>
-                </div>
-              </div>
-              <span className="material-symbols-outlined" style={{ position: 'absolute', right: -40, bottom: -40, fontSize: 200, opacity: 0.1 }}>architecture</span>
-            </div>
-
             <ContactCTA />
 
             {/* Features Micro-Cards */}
