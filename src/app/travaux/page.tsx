@@ -27,7 +27,7 @@ export default function Travaux() {
                 Professional Excellence
               </span>
             </div>
-            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', maxWidth: 500, lineHeight: 1.2 }}>Gros travaux et rénovation</h1>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', maxWidth: 500, lineHeight: 1.2 }}>Gros travaux / rénovation et Réparation rapides</h1>
           </div>
         </section>
 
