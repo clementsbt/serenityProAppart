@@ -58,8 +58,6 @@ export default function Travaux() {
               </div>
             </div>
 
-            <ContactCTA />
-
             {/* Expertise Technique Section */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5, padding: '48px 0' }}>
               <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
@@ -141,7 +139,7 @@ export default function Travaux() {
               </div>
             </div>
 
-            
+            <ContactCTA />
 
           </div>
         </section>
