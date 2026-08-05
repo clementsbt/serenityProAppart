@@ -35,25 +35,47 @@ export default function Travaux() {
         <section style={{ padding: '32px 16px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gap: 24, gridTemplateColumns: '1fr' }}>
 
-            {/* Main Description Card */}
-            <div style={{ background: 'var(--surface)', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 24 }}>
-                <div style={{ width: 48, height: 48, borderRadius: 8, background: 'var(--primary-container)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--on-primary-container)' }}>build</span>
+            {/* Services Grid - Responsive */}
+            <div style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+              {/* Gros Travaux */}
+              <div style={{ background: 'var(--surface-container-lowest)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)' }}>
+                <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>architecture</span>
                 </div>
-                <h2 style={{ fontSize: '1.5rem', color: 'var(--primary)' }}>Reliable Property Care</h2>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Gros travaux et rénovation</h3>
+                <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
+                  Pour vos projets d'envergure, nous ne laissons rien au hasard. Nous vous connectons avec notre réseau exclusif d'artisans locaux, sélectionnés pour leur fiabilité et leur maîtrise des contraintes montagnardes.
+                </p>
+                <ul style={{ display: 'flex', flexDirection: 'column', gap: 12, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>
+                  <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+                    <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
+                    Mise en relation avec des experts locaux.
+                  </li>
+                  <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+                    <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
+                    Suivi de chantier et rapports réguliers.
+                  </li>
+                  <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+                    <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
+                    Réception des travaux en votre absence.
+                  </li>
+                </ul>
               </div>
-              <p style={{ fontSize: '1.125rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.7 }}>
-                Chez Serenity pro appart, nous savons que l'entretien d'une propriété en montagne nécessite une vigilance constante. Notre équipe de maintenance spécialisée assure la protection de votre investissement et le confort de vos résidents, 365 jours par an.
-              </p>
-              <div style={{ display: 'grid', gap: 16, gridTemplateColumns: '1fr' }}>
-                <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
-                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Gros travaux et rénovation</h3>
-                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Chez Serenity pro appart, nous pouvons vous mettre en relation avec les meilleurs artisans de la région.</p>
+
+              {/* Réparations Rapides */}
+              <div style={{ background: 'var(--surface-container-lowest)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)' }}>
+                <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>handyman</span>
                 </div>
-                <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
-                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Réparations Rapides</h3>
-                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Intervention sur demande pour les petits problèmes - du remplacement de luminaire à l'ajustement de porte.</p>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Réparations Rapides</h3>
+                <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
+                  Un problème d'éclairage ? Une porte qui grince ? Nous intervenons rapidement pour les petits dépannages afin de garantir un confort optimal et immédiat à vous ou à vos locataires.
+                </p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Électricité mineure</span>
+                  <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Plomberie d'urgence</span>
+                  <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Menuiserie</span>
+                  <span style={{ background: 'var(--surface-container)', padding: '8px 16px', borderRadius: 20, fontSize: '0.75rem', color: 'var(--on-surface-variant)' }}>Ajustements divers</span>
                 </div>
               </div>
             </div>
