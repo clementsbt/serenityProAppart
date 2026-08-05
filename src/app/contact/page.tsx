@@ -184,6 +184,13 @@ export default function Contact() {
                         <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
                       </div>
                     </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
+                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>camera_alt</span>
+                      <div>
+                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Instagram</p>
+                        <a href="https://www.instagram.com/serenityproappart/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>@serenityproappart</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
