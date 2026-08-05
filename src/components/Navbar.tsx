@@ -1,5 +1,6 @@
 "use client";
 
+import fr from "../app/fr.json";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -21,15 +22,15 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <span>Serenity Pro Appart</span>
         </Link>
         <div className="navbar-links">
-          <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>Services</Link>
+          <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>{fr.nav.services}</Link>
 
-          <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>Clés</Link>
-          <Link href="/location" className={currentPage === 'location' ? 'active' : ''}>Location</Link>
-          <Link href="/travaux" className={currentPage === 'travaux' ? 'active' : ''}>Travaux</Link>
-          <Link href="/menage" className={currentPage === 'menage' ? 'active' : ''}>Ménage</Link>
-          <Link href="/tarifs" className={currentPage === 'tarifs' ? 'active' : ''}>Tarifs</Link>
+          <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>{fr.nav.cles}</Link>
+          <Link href="/location" className={currentPage === 'location' ? 'active' : ''}>{fr.nav.location}</Link>
+          <Link href="/travaux" className={currentPage === 'travaux' ? 'active' : ''}>{fr.nav.travaux}</Link>
+          <Link href="/menage" className={currentPage === 'menage' ? 'active' : ''}>{fr.nav.menage}</Link>
+          <Link href="/tarifs" className={currentPage === 'tarifs' ? 'active' : ''}>{fr.nav.tarifs}</Link>
         </div>
-        <Link href="/contact" className="btn-primary">Nous contacter</Link>
+        <Link href="/contact" className="btn-primary">{fr.nav.contact}</Link>
       </header>
 
       <div className={`mobile-nav ${mobileNavOpen ? "open" : ""}`}>
@@ -43,28 +44,32 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <div className="mobile-nav-links">
             <Link href="/#services" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">concierge</span>
-              Services
+              {fr.nav.services}
             </Link>
 
             <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">key</span>
-              Gestion clés
+              {fr.nav.cles}
             </Link>
             <Link href="/location" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">laundry</span>
-              Blanchisserie
+              {fr.nav.location}
             </Link>
             <Link href="/travaux" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">construction</span>
-              Travaux
+              {fr.nav.travaux}
             </Link>
             <Link href="/menage" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">cleaning_services</span>
-              Ménage
+              {fr.nav.menage}
             </Link>
             <Link href="/tarifs" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">euro</span>
-              Tarifs
+              {fr.nav.tarifs}
+            </Link>
+            <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
+              <span className="material-symbols-outlined">mail</span>
+              {fr.nav.contact}
             </Link>
           </div>
         </div>
