@@ -14,7 +14,7 @@ export default function Menage() {
         <section style={{ position: 'relative', height: '80vh', minHeight: 600, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV3WyncSXlljCMvswPfX_CwQBE8s0iwTFNVwwga7FEzH6KM0XgjJ9uZ-dWy_cvz7jSWCqwaiFAQTcc-ElNg7PFb7RMUiWQ_t-0j8Mn3o22GYP3ZifI3spfHflxXlO7qOfMCdMeEY7jy69Kr9unHtGFAXaMPh4CY2OX2OSChLREgD2denxSbWbpFS-NmrhtSx4LT9-CnaJ2Z1k9vxiMBtxQcwHX4oiigoGP_T_AnVSh4JWkrBwAKd7h"
+              src="/menage-hero.jpg"
               alt="Luxury alpine chalet interior"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
