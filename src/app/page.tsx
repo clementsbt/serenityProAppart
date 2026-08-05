@@ -205,7 +205,7 @@ export default function Home() {
         </div>
       </section>
 
-      <ContactCTA />
+
 
       {/* Footer */}
       <footer className="footer">
