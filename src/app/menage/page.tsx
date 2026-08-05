@@ -46,37 +46,37 @@ export default function Menage() {
         {/* Protocol Section - Bento Grid */}
         <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Notre protocole d'intervention</h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>Un aperçu de notre checklist, pensée pour garder votre logement propre, accueillant et prêt à l'usage.</p>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.menage.sectionTitle}</h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.menage.sectionSubtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Item 1 - Désinfection */}
             <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>cleaning_services</span>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Aération et désinfection</h3>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Aération de toutes les pièces, nettoyage des surfaces fréquemment touchées, désinfection des points de contact avec des produits adaptés.</p>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.menage.card1Title}</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>{fr.menage.card1Desc}</p>
             </div>
 
             {/* Item 2 - Cuisine */}
             <div className="card-hover" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '3px solid #c5a059' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>countertops</span>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Cuisine propre</h3>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Nettoyage des plans de travail, dégraissage des surfaces, entretien de l'électroménager et vérification de la vaisselle.</p>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.menage.card2Title}</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>{fr.menage.card2Desc}</p>
             </div>
 
             {/* Item 3 - Salle de bain */}
             <div className="card-hover" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>shower</span>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Salles de bain entretenues</h3>
-              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Détartrage, nettoyage des sanitaires, des joints et des parois de douche pour un espace propre et agréable.</p>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.menage.card3Title}</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>{fr.menage.card3Desc}</p>
             </div>
 
             {/* Item 4 - Inspection Finale */}
             <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 48, color: '#e9c176', marginBottom: 16 }}>verified</span>
-              <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>Contrôle final</h3>
-              <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>Vérification générale de l'appartement, rangement des derniers éléments et fermeture du logement avant la prochaine arrivée.</p>
+              <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>{fr.menage.card4Title}</h3>
+              <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>{fr.menage.card4Desc}</p>
             </div>
           </div>
         </section>

@@ -216,8 +216,8 @@ export default function Location() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
-            <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
+            <h4>{fr.common.siteName}</h4>
+            <p>{fr.common.tagline}</p>
           </div>
           <div>
             <h4>Navigation</h4>
