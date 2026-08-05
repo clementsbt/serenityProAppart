@@ -27,10 +27,11 @@ const services = [
   },
   {
     icon: "cleaning_services",
-    title: "Ménage",
+    title: "Ménage de remise en état",
     description:
-      "Nettoyage professionnel entre chaque location. Nous garantissons un service et une hygiène irréprochable.",
+      "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
     large: false,
+    href: "/menage",
   },
   {
     icon: "build",
