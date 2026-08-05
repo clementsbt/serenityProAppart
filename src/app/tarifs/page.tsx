@@ -71,7 +71,7 @@ export default function Tarifs() {
             </div>
 
             {/* Category 2: Conciergerie */}
-            <div style={{ background: 'var(--surface-container-lowest)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)', position: 'relative', overflow: 'hidden' }}>
+            <div style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid #e9c176', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
@@ -90,7 +90,7 @@ export default function Tarifs() {
             </div>
 
             {/* Category 3: Linge */}
-            <div style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', border: '1px solid rgba(197, 160, 89, 0.1)', position: 'relative', overflow: 'hidden' }}>
+            <div style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid #e9c176', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>checkroom</span>
               </div>
