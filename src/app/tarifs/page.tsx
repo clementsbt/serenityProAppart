@@ -10,18 +10,38 @@ export default function Tarifs() {
       <Navbar />
 
       <main style={{ paddingTop: 80 }}>
-        {/* Header Section */}
-        <section style={{ textAlign: 'center', maxWidth: 800, margin: '0 auto', padding: '64px 16px' }}>
-          <h1 style={{ fontSize: '3rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif', marginBottom: 24 }}>
-            Tarifs & Services
-          </h1>
-          <p style={{ fontSize: '1.125rem', color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-            L'excellence au service de votre sérénité. Découvrez nos prestations sur-mesure pour sublimer votre séjour à Valfréjus, avec une transparence totale sur nos tarifs.
-          </p>
-          <div style={{ width: 64, height: 1, background: 'var(--secondary)', margin: '32px auto 0', position: 'relative' }}>
-            <span className="material-symbols-outlined" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'var(--surface)', padding: '0 8px', color: 'var(--secondary)', fontSize: 14 }}>vpn_key</span>
+        {/* Hero Section */}
+        <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
+          <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
+            <img 
+              src="/cles-hero.jpg" 
+              alt="Luxury alpine resort interior" 
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
+          </div>
+          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+              <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Tarifs</span>
+            </div>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
+              Tarifs & Services
+            </h1>
+            <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
+              L'excellence au service de votre sérénité. Découvrez nos prestations sur-mesure pour sublimer votre séjour à Valfréjus.
+            </p>
           </div>
         </section>
+
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
+          {/* Divider avec clé */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+            <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+          </div>
+        </div>
 
         {/* Pricing Grid */}
         <section style={{ padding: '0 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
