@@ -11,41 +11,43 @@ export default function Menage() {
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}
-        <section style={{ position: 'relative', height: '80vh', minHeight: 600, overflow: 'hidden' }}>
+        <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="/menage-hero.jpg"
+              src="/menage-hero.jpg" 
               alt="Luxury alpine chalet interior"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'rgba(0, 5, 19, 0.4)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
           </div>
-          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '0 16px', textAlign: 'center' }}>
-            <span style={{ fontSize: '0.75rem', color: '#e9c176', letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: 16, fontWeight: 600 }}>Excellence & Précision</span>
-            <h1 style={{ fontSize: '3rem', color: 'white', marginBottom: 24, fontFamily: 'Libre Caslon Text, serif', maxWidth: 800, lineHeight: 1.1 }}>
-              Ménage Hôtelier d'Exception
+          <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+              <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Excellence & Précision</span>
+            </div>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
+              Ménage Hôtelier
             </h1>
-            <p style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.9)', maxWidth: 600, marginBottom: 40, lineHeight: 1.6 }}>
+            <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
               L'exigence d'un palace adaptée à votre résidence de montagne. Un nettoyage méticuleux pour garantir une expérience inoubliable à chaque séjour.
             </p>
-            <a href="#contact" style={{ background: '#c5a059', color: '#000513', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.875rem', boxShadow: '0 4px 20px rgba(0,0,0,0.3)' }}>
-              Demander un devis
-            </a>
           </div>
         </section>
 
-        {/* Divider */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '64px 16px', opacity: 0.7 }}>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)', maxWidth: 100 }}></div>
-          <span className="material-symbols-outlined" style={{ color: '#c5a059', margin: '0 16px' }}>vpn_key</span>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)', maxWidth: 100 }}></div>
+        <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
+          {/* Divider avec clé */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+            <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+          </div>
         </div>
 
         {/* Philosophy Section */}
-        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
+        <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 48, alignItems: 'center' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Le Standard Serenity</h2>
+              <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Le Standard Serenity</h2>
               <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
                 Nous ne faisons pas que nettoyer, nous restaurons l'harmonie de votre espace. Chaque recoin est inspecté, chaque surface est traitée avec les produits adaptés pour préserver la qualité de vos matériaux (bois massif, pierre naturelle, laiton).
               </p>
@@ -53,14 +55,14 @@ export default function Menage() {
                 Nos équipes sont formées aux techniques de l'hôtellerie de luxe, garantissant une discrétion absolue et un résultat impeccable qui ravit vos locataires dès qu'ils franchissent la porte.
               </p>
             </div>
-            <div style={{ position: 'relative', height: 500, borderRadius: 12, overflow: 'hidden', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.08)' }}>
+            <div style={{ position: 'relative', height: 400, borderRadius: 12, overflow: 'hidden', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.08)' }}>
               <img 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVh-UWZaxqC9xvwZpbbNsZV9ui1vS94SA_XMHpwKHHETeHg2FJCxgIA6urDXZgCAOYauiUbGlGeE4sNk5n8lav79VBjWcKcQ9GiC0zVZ2VDV-2HuQNqrGmle9qf-aBG2keQMwXT7_JVZoEd1LXrTt4vRGgJD0Z7KyygZD2Pr2ZER6v1wil6eAKiGgFy1_R3bqY5wCHq2x2qEnC2m_szp1ChFuE-Rho4RXi6f6_DsRt33wUJlhEv8aR"
                 alt="Cleaning luxury bathroom"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: 24, background: 'rgba(255,255,255,0.9)', backdropFilter: 'blur(12px)', margin: 24, borderRadius: 8, borderTop: '3px solid #c5a059' }}>
+              <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: 24, background: 'rgba(255,255,255,0.9)', backdropFilter: 'blur(12px)', margin: 16, borderRadius: 8, borderTop: '3px solid #c5a059' }}>
                 <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>Détail Inégalé</h3>
                 <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Des contrôles qualité systématiques après chaque intervention.</p>
               </div>
@@ -68,48 +70,60 @@ export default function Menage() {
           </div>
         </section>
 
-        {/* Bento Grid - Protocol d'Intervention */}
-        <section style={{ background: 'var(--surface-container-low)', padding: '96px 16px' }}>
-          <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', marginBottom: 48 }}>
-              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Notre Protocole d'Intervention</h2>
-              <p style={{ color: 'var(--on-surface-variant)', maxWidth: 600, margin: '0 auto' }}>Un aperçu de notre checklist stricte, conçue pour ne rien laisser au hasard entre deux séjours.</p>
+        {/* Divider */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+        </div>
+
+        {/* Protocol Section - Bento Grid */}
+        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 48 }}>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Notre Protocole d'Intervention</h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>Un aperçu de notre checklist stricte, conçue pour ne rien laisser au hasard entre deux séjours.</p>
+          </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+            {/* Item 1 - Désinfection */}
+            <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2' }}>
+              <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>cleaning_services</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Désinfection & Aération</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Protocole sanitaire rigoureux. Aération prolongée de toutes les pièces, désinfection des points de contact fréquents (poignées, interrupteurs, télécommandes) avec des produits virucides certifiés.</p>
             </div>
-            
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
-              {/* Item 1 - Désinfection */}
-              <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2' }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>cleaning_services</span>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Désinfection & Aération</h3>
-                <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Protocole sanitaire rigoureux. Aération prolongée de toutes les pièces, désinfection des points de contact fréquents (poignées, interrupteurs, télécommandes) avec des produits virucides certifiés.</p>
-              </div>
 
-              {/* Item 2 - Cuisine */}
-              <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '3px solid #c5a059' }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>countertops</span>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Cuisine Impeccable</h3>
-                <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Dégraissage complet, nettoyage intérieur de l'électroménager, vérification de la vaisselle.</p>
-              </div>
+            {/* Item 2 - Cuisine */}
+            <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '3px solid #c5a059' }}>
+              <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>countertops</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Cuisine Impeccable</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Dégraissage complet, nettoyage intérieur de l'électroménager, vérification de la vaisselle.</p>
+            </div>
 
-              {/* Item 3 - Salle de bain */}
-              <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)' }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>shower</span>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Salles de Bain Spa</h3>
-                <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Détartrage méticuleux, brillance des chromes, nettoyage des joints et vitres de douche.</p>
-              </div>
+            {/* Item 3 - Salle de bain */}
+            <div style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)' }}>
+              <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>shower</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Salles de Bain Spa</h3>
+              <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Détartrage méticuleux, brillance des chromes, nettoyage des joints et vitres de douche.</p>
+            </div>
 
-              {/* Item 4 - Inspection Finale */}
-              <div style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 48, color: '#e9c176', marginBottom: 16 }}>verified</span>
-                <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>Inspection Finale</h3>
-                <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>Le superviseur effectue un passage final, vérifie l'alignement des éléments de decoration, l'ambiance olfactive, et verrouille la propriété pour le prochain hôte.</p>
-              </div>
+            {/* Item 4 - Inspection Finale */}
+            <div style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+              <span className="material-symbols-outlined" style={{ fontSize: 48, color: '#e9c176', marginBottom: 16 }}>verified</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>Inspection Finale</h3>
+              <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>Le superviseur effectue un passage final, vérifie l'alignement des éléments de decoration, l'ambiance olfactive, et verrouille la propriété pour le prochain hôte.</p>
             </div>
           </div>
         </section>
 
+        {/* Divider */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
+          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
+        </div>
+
         {/* Equipment Section */}
-        <section style={{ padding: '96px 16px', maxWidth: 1280, margin: '0 auto' }}>
+        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 48, alignItems: 'center' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
               <div style={{ aspectRatio: '1/1', borderRadius: 12, overflow: 'hidden' }}>
@@ -129,7 +143,7 @@ export default function Menage() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
               <span style={{ display: 'inline-block', padding: '8px 16px', background: 'rgba(0,5,19,0.05)', color: 'var(--primary)', borderRadius: 20, fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', alignSelf: 'flex-start' }}>Équipement Pro</span>
-              <h2 style={{ fontSize: '2rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Matériel et Produits de Haute Performance</h2>
+              <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', fontFamily: 'Libre Caslon Text, serif' }}>Matériel et Produits de Haute Performance</h2>
               <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
                 Nous refusons les compromis. Nos équipes interviennent avec du matériel de qualité industrielle, garantissant un nettoyage en profondeur impossible à atteindre avec des équipements domestiques.
               </p>
