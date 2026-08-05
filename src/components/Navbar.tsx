@@ -22,7 +22,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
         </Link>
         <div className="navbar-links">
           <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>Services</Link>
-          <Link href="/#about" className={currentPage === 'about' ? 'active' : ''}>Lou</Link>
+
           <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>Clés</Link>
           <Link href="/location" className={currentPage === 'location' ? 'active' : ''}>Location</Link>
           <Link href="/travaux" className={currentPage === 'travaux' ? 'active' : ''}>Travaux</Link>
@@ -45,10 +45,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
               <span className="material-symbols-outlined">concierge</span>
               Services
             </Link>
-            <Link href="/#about" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">person</span>
-              Lou
-            </Link>
+
             <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">key</span>
               Gestion clés
