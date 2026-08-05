@@ -452,7 +452,7 @@ export default function ServicesLocations() {
               Serenity Pro Appart
             </span>
             <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.75rem' }}>
-              © 2024 Serenity Pro Appart. Alpine Excellence.
+              © 2026 Serenity Pro Appart. Alpine Excellence.
             </p>
           </div>
           <div style={{ display: 'flex', gap: 16 }}>

@@ -109,7 +109,7 @@ export default function Menage() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 Serenity Pro Appart by Lou. All rights reserved.</p>
+          <p>© 2026 Serenity Pro Appart by Lou. All rights reserved.</p>
         </div>
       </footer>
     </>
