@@ -10,7 +10,7 @@ export default function MentionsLegales() {
 
       <main style={{ paddingTop: 80 }}>
         {/* Hero Section */}
-        <section style={{ padding: '48px 16px', background: 'var(--surface)', textAlign: 'center' }}>
+        <section style={{ padding: '48px 16px', textAlign: 'center' }}>
           <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
             Mentions Légales
           </h1>
