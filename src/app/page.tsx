@@ -157,11 +157,11 @@ export default function Home() {
             </div>
             <div className="about-image-badge">
               <h3>Lou</h3>
-              <p>Votre contact privilégié à Valfréjus</p>
+              <p>{fr.common.louContact}</p>
             </div>
           </div>
           <div className="about-content">
-            <span className="section-tag">Notre esprit</span>
+            <span className="section-tag">{fr.home.aboutTitle}</span>
             <h2>{fr.home.aboutTitle}</h2>
             <p>
               {fr.home.aboutText1}
