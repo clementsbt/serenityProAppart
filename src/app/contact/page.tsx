@@ -1,3 +1,4 @@
+import fr from "../fr.json";
 "use client";
 
 import { useState } from "react";

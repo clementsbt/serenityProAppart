@@ -3,11 +3,12 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
+import fr from "./fr.json";
 
 const services = [
   {
     icon: "vpn_key",
-    title: "Gestion des clés",
+    title: fr.nav.cles,
     description:
       "Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.",
     features: [
@@ -19,7 +20,7 @@ const services = [
   },
   {
     icon: "inventory_2",
-    title: "Location diverse",
+    title: fr.nav.location,
     description:
       "Tout le nécessaire pour préparer votre appartement avant l'arrivée des voyageurs. Nous proposons des kits de draps, serviettes et linge de maison, adaptés aux séjours à la montagne.",
     large: false,
@@ -27,7 +28,7 @@ const services = [
   },
   {
     icon: "cleaning_services",
-    title: "Ménage",
+    title: fr.nav.menage,
     description:
       "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
     large: false,
@@ -107,13 +108,13 @@ export default function Home() {
         <div className="hero-overlay"></div>
         <div className="hero-content container">
           <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 180, height: 180, borderRadius: '50%', objectFit: 'cover', marginBottom: 24, border: '3px solid white', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }} />
-          <h1>Serenity Pro Appart</h1>
+          <h1>{fr.home.heroTitle}</h1>
           <p>
-            Confiez-nous vos clés, nous nous occupons du reste.
+            {fr.home.heroSubtitle}
           </p>
           <div style={{ marginTop: 24 }}>
             <Link href="/contact" className="btn-primary" style={{ padding: '16px 40px', fontSize: '1rem', display: 'inline-block' }}>
-              Nous contacter
+              {fr.home.ctaButton}
             </Link>
           </div>
         </div>
@@ -137,8 +138,8 @@ export default function Home() {
       {/* Services */}
       <section className="section" id="services">
         <div className="section-header">
-          <span className="section-tag">Excellence & Dévouement</span>
-          <h2 className="section-title">Nos Services Exclusifs</h2>
+          <span className="section-tag">{fr.home.excellenceTag}</span>
+          <h2 className="section-title">{fr.home.servicesTitle}</h2>
           <div className="section-divider"></div>
         </div>
 
@@ -163,7 +164,7 @@ export default function Home() {
           </div>
           <div className="about-content">
             <span className="section-tag">Notre esprit</span>
-            <h2>Une présence locale toute l'année</h2>
+            <h2>{fr.home.aboutTitle}</h2>
             <p>
               Habitante du village et passionnée par notre belle station, j'ai fondé <strong>Serenity Pro Appart</strong> pour offrir aux propriétaires une tranquillité d'esprit absolue.
             </p>
@@ -191,15 +192,14 @@ export default function Home() {
       {/* CTA */}
       <section className="cta-section" id="contact">
         <div className="cta-content">
-          <h2>Prêt à confier vos clés ?</h2>
+          <h2>{fr.home.ctaTitle}</h2>
           <p>
-            Contactez-nous dès aujourd&apos;hui pour une estimation personnalisée de
-            la gestion de votre bien à Valfréjus.
+            {fr.home.ctaSubtitle}
           </p>
           <div className="cta-buttons">
             <Link href="/contact" className="cta-btn primary">
               <span className="material-symbols-outlined">mail</span>
-              Nous contacter
+              {fr.home.ctaButton}
             </Link>
           </div>
         </div>
@@ -211,20 +211,20 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
+            <h4>{fr.common.siteName}</h4>
             <p>
-              Conciergerie de Luxe à Valfréjus. Excellence, proximité et
-              confiance.
+              {fr.common.tagline}
             </p>
           </div>
+
           <div>
-            <h4>Navigation</h4>
+            <h4>{fr.footer.navigation}</h4>
             <ul className="footer-links">
               <li>
-                <a href="#">Accueil</a>
+                <a href="/">{fr.nav.home}</a>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <a href="#services">{fr.nav.services}</a>
               </li>
               <li>
                 <a href="#about">À propos</a>
@@ -232,19 +232,16 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <h4>Légal</h4>
+            <h4>{fr.footer.legal}</h4>
             <ul className="footer-links">
               <li>
-                <a href="#">Mentions Légales</a>
-              </li>
-              <li>
-                <a href="#">Confidentialité</a>
+                <a href="/mentions-legales">{fr.footer.mentionsLegales}</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 Serenity Pro Appart. Alpine Excellence.</p>
+          <p>{fr.footer.copyright}</p>
         </div>
       </footer>
     </>

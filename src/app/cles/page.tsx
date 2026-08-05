@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactCTA from "@/components/ContactCTA";
+import fr from "../fr.json";
 
 export default function Cles() {
   return (
@@ -23,13 +24,13 @@ export default function Cles() {
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
               <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
-              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Premium Service</span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>{fr.cles.heroTag}</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Gestion des clés
+              {fr.cles.heroTitle}
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
-              Offrez à vos locataires une expérience d'accueil d'exception. Notre service de gestion des clés assure une fluidité totale de l'arrivée au départ.
+              {fr.cles.heroSubtitle}
             </p>
           </div>
         </section>
@@ -51,22 +52,22 @@ export default function Cles() {
               <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>concierge</span>
               </div>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Check-out physiques</h3>
+              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.card1Title}</h3>
               <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
-                Accueil physique personnalisé pour vos locataires. Remise des clés en main propre et consignes de sécurité pour une expérience sereine dès l'arrivée.
+                {fr.cles.card1Desc}
               </p>
               <ul style={{ display: 'flex', flexDirection: 'column', gap: 12, fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                  Remise des clés en main propre
+                  {fr.cles.card1Feature1}
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                  Consignes de sécurité personnalisées
+                  {fr.cles.card1Feature2}
                 </li>
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 20, marginTop: 2 }}>check_circle</span>
-                  Présentation des équipements
+                  {fr.cles.card1Feature3}
                 </li>
               </ul>
             </div>
@@ -76,7 +77,7 @@ export default function Cles() {
               <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>inventory</span>
               </div>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Contrôle Propreté</h3>
+              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.card2Title}</h3>
               <p style={{ fontSize: '1rem', color: 'var(--on-surface-variant)', marginBottom: 24, lineHeight: 1.6 }}>
                 Inspection rigoureuse de l'état du bien avant et après chaque séjour pour garantir votre tranquillité.
               </p>
@@ -99,17 +100,17 @@ export default function Cles() {
         {/* Communication Section */}
         <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Communication Voyageurs</h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>Un contact privilégié tout au long du séjour.</p>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.cles.commTitle}</h2>
+            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.cles.commSubtitle}</p>
           </div>
           
           <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
             {/* Left column - dark */}
             <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>support_agent</span>
-              <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>Assistance Multilingue</h3>
+              <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.commSectionTitle}</h3>
               <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
-                Nous sommes le point de contact privilégié pour vos locataires durant toute la durée du séjour. Assistance en français, anglais et italien.
+                {fr.cles.commSectionDesc}
               </p>
             </div>
             
@@ -120,32 +121,32 @@ export default function Cles() {
                 <div style={{ display: 'flex', gap: 16 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>flight_takeoff</span>
                   <div>
-                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Arrivée</h4>
-                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Accueil personnalisé et remise des clés.</p>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.cles.feature1Title}</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.cles.feature1Desc}</p>
                   </div>
                 </div>
                 {/* Départ */}
                 <div style={{ display: 'flex', gap: 16 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>flight_land</span>
                   <div>
-                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Départ</h4>
-                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>État des lieux et récupération des clés.</p>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.cles.feature2Title}</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.cles.feature2Desc}</p>
                   </div>
                 </div>
                 {/* Support */}
                 <div style={{ display: 'flex', gap: 16 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>chat</span>
                   <div>
-                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Support 7/7</h4>
-                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Disponibilité pour toute question ou problème.</p>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.cles.feature3Title}</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.cles.feature3Desc}</p>
                   </div>
                 </div>
                 {/* Local */}
                 <div style={{ display: 'flex', gap: 16 }}>
                   <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>location_on</span>
                   <div>
-                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>Présence Locale</h4>
-                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Interventions rapides grâce à notre implantation à Valfréjus.</p>
+                    <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.cles.feature4Title}</h4>
+                    <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.cles.feature4Desc}</p>
                   </div>
                 </div>
               </div>
@@ -158,15 +159,15 @@ export default function Cles() {
           <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>verified</span>
             <div>
-              <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Service Certifié</h5>
-              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Excellence et professionnalisme reconnus.</p>
+              <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust1}</h5>
+              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.cles.trust1Desc}</p>
             </div>
           </div>
           <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>schedule</span>
             <div>
-              <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>Support 7/7</h5>
-              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>Disponibilité totale pour vos locataires.</p>
+              <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust2}</h5>
+              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.cles.trust2Desc}</p>
             </div>
           </div>
         </div>
@@ -178,8 +179,8 @@ export default function Cles() {
       <footer className="footer">
         <div className="footer-grid">
           <div>
-            <h4>Serenity Pro Appart</h4>
-            <p>Votre partenaire confiance pour une expérience alpine d'exception à Valfréjus.</p>
+            <h4>{fr.common.siteName}</h4>
+            <p>{fr.common.tagline}</p>
           </div>
           <div>
             <h4>Navigation</h4>

@@ -1,3 +1,4 @@
+import fr from "../fr.json";
 "use client";
 
 import Link from "next/link";
@@ -23,13 +24,13 @@ export default function Location() {
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
               <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
-              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Catalogue Premium</span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>{fr.location.heroTag}</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Locations Diverses
+              {fr.location.heroTitle}
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
-              Découvrez notre sélection de services sur-mesure et d'équipements de qualité pour sublimer votre séjour alpin.
+              {fr.location.heroSubtitle}
             </p>
           </div>
         </section>
@@ -46,7 +47,7 @@ export default function Location() {
         {/* Linge de Maison Section */}
         <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>Linge de Maison</h2>
+            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.location.section1Title}</h2>
             <p style={{ color: 'var(--on-surface-variant)' }}>La douceur d'un linge immaculé pour un repos absolu.</p>
           </div>
           
@@ -92,9 +93,9 @@ export default function Location() {
         <section style={{ padding: '48px 16px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>
-              Kits de Bienvenue
+              {fr.location.section2Title}
             </h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>L'attention aux détails dès votre arrivée.</p>
+            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.section2Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>

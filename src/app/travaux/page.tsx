@@ -1,3 +1,4 @@
+import fr from "../fr.json";
 "use client";
 
 import Link from "next/link";
