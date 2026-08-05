@@ -26,10 +26,10 @@ export default function Travaux() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
               <span style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(197, 160, 89, 0.1)', border: '1px solid rgba(197, 160, 89, 0.2)', padding: '4px 12px', borderRadius: 20, color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 18 }}>verified</span>
-                Professional Excellence
+                {fr.travaux.heroTag}
               </span>
             </div>
-            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', maxWidth: 500, lineHeight: 1.2 }}>Gros travaux / rénovation et Réparation rapides</h1>
+            <h1 style={{ fontSize: '2rem', color: 'var(--primary)', maxWidth: 500, lineHeight: 1.2 }}>{fr.travaux.heroTitle}</h1>
           </div>
         </section>
 

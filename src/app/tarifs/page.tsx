@@ -25,13 +25,13 @@ export default function Tarifs() {
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
               <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
-              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Tarifs</span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>{fr.tarifs.heroTag}</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Tarifs & Prestations
+              {fr.tarifs.heroTitle}
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
-              Des prestations simples et pratiques pour préparer votre appartement à Valfréjus, entre ménage, remise des clés et location de linge.
+              {fr.tarifs.heroSubtitle}
             </p>
           </div>
         </section>

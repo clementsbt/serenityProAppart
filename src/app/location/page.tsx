@@ -49,7 +49,7 @@ export default function Location() {
         <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.location.section1Title}</h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>La douceur d'un linge immaculé pour un repos absolu.</p>
+            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.section1Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
@@ -58,9 +58,9 @@ export default function Location() {
               <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Location de Draps</h3>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.drapsTitle}</h3>
               <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
-                Parures de lit complètes de qualité hôtelière. Coton percale frais et respirant, adapté à la température de nos montagnes.
+                {fr.location.drapsDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
                 <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Sur devis</span>
@@ -72,9 +72,9 @@ export default function Location() {
               <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
               </div>
-              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Kit de Serviettes</h3>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.serviettesTitle}</h3>
               <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
-                Ensemble de bain luxueux comprenant drap de bain, serviette de toilette et tapis de bain. Épaisseur et moelleux garantis.
+                {fr.location.serviettesDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
                 <span style={{ color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Sur devis</span>
@@ -116,7 +116,7 @@ export default function Location() {
               </div>
               <div style={{ padding: 24 }}>
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
-                  Découvrez les saveurs de Valfréjus. Avec notre kit de bienvenue, celui-ci peut être composé par vous-même chez Les Délices Alpins.
+                  {fr.location.alimentaireDesc}
                 </p>
               </div>
             </div>
@@ -132,12 +132,12 @@ export default function Location() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
                 <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
                   <span className="material-symbols-outlined" style={{ fontVariationSettings: 'FILL 1' }}>cleaning_services</span>
-                  <h3 style={{ fontSize: '1.25rem' }}>Hygiène</h3>
+                  <h3 style={{ fontSize: '1.25rem' }}>{fr.location.hygieneTitle}</h3>
                 </div>
               </div>
               <div style={{ padding: 24 }}>
                 <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
-                  Kit d'entretien comprenant éponge, liquide vaisselle, pastilles lave-vaisselle et sacs poubelle.
+                  {fr.location.hygieneDesc}
                 </p>
               </div>
             </div>

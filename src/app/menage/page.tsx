@@ -25,13 +25,13 @@ export default function Menage() {
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
               <span style={{ width: 32, height: 1, background: 'var(--secondary)' }}></span>
-              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>SOIN & RIGUEUR</span>
+              <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>{fr.menage.heroTag}</span>
             </div>
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
-              Ménage de remise en état
+              {fr.menage.heroTitle}
             </h1>
             <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
-              Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération, vérification des points essentiels et remise en ordre avant l'arrivée des prochains vacanciers.
+              {fr.menage.heroSubtitle}
             </p>
           </div>
         </section>
