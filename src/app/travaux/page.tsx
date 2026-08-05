@@ -48,8 +48,8 @@ export default function Travaux() {
               </p>
               <div style={{ display: 'grid', gap: 16, gridTemplateColumns: '1fr' }}>
                 <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
-                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Maintenance Technique</h3>
-                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Inspections régulières des systèmes de chauffage, plomberie et électricité pour prévenir les urgences hivernales.</p>
+                  <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Gros travaux et rénovation</h3>
+                  <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>Chez Serenity pro appart, nous pouvons vous mettre en relation avec les meilleurs artisans de la région.</p>
                 </div>
                 <div style={{ padding: 24, background: 'var(--surface-container-low)', borderRadius: 8, borderLeft: '4px solid var(--secondary)' }}>
                   <h3 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 8, fontWeight: 600 }}>Réparations Rapides</h3>
