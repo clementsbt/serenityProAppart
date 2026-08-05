@@ -398,6 +398,13 @@ button {
   transform: translateY(-4px);
 }
 
+/* Responsive Grid Cards */
+@media (max-width: 768px) {
+  .grid-span-2-mobile {
+    grid-column: span 1 !important;
+  }
+}
+
 .service-card-large {
   grid-column: 1 / -1;
 }

@@ -50,7 +50,7 @@ export default function Menage() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Item 1 - Désinfection */}
-            <div className="card-hover" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2' }}>
+            <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>cleaning_services</span>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>Aération et désinfection</h3>
               <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>Aération de toutes les pièces, nettoyage des surfaces fréquemment touchées, désinfection des points de contact avec des produits adaptés.</p>
@@ -71,7 +71,7 @@ export default function Menage() {
             </div>
 
             {/* Item 4 - Inspection Finale */}
-            <div className="card-hover" style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 48, color: '#e9c176', marginBottom: 16 }}>verified</span>
               <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>Contrôle final</h3>
               <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>Vérification générale de l'appartement, rangement des derniers éléments et fermeture du logement avant la prochaine arrivée.</p>
