@@ -204,6 +204,33 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing CTA */}
+      <section style={{ padding: '80px 16px', background: 'var(--surface-container-low)' }}>
+        <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
+          <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>{fr.tarifs.heroTag || 'Tarifs'}</span>
+          <h2 style={{ fontSize: '2rem', color: 'var(--primary)', margin: '16px 0' }}>{fr.tarifs.heroTitle}</h2>
+          <p style={{ color: 'var(--on-surface-variant)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>{fr.tarifs.heroSubtitle}</p>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 16, marginBottom: 32 }}>
+            <div style={{ background: 'white', padding: 24, borderRadius: 12, boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
+              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.tarifs.card1Price1}</p>
+              <p style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--secondary)' }}>{fr.tarifs.card1Price2}</p>
+            </div>
+            <div style={{ background: 'white', padding: 24, borderRadius: 12, boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
+              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.tarifs.card2Price1}</p>
+              <p style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--secondary)' }}>{fr.tarifs.card2Price2}</p>
+            </div>
+            <div style={{ background: 'white', padding: 24, borderRadius: 12, boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
+              <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.tarifs.card3Price1}</p>
+              <p style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--secondary)' }}>{fr.tarifs.card3Price2}</p>
+            </div>
+          </div>
+          
+          <Link href={fr.nav.tarifsRoute} style={{ display: 'inline-block', padding: '14px 32px', background: 'var(--secondary)', color: 'white', borderRadius: 8, fontWeight: 600, textDecoration: 'none' }}>
+            {fr.tarifs.ctaButton}
+          </Link>
+        </div>
+      </section>
 
 
       <Footer />
