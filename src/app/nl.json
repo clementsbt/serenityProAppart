@@ -20,8 +20,15 @@
     "location": "Verhuur",
     "menage": "Schoonmaak",
     "travaux": "Werkzaamheden",
-    "tarifs": "Tarieven",
-    "contact": "Contact"
+    "tarifs": "Prijzen",
+    "contact": "Contact",
+    "clesRoute": "/sleutels",
+    "locationRoute": "/location",
+    "menageRoute": "/schoonmaak",
+    "travauxRoute": "/werk",
+    "tarifsRoute": "/prijzen",
+    "contactRoute": "/contact",
+    "mentionsLegales": "Juridische mededeling"
   },
   "footer": {
     "navigation": "Navigatie",

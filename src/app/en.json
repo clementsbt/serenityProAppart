@@ -17,11 +17,18 @@
     "home": "Home",
     "services": "Services",
     "cles": "Key management",
+    "clesRoute": "/keys",
     "location": "Rentals",
+    "locationRoute": "/location",
     "menage": "Cleaning",
+    "menageRoute": "/cleaning",
     "travaux": "Work",
+    "travauxRoute": "/work",
     "tarifs": "Pricing",
-    "contact": "Contact"
+    "tarifsRoute": "/prices",
+    "contact": "Contact",
+    "contactRoute": "/contact",
+    "mentionsLegales": "Legal Notice"
   },
   "footer": {
     "navigation": "Navigation",

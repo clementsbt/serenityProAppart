@@ -21,7 +21,14 @@
     "menage": "Reinigung",
     "travaux": "Arbeiten",
     "tarifs": "Preise",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "clesRoute": "/schluessel",
+    "locationRoute": "/location",
+    "menageRoute": "/reinigung",
+    "travauxRoute": "/arbeit",
+    "tarifsRoute": "/preise",
+    "contactRoute": "/contact",
+    "mentionsLegales": "Impressum"
   },
   "footer": {
     "navigation": "Navigation",

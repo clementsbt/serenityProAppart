@@ -29,10 +29,10 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>{fr.nav.services}</Link>
 
           <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>{fr.nav.cles}</Link>
-          <Link href="/location" className={currentPage === 'location' ? 'active' : ''}>{fr.nav.location}</Link>
-          <Link href="/travaux" className={currentPage === 'travaux' ? 'active' : ''}>{fr.nav.travaux}</Link>
-          <Link href="/menage" className={currentPage === 'menage' ? 'active' : ''}>{fr.nav.menage}</Link>
-          <Link href="/tarifs" className={currentPage === 'tarifs' ? 'active' : ''}>{fr.nav.tarifs}</Link>
+          <Link href={fr.nav.locationRoute} className={currentPage === 'location' ? 'active' : ''}>{fr.nav.location}</Link>
+          <Link href={fr.nav.travauxRoute} className={currentPage === 'travaux' ? 'active' : ''}>{fr.nav.travaux}</Link>
+          <Link href={fr.nav.menageRoute} className={currentPage === 'menage' ? 'active' : ''}>{fr.nav.menage}</Link>
+          <Link href={fr.nav.tarifsRoute} className={currentPage === 'tarifs' ? 'active' : ''}>{fr.nav.tarifs}</Link>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           {/* Language Selector */}

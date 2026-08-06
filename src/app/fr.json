@@ -17,11 +17,18 @@
     "home": "Accueil",
     "services": "Services",
     "cles": "Gestion clés",
+    "clesRoute": "/cles",
     "location": "Location",
+    "locationRoute": "/location",
     "menage": "Ménage",
+    "menageRoute": "/menage",
     "travaux": "Travaux",
+    "travauxRoute": "/travaux",
     "tarifs": "Tarifs",
-    "contact": "Contact"
+    "tarifsRoute": "/tarifs",
+    "contact": "Contact",
+    "contactRoute": "/contact",
+    "mentionsLegales": "Mentions Légales"
   },
   "footer": {
     "navigation": "Navigation",

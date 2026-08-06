@@ -17,12 +17,12 @@ export default function Footer() {
           <h4>{fr.footer.navigation}</h4>
           <ul className="footer-links">
             <li><a href="/">{fr.nav.home}</a></li>
-            <li><a href="/cles">{fr.nav.cles}</a></li>
-            <li><a href="/location">{fr.nav.location}</a></li>
-            <li><a href="/menage">{fr.nav.menage}</a></li>
-            <li><a href="/travaux">{fr.nav.travaux}</a></li>
-            <li><a href="/tarifs">{fr.nav.tarifs}</a></li>
-            <li><a href="/contact">{fr.nav.contact}</a></li>
+            <li><a href={fr.nav.clesRoute}>{fr.nav.cles}</a></li>
+            <li><a href={fr.nav.locationRoute}>{fr.nav.location}</a></li>
+            <li><a href={fr.nav.menageRoute}>{fr.nav.menage}</a></li>
+            <li><a href={fr.nav.travauxRoute}>{fr.nav.travaux}</a></li>
+            <li><a href={fr.nav.tarifsRoute}>{fr.nav.tarifs}</a></li>
+            <li><a href={fr.nav.contactRoute}>{fr.nav.contact}</a></li>
           </ul>
         </div>
         <div>

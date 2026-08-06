@@ -17,11 +17,18 @@
     "home": "Home",
     "services": "Servizi",
     "cles": "Gestione chiavi",
-    "location": "Affitto",
+    "location": "Affitti",
     "menage": "Pulizia",
     "travaux": "Lavori",
-    "tarifs": "Tariffe",
-    "contact": "Contatto"
+    "tarifs": "Prezzi",
+    "contact": "Contatto",
+    "clesRoute": "/chiavi",
+    "locationRoute": "/location",
+    "menageRoute": "/pulizia",
+    "travauxRoute": "/lavoro",
+    "tarifsRoute": "/prezzi",
+    "contactRoute": "/contact",
+    "mentionsLegales": "Note Legali"
   },
   "footer": {
     "navigation": "Navigazione",
