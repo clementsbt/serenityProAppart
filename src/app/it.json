@@ -175,6 +175,7 @@
     "ctaButton": "Richiedi un preventivo"
   },
   "contact": {
+    "heroTag": "Il vostro servizio di concierge a Valfréjus",
     "heroTitle": "Contattate Lou",
     "heroSubtitle": "Una domanda sui nostri servizi di gestione immobiliare o bisogno di assistenza personalizzata durante il soggiorno? Siamo a vostra completa disposizione.",
     "formTitle": "Inviaci un messaggio",
@@ -182,7 +183,16 @@
     "formEmail": "Email",
     "formSubject": "Oggetto",
     "formSubjectPlaceholder": "Seleziona...",
-    "formSubject1": "Gestione immobiliare",
+    "formSelectPlaceholder": "Seleziona...",
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica",
+    "sending": "Invio...",
+    "concierge": "Concierge"
     "formSubject2": "Servizi di concierge",
     "formSubject3": "Prenotazione",
     "formSubject4": "Altra richiesta",

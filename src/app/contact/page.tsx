@@ -41,7 +41,7 @@ export default function Contact() {
         {/* Hero */}
         <section style={{ padding: '60px 16px', background: 'var(--surface)', textAlign: 'center' }}>
           <span style={{ color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-            VOTRE CONCIERGERIE À VALFRÉJUS
+            {fr.contact.heroTag}
           </span>
           <h1 style={{ fontSize: '2.5rem', color: 'var(--primary)', margin: '16px 0' }}>
             {fr.contact.heroTitle}
@@ -96,11 +96,11 @@ export default function Contact() {
                         onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                         style={{ width: '100%', padding: 12, borderRadius: 8, border: '1px solid var(--outline-variant)', background: 'var(--surface-container)', outline: 'none' }}
                       >
-                        <option value="">Sélectionner...</option>
-                        <option value="Gestion locative">Gestion locative</option>
-                        <option value="Services de conciergerie">Services de conciergerie</option>
-                        <option value="Réservation">Réservation</option>
-                        <option value="Autre demande">Autre demande</option>
+                        <option value="">{fr.contact.formSelectPlaceholder}</option>
+                        <option value="Gestion locative">{fr.contact.formSubject1}</option>
+                        <option value="Services de conciergerie">{fr.contact.formSubject2}</option>
+                        <option value="Réservation">{fr.contact.formSubject3}</option>
+                        <option value="Autre demande">{fr.contact.formSubject4}</option>
                       </select>
                     </div>
                     <div>
@@ -118,7 +118,7 @@ export default function Contact() {
                       <p style={{ color: 'red' }}>❌ Erreur lors de l'envoi. Veuillez réessayer.</p>
                     )}
                     <button type="submit" className="submit-btn" disabled={status === 'loading'}>
-                      {status === 'loading' ? 'Envoi...' : 'Envoyer le message'}
+                      {status === 'loading' ? fr.contact.sending : fr.contact.formButton}
                     </button>
                   </form>
                 )}
@@ -130,31 +130,31 @@ export default function Contact() {
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.scheduleTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Lundi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.monday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Mardi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.tuesday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Mercredi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.wednesday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Jeudi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.thursday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Vendredi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.friday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Samedi</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.saturday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
-                      <span style={{ fontWeight: 500 }}>Dimanche</span>
+                      <span style={{ fontWeight: 500 }}>{fr.contact.sunday}</span>
                       <span style={{ color: 'var(--on-surface-variant)' }}>9h - 21h <span style={{ opacity: 0.6 }}>(9am - 9pm)</span></span>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ export default function Contact() {
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
                       <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 24 }}>mail</span>
                       <div>
-                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>Email</p>
+                        <p style={{ fontWeight: 600, fontSize: '0.875rem' }}>{fr.contact.emailLabel}</p>
                         <a href="mailto:lesclesducharmaix@gmail.com" style={{ color: 'var(--on-surface-variant)', textDecoration: 'none', fontSize: '0.875rem' }}>lesclesducharmaix@gmail.com</a>
                       </div>
                     </div>

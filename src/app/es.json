@@ -175,6 +175,7 @@
     "ctaButton": "Solicitar un presupuesto"
   },
   "contact": {
+    "heroTag": "Su conserjería en Valfréjus",
     "heroTitle": "Contacte a Lou",
     "heroSubtitle": "¿Tiene una pregunta sobre nuestros servicios de gestión de alquileres o necesita asistencia personalizada durante su estancia? Estamos a su entera disposición.",
     "formTitle": "Envíenos un mensaje",
@@ -182,7 +183,16 @@
     "formEmail": "Email",
     "formSubject": "Asunto",
     "formSubjectPlaceholder": "Seleccionar...",
-    "formSubject1": "Gestión de alquileres",
+    "formSelectPlaceholder": "Seleccionar...",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "sending": "Enviando...",
+    "concierge": "Conserjería"
     "formSubject2": "Servicios de conserjería",
     "formSubject3": "Reserva",
     "formSubject4": "Otra solicitud",

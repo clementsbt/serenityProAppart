@@ -178,6 +178,7 @@
     "ctaButton": "Demander un devis"
   },
   "contact": {
+    "heroTag": "Votre conciergerie à Valfréjus",
     "heroTitle": "Contactez Lou",
     "heroSubtitle": "Une question sur nos services de gestion locative ou besoin d'une assistance personnalisée durant votre séjour ? Nous sommes à votre entière disposition.",
     "formTitle": "Envoyez-nous un message",
@@ -185,6 +186,16 @@
     "formEmail": "Email",
     "formSubject": "Objet",
     "formSubjectPlaceholder": "Sélectionner...",
+    "formSelectPlaceholder": "Sélectionner...",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "sending": "Envoi...",
+    "concierge": "Conciergerie"
     "formSubject1": "Gestion locative",
     "formSubject2": "Services de conciergerie",
     "formSubject3": "Réservation",

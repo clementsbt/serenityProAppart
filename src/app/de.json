@@ -175,6 +175,7 @@
     "ctaButton": "Angebot anfordern"
   },
   "contact": {
+    "heroTag": "Ihr Concierge-Service in Valfréjus",
     "heroTitle": "Kontaktieren Sie Lou",
     "heroSubtitle": "Eine Frage zu unseren Vermietungsverwaltungsdiensten oder Bedarf an persönlicher Unterstützung während Ihres Aufenthalts? Wir stehen Ihnen vollständig zur Verfügung.",
     "formTitle": "Schreiben Sie uns eine Nachricht",
@@ -182,7 +183,16 @@
     "formEmail": "E-Mail",
     "formSubject": "Betreff",
     "formSubjectPlaceholder": "Auswählen...",
-    "formSubject1": "Vermietungsverwaltung",
+    "formSelectPlaceholder": "Auswählen...",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "sending": "Senden...",
+    "concierge": "Concierge"
     "formSubject2": "Concierge-Dienstleistungen",
     "formSubject3": "Reservierung",
     "formSubject4": "Andere Anfrage",

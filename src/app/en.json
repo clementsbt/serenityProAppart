@@ -176,6 +176,7 @@
     "ctaButton": "Request a quote"
   },
   "contact": {
+    "heroTag": "Your concierge in Valfréjus",
     "heroTitle": "Contact Lou",
     "heroSubtitle": "A question about our property management services or need personalized assistance during your stay? We are entirely at your disposal.",
     "formTitle": "Send us a message",
@@ -183,6 +184,16 @@
     "formEmail": "Email",
     "formSubject": "Subject",
     "formSubjectPlaceholder": "Select...",
+    "formSelectPlaceholder": "Select...",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "sending": "Sending...",
+    "concierge": "Concierge"
     "formSubject1": "Property management",
     "formSubject2": "Concierge services",
     "formSubject3": "Booking",
