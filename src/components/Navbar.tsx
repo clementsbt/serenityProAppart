@@ -84,7 +84,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
               <span className="material-symbols-outlined">key</span>
               {fr.nav.cles}
             </Link>
-            <Link href="/location" onClick={() => setMobileNavOpen(false)}>
+            <Link href={fr.nav.locationRoute} onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">laundry</span>
               {fr.nav.location}
             </Link>
