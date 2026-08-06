@@ -192,7 +192,8 @@
     "saturday": "Samstag",
     "sunday": "Sonntag",
     "sending": "Senden...",
-    "concierge": "Concierge"
+    "concierge": "Concierge",
+    "formSubject1": "Vermietungsverwaltung",
     "formSubject2": "Concierge-Dienstleistungen",
     "formSubject3": "Reservierung",
     "formSubject4": "Andere Anfrage",
