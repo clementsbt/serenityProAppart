@@ -1,10 +1,82 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
+import JsonLd from "@/components/JsonLd";
+import { localBusinessSchema, organizationSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Serenity Pro Appart | Location de charme à Modane",
-  description: "Serenity Pro Appart propose des locations de charme à Modane. Appartements et chalets pour vos séjours.",
+  metadataBase: new URL("https://serenityproappart.fr"),
+  title: {
+    default: "Serenity Pro Appart | Conciergerie à Valfréjus",
+    template: "%s | Serenity Pro Appart",
+  },
+  description: "Conciergerie premium à Valfréjus en Savoie. Gestion locative, ménage, location de linge et services personnalisés pour votre appartement.",
+  keywords: [
+    "conciergerie",
+    "Valfréjus",
+    "gestion locative",
+    "location appartement",
+    "ménage",
+    "Savoie",
+    "location de linge",
+    "ski",
+    "Modane"
+  ],
+  authors: [{ name: "Serenity Pro Appart" }],
+  creator: "Serenity Pro Appart",
+  publisher: "Serenity Pro Appart",
+  formatDetection: {
+    email: true,
+    address: true,
+    telephone: true,
+  },
+  alternates: {
+    canonical: "https://serenityproappart.fr",
+    languages: {
+      fr: "https://serenityproappart.fr",
+      en: "https://serenityproappart.fr",
+      de: "https://serenityproappart.fr",
+      es: "https://serenityproappart.fr",
+      it: "https://serenityproappart.fr",
+      nl: "https://serenityproappart.fr",
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://serenityproappart.fr",
+    siteName: "Serenity Pro Appart",
+    title: "Serenity Pro Appart | Conciergerie à Valfréjus",
+    description: "Conciergerie premium à Valfréjus en Savoie. Gestion locative, ménage, location de linge et services personnalisés.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Serenity Pro Appart - Conciergerie à Valfréjus",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Serenity Pro Appart | Conciergerie à Valfréjus",
+    description: "Conciergerie premium à Valfréjus en Savoie. Gestion locative, ménage, location de linge.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "google-site-verification-code",
+  },
 };
 
 export default function RootLayout({
@@ -25,6 +97,8 @@ export default function RootLayout({
       </head>
       <body>
         <LanguageProvider>
+          <JsonLd data={localBusinessSchema} />
+          <JsonLd data={organizationSchema} />
           {children}
         </LanguageProvider>
       </body>
