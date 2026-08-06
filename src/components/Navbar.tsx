@@ -28,7 +28,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
         <div className="navbar-links">
           <Link href="/#services" className={currentPage === 'services' ? 'active' : ''}>{fr.nav.services}</Link>
 
-          <Link href="/cles" className={currentPage === 'cles' ? 'active' : ''}>{fr.nav.cles}</Link>
+          <Link href={fr.nav.clesRoute} className={currentPage === 'cles' ? 'active' : ''}>{fr.nav.cles}</Link>
           <Link href={fr.nav.locationRoute} className={currentPage === 'location' ? 'active' : ''}>{fr.nav.location}</Link>
           <Link href={fr.nav.travauxRoute} className={currentPage === 'travaux' ? 'active' : ''}>{fr.nav.travaux}</Link>
           <Link href={fr.nav.menageRoute} className={currentPage === 'menage' ? 'active' : ''}>{fr.nav.menage}</Link>
@@ -80,7 +80,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
               {fr.nav.services}
             </Link>
 
-            <Link href="/cles" onClick={() => setMobileNavOpen(false)}>
+            <Link href={fr.nav.clesRoute} onClick={() => setMobileNavOpen(false)}>
               <span className="material-symbols-outlined">key</span>
               {fr.nav.cles}
             </Link>
