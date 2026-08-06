@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import ContactCTA from "@/components/ContactCTA";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -177,35 +178,7 @@ export default function Cles() {
       </main>
 
       {/* Footer */}
-      <footer className="footer">
-        <div className="footer-grid">
-          <div>
-            <h4>{fr.common.siteName}</h4>
-            <p>{fr.common.tagline}</p>
-          </div>
-          <div>
-            <h4>Navigation</h4>
-            <ul className="footer-links">
-              <li><a href="/">Accueil</a></li>
-              <li><a href="/cles">Gestion clés</a></li>
-              <li><a href="/location">Location</a></li>
-              <li><a href="/menage">Ménage</a></li>
-              <li><a href="/travaux">Travaux</a></li>
-              <li><a href="/tarifs">Tarifs</a></li>
-              <li><a href="/contact">Contact</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Légal</h4>
-            <ul className="footer-links">
-              <li><a href="/mentions-legales">Mentions Légales</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <p>© 2026 Serenity Pro Appart by Lou. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

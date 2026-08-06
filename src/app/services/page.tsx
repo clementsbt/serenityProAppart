@@ -3,7 +3,8 @@
 import fr from "../fr.json";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/image"
+import Footer from "@/components/Footer";
 
 export default function ServicesLocations() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -423,73 +424,7 @@ export default function ServicesLocations() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer
-        style={{
-          background: 'var(--surface-container-high)',
-          borderTop: '1px solid rgba(119, 90, 25, 0.2)',
-          padding: '32px 16px',
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: 16,
-            textAlign: 'center',
-          }}
-        >
-          <div>
-            <span
-              style={{
-                fontFamily: 'var(--font-heading)',
-                fontSize: '1.25rem',
-                color: 'var(--primary)',
-                display: 'block',
-                marginBottom: 4,
-              }}
-            >
-              Serenity Pro Appart
-            </span>
-            <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.75rem' }}>
-              © 2026 Serenity Pro Appart. Alpine Excellence.
-            </p>
-          </div>
-          <div style={{ display: 'flex', gap: 16 }}>
-            <a
-              href="#"
-              style={{
-                color: 'var(--on-surface-variant)',
-                fontSize: '0.75rem',
-                textDecoration: 'underline',
-              }}
-            >
-              Mentions Légales
-            </a>
-            <a
-              href="#"
-              style={{
-                color: 'var(--on-surface-variant)',
-                fontSize: '0.75rem',
-                textDecoration: 'underline',
-              }}
-            >
-              Confidentialité
-            </a>
-            <a
-              href="#"
-              style={{
-                color: 'var(--on-surface-variant)',
-                fontSize: '0.75rem',
-                textDecoration: 'underline',
-              }}
-            >
-              Contactez-nous
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
