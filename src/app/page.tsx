@@ -48,7 +48,7 @@ export default function Home() {
       title: fr.nav.tarifs,
       description: fr.tarifs.heroSubtitle,
       
-      large: true,
+      extraLarge: true,
       href: fr.nav.tarifsRoute,
     },
   ];
@@ -83,7 +83,7 @@ export default function Home() {
       </>
     );
 
-    const cardClass = `service-card ${service.large ? "service-card-large" : "service-card-small"}`;
+    const cardClass = `service-card ${service.extraLarge ? "service-card-extra-large" : service.large ? "service-card-large" : "service-card-small"}`;
 
     if (service.href) {
       return (

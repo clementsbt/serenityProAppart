@@ -409,6 +409,11 @@ button {
   grid-column: 1 / -1;
 }
 
+.service-card-extra-large {
+  grid-column: 1 / -1;
+  min-height: 300px;
+}
+
 @media (min-width: 768px) {
   .service-card-large {
     grid-column: span 7;
