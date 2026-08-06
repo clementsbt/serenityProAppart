@@ -19,7 +19,7 @@ export const localBusinessSchema = {
   "@type": "LocalBusiness",
   "name": "Serenity Pro Appart",
   "description": "Conciergerie et gestion locative à Valfréjus en Savoie",
-  "url": "https://serenityproappart.fr",
+  "url": "https://serenityproappart.com",
   "telephone": "+33781462132",
   "email": "serenityproappart@gmail.com",
   "address": {
@@ -45,7 +45,7 @@ export const localBusinessSchema = {
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "21:00" }
   ],
   "priceRange": "€€",
-  "image": "https://serenityproappart.fr/logo.png",
+  "image": "https://serenityproappart.com/logo.png",
   "sameAs": [
     "https://instagram.com/serenityproappart"
   ]
@@ -56,8 +56,8 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Serenity Pro Appart",
-  "url": "https://serenityproappart.fr",
-  "logo": "https://serenityproappart.fr/logo.png",
+  "url": "https://serenityproappart.com",
+  "logo": "https://serenityproappart.com/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+33781462132",
