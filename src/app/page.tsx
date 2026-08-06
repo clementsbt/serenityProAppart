@@ -43,6 +43,18 @@ export default function Home() {
       large: true,
       href: "/travaux",
     },
+    {
+      icon: "euro",
+      title: fr.nav.tarifs,
+      description: fr.tarifs.heroSubtitle,
+      features: [
+        fr.tarifs.card1Price1 + " - " + fr.tarifs.card1Price2,
+        fr.tarifs.card2Price1 + " - " + fr.tarifs.card2Price2,
+        fr.tarifs.card3Price1 + " - " + fr.tarifs.card3Price2,
+      ],
+      large: false,
+      href: fr.nav.tarifsRoute,
+    },
   ];
 
   function ServiceCard({ service, index }: { service: typeof services[0]; index: number }) {
