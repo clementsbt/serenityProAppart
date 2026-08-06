@@ -50,11 +50,6 @@ export default function Home() {
       
       large: true,
       href: fr.nav.tarifsRoute,
-      tags: [
-        fr.tarifs.card1Price1 + " - " + fr.tarifs.card1Price2,
-        fr.tarifs.card2Price1 + " - " + fr.tarifs.card2Price2,
-        fr.tarifs.card3Price1 + " - " + fr.tarifs.card3Price2,
-      ],
     },
   ];
 
