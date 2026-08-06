@@ -106,7 +106,7 @@ export default function Contact() {
                     <div>
                       <label style={{ display: 'block', fontSize: '0.875rem', color: 'var(--on-surface-variant)', marginBottom: 8 }}>{fr.contact.formMessage}</label>
                       <textarea 
-                        placeholder="Comment pouvons-nous vous aider ?" 
+                        placeholder={fr.contact.formMessagePlaceholder} 
                         rows={5} 
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -230,7 +230,7 @@ export default function Contact() {
           <div className="container" style={{ maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: 48 }}>
               <h2 style={{ fontSize: '2rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.contact.mapTitle}</h2>
-              <p style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic' }}>Au cœur des Alpes, entre authenticité et modernité.</p>
+              <p style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic' }}>{fr.contact.mapSubtitle}</p>
             </div>
             
             <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
