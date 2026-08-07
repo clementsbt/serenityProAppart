@@ -17,7 +17,7 @@ export default function Travaux() {
         {/* Hero Section */}
         <section style={{ position: 'relative', height: 400, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img
+            <img loading="lazy"
               src="/travaux-hero.webp"
               alt="Valfréjus ski resort at dusk"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}

@@ -17,7 +17,7 @@ export default function Location() {
         {/* Hero Section */}
         <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img 
+            <img loading="lazy" 
               src="/blanchisserie-hero.webp" 
               alt="Luxury mountain chalet bedroom with pristine white linens" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -105,7 +105,7 @@ export default function Location() {
             {/* Alimentaire Card */}
             <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
-                <img 
+                <img loading="lazy" 
                   src="/kit-alimentaire.webp" 
                   alt="Produits locaux Alpine" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -126,7 +126,7 @@ export default function Location() {
             {/* Hygiène Card */}
             <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
-                <img 
+                <img loading="lazy" 
                   src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=600&h=400&fit=crop" 
                   alt="Produits d'hygiène" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}

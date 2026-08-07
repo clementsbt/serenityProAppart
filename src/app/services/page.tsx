@@ -80,7 +80,7 @@ export default function ServicesLocations() {
           </span>
         </button>
 
-        <Link href="/" className="navbar-logo"><img src="/logo.webp" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} /><span>Serenity Pro Appart</span></Link>
+        <Link href="/" className="navbar-logo"><img loading="lazy" src="/logo.webp" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} /><span>Serenity Pro Appart</span></Link>
 
         <Link href="/contact" className="btn-primary">Nous contacter</Link>
       </header>
@@ -305,7 +305,7 @@ export default function ServicesLocations() {
                   >
                     {location.badge}
                   </div>
-                  <img
+                  <img loading="lazy"
                     src={location.image}
                     alt={location.title}
                     style={{

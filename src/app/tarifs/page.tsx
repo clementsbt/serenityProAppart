@@ -17,7 +17,7 @@ export default function Tarifs() {
         {/* Hero Section */}
         <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img 
+            <img loading="lazy" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnmmG5XitX1wL2UVH3H5Sp6gk1G6QJAZI51D5Y0lpw8Evxkq4QCLuAv1AT14k_miuJc4HZ2ENRprP2jV4gCEGRuOdie7moNtomm0gSBNZRE5i-12TVlmbTc7JGe0ES_xOHeYDIsPOcXigQRoEJsXFSJGkuNAx1AxZTS6a2puMVDu8WGoWIVHixnT2dbYf9iKgOhEBQ0XlECkCnxeFVL23SU5oasxOqRPN57aE0FB9Fzya1wQZue3Wy" 
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}

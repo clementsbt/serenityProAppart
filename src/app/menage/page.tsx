@@ -17,7 +17,7 @@ export default function Menage() {
         {/* Hero Section */}
         <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-            <img 
+            <img loading="lazy" 
               src="/menage-hero.webp" 
               alt="Luxury alpine chalet interior"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
