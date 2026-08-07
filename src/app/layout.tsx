@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "Serenity Pro Appart | Conciergerie & Gestion Locative Valfréjus",
     template: "%s | Serenity Pro Appart",
   },
-  description: "Serenity Pro Appart - Conciergerie et gestion locative à Valfréjus. Gestion Airbnb, location saisonnière, intendance résidence secondaire, ménage, gestion des clés et maximisation des revenus locatifs à Valfréjus en Savoie.",
+  description: "Serenity Pro Appart, votre conciergerie à Valfréjus : ménage, remise des clés, check-out et location de kits de draps et serviettes.",
   keywords: [
     "conciergerie Valfréjus",
     "conciergerie Airbnb Valfréjus",
