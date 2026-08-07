@@ -108,7 +108,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-bg">
           <img
-            src="https://www.modane.fr/app/uploads/2025/08/MAIRIE-MODANE-152.webp"
+            src="https://www.modane.fr/app/uploads/2025/08/MAIRIE-MODANE-152.jpg"
             alt="Valfréjus Mountains"
           />
         </div>
