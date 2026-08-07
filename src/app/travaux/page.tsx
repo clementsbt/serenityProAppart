@@ -18,7 +18,7 @@ export default function Travaux() {
         <section style={{ position: 'relative', height: 400, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img
-              src="/travaux-hero.jpg"
+              src="/travaux-hero.webp"
               alt="Valfréjus ski resort at dusk"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />

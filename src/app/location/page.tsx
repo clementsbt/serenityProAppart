@@ -18,7 +18,7 @@ export default function Location() {
         <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="/blanchisserie-hero.jpg" 
+              src="/blanchisserie-hero.webp" 
               alt="Luxury mountain chalet bedroom with pristine white linens" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
@@ -106,7 +106,7 @@ export default function Location() {
             <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img 
-                  src="/kit-alimentaire.jpg" 
+                  src="/kit-alimentaire.webp" 
                   alt="Produits locaux Alpine" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />

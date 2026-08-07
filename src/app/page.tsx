@@ -108,13 +108,13 @@ export default function Home() {
       <section className="hero">
         <div className="hero-bg">
           <img
-            src="https://www.modane.fr/app/uploads/2025/08/MAIRIE-MODANE-152.jpg"
+            src="https://www.modane.fr/app/uploads/2025/08/MAIRIE-MODANE-152.webp"
             alt="Valfréjus Mountains"
           />
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content container">
-          <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 180, height: 180, borderRadius: '50%', objectFit: 'cover', marginBottom: 24, border: '3px solid white', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }} />
+          <img src="/logo.webp" alt="Serenity Pro Appart" style={{ width: 180, height: 180, borderRadius: '50%', objectFit: 'cover', marginBottom: 24, border: '3px solid white', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }} />
           <h1>{fr.home.heroTitle}</h1>
           <p>
             {fr.home.heroSubtitle}
@@ -162,7 +162,7 @@ export default function Home() {
         <div className="about-container">
           <div className="about-image">
             <div className="about-image-wrapper">
-              <img src="/lou.jpg" alt="Lou - Fondatrice des Clés du Charmaix" />
+              <img src="/lou.webp" alt="Lou - Fondatrice des Clés du Charmaix" />
             </div>
             <div className="about-image-badge">
               <h3>Lou</h3>

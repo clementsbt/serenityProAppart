@@ -22,7 +22,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
           <span className="material-symbols-outlined" style={{ fontSize: 28 }}>menu</span>
         </button>
         <Link href="/" className="navbar-logo">
-          <img src="/logo.png" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
+          <img src="/logo.webp" alt="Serenity Pro Appart" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
           <span>Serenity Pro Appart</span>
         </Link>
         <div className="navbar-links">

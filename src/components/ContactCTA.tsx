@@ -21,7 +21,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
         <div style={{ display: 'flex', alignItems: 'center', gap: 24, flexWrap: 'wrap', justifyContent: 'center', marginBottom: 24 }}>
           <div style={{ position: 'relative' }}>
             <img 
-              src="/lou.jpg" 
+              src="/lou.webp" 
               alt={fr.common.louFounder} 
               style={{ width: 96, height: 96, borderRadius: '50%', objectFit: 'cover', border: '4px solid white', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} 
             />

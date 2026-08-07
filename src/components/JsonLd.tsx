@@ -45,7 +45,7 @@ export const localBusinessSchema = {
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "21:00" }
   ],
   "priceRange": "€€",
-  "image": "https://serenityproappart.com/logo.png",
+  "image": "https://serenityproappart.com/logo.webp",
   "sameAs": [
     "https://instagram.com/serenityproappart"
   ]
@@ -57,7 +57,7 @@ export const organizationSchema = {
   "@type": "Organization",
   "name": "Serenity Pro Appart",
   "url": "https://serenityproappart.com",
-  "logo": "https://serenityproappart.com/logo.png",
+  "logo": "https://serenityproappart.com/logo.webp",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+33781462132",

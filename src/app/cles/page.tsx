@@ -17,7 +17,7 @@ export default function Cles() {
         <section style={{ position: 'relative', height: 500, overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <img 
-              src="/cles-hero.jpg" 
+              src="/cles-hero.webp" 
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
