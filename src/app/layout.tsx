@@ -31,7 +31,9 @@ export const metadata: Metadata = {
     "conciergerie propriétaire Valfréjus",
     "Léa Lou Simon Valfréjus",
     "Savoie",
-    "Modane"
+    "Modane",
+    "conciergerie France",
+    "France"
   ],
   authors: [{ name: "Serenity Pro Appart" }],
   creator: "Serenity Pro Appart",
