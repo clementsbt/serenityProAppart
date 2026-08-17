@@ -95,13 +95,6 @@ export default function MentionsLegales() {
           </section>
 
           <section style={{ marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.cookiesTitle}</h2>
-            <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
-              {fr.mentionsLegales.cookiesText}
-            </p>
-          </section>
-
-          <section style={{ marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.mentionsLegales.lawTitle}</h2>
             <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.7 }}>
               {fr.mentionsLegales.lawText}
