@@ -17,7 +17,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: 'Serenity Pro Appart <onboarding@resend.dev>',
-      to: 'clementsubtil2006@gmail.com',
+      to: 'clmntsubtil@gmail.com',
       subject: `Nouveau message: ${subject || 'Sans objet'}`,
       html: `
         <h2>Nouveau message depuis le site</h2>
