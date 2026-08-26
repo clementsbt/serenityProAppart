@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     console.log('Sending email with Resend...');
     const data = await resend.emails.send({
       from: 'Serenity Pro Appart <onboarding@resend.dev>',
-      to: 'clmntsubtil@gmail.com',
+      to: 'simonlou74@gmail.com',
       subject: `Nouveau message: ${subject || 'Sans objet'}`,
       html: `
         <h2>Nouveau message depuis le site</h2>
