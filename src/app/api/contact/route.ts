@@ -15,6 +15,7 @@ export async function POST(request: Request) {
       );
     }
 
+    console.log('Sending email with Resend...');
     const data = await resend.emails.send({
       from: 'Serenity Pro Appart <onboarding@resend.dev>',
       to: 'clmntsubtil@gmail.com',
@@ -30,6 +31,7 @@ export async function POST(request: Request) {
       replyTo: email,
     });
 
+    console.log('Resend response:', data);
     return NextResponse.json({ success: true, data });
   } catch (error) {
     console.error('Resend error:', error);
