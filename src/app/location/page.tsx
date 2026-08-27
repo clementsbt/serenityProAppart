@@ -160,15 +160,11 @@ export default function Location() {
             <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.expertiseSubtitle}</p>
           </div>
           
-          <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
-            {/* Left column - dark */}
-            <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.location.expertiseSectionTitle}</h3>
-              <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
-                {fr.location.expertiseSectionDesc}
-              </p>
-            </div>
-            
+          <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', background: 'var(--primary)', padding: '32px 24px' }}>
+            <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.location.expertiseSectionTitle}</h3>
+            <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
+              {fr.location.expertiseSectionDesc}
+            </p>
           </div>
         </section>
 
