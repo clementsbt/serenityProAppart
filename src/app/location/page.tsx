@@ -146,28 +146,6 @@ export default function Location() {
           </div>
         </section>
 
-        {/* Divider */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: 768, margin: '0 auto', opacity: 0.5 }}>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
-          <span className="material-symbols-outlined" style={{ color: 'var(--outline-variant)', margin: '0 16px', fontSize: 20 }}>landscape</span>
-          <div style={{ flex: 1, borderTop: '1px solid var(--outline-variant)' }}></div>
-        </div>
-
-        {/* Expertise Technique Section */}
-        <section style={{ padding: '48px 16px 96px', maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.location.expertiseTitle}</h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.expertiseSubtitle}</p>
-          </div>
-          
-          <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', background: 'var(--primary)', padding: '32px 24px' }}>
-            <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.location.expertiseSectionTitle}</h3>
-            <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
-              {fr.location.expertiseSectionDesc}
-            </p>
-          </div>
-        </section>
-
         <ContactCTA />
       </main>
 
