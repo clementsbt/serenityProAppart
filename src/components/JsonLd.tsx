@@ -24,7 +24,7 @@ export const localBusinessSchema = {
   "email": "serenityproappart@gmail.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "735 rue du cheval",
+    "streetAddress": "120 rue des Bettets",
     "addressLocality": "Valfréjus",
     "postalCode": "73500",
     "addressRegion": "Savoie",
