@@ -26,7 +26,7 @@ export default function Travaux() {
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-              <span style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(184, 101, 144, 0.1)', border: '1px solid rgba(184, 101, 144, 0.2)', padding: '4px 12px', borderRadius: 20, color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600 }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(188, 97, 39, 0.1)', border: '1px solid rgba(188, 97, 39, 0.2)', padding: '4px 12px', borderRadius: 20, color: 'var(--secondary)', fontSize: '0.75rem', fontWeight: 600 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 18 }}>verified</span>
                 {fr.travaux.heroTag}
               </span>
@@ -42,8 +42,8 @@ export default function Travaux() {
             {/* Services Grid - Responsive */}
             <div style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
               {/* Gros Travaux */}
-              <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(184, 101, 144, 0.15)' }}>
-                <div style={{ width: 64, height: 64, background: 'rgba(184, 101, 144, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
+              <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(188, 97, 39, 0.15)' }}>
+                <div style={{ width: 64, height: 64, background: 'rgba(188, 97, 39, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>architecture</span>
                 </div>
                 <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.card1Title}</h3>
@@ -67,8 +67,8 @@ export default function Travaux() {
               </div>
 
               {/* Réparations Rapides */}
-              <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(184, 101, 144, 0.15)' }}>
-                <div style={{ width: 64, height: 64, background: 'rgba(184, 101, 144, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
+              <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(188, 97, 39, 0.15)' }}>
+                <div style={{ width: 64, height: 64, background: 'rgba(188, 97, 39, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>handyman</span>
                 </div>
                 <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.card2Title}</h3>
@@ -151,14 +151,14 @@ export default function Travaux() {
             <ContactCTA />
 
             <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48 }}>
-              <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(184, 101, 144, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+              <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>calendar_today</span>
                 <div>
                   <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.travaux.micro1Title}</h5>
                   <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.travaux.micro1Desc}</p>
                 </div>
               </div>
-              <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(184, 101, 144, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+              <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>handyman</span>
                 <div>
                   <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.travaux.micro2Title}</h5>

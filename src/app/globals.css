@@ -6,12 +6,12 @@
   --primary-container: #001e42;
   --on-primary-container: #6f87b0;
   
-  --secondary: #B86590;
+  --secondary: #BC6127;
   --on-secondary: #ffffff;
-  --secondary-container: #CC8FAE;
-  --on-secondary-container: #5a2a47;
-  --secondary-fixed: #e8c4d4;
-  --on-secondary-fixed: #3d1a2f;
+  --secondary-container: #F3B785;
+  --on-secondary-container: #5a2a10;
+  --secondary-fixed: #F9ECDF;
+  --on-secondary-fixed: #4a2a10;
   
   --background: #F4F1EA;
   --on-background: #001e42;
@@ -38,8 +38,8 @@
   --success: #155724;
   --success-light: #d4edda;
   --online: #22c55e;
-  --gold: #B86590;
-  --gold-light: #CC8FAE;
+  --gold: #BC6127;
+  --gold-light: #F3B785;
   --contact-bg: #F2F5F7;
   
   --font-heading: 'Libre Caslon Text', serif;
@@ -273,7 +273,7 @@ button {
   background: #F4F1EA;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
-  border: 1px solid rgba(184, 101, 144, 0.2);
+  border: 1px solid rgba(188, 97, 39, 0.2);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -387,7 +387,7 @@ button {
   border-radius: 12px;
   padding: 32px;
   box-shadow: var(--shadow-luxury);
-  border: 1px solid rgba(184, 101, 144, 0.15);
+  border: 1px solid rgba(188, 97, 39, 0.15);
   transition: all 0.3s;
 }
 
@@ -509,7 +509,7 @@ button {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-luxury);
-  border: 1px solid rgba(184, 101, 144, 0.1);
+  border: 1px solid rgba(188, 97, 39, 0.1);
   transition: all 0.3s;
 }
 
@@ -937,7 +937,7 @@ button {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 30, 66, 0.15);
-  border: 1px solid rgba(184, 101, 144, 0.3);
+  border: 1px solid rgba(188, 97, 39, 0.3);
 }
 
 .about-image-wrapper img {
@@ -959,7 +959,7 @@ button {
   padding: 20px 24px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
-  border: 1px solid rgba(184, 101, 144, 0.3);
+  border: 1px solid rgba(188, 97, 39, 0.3);
 }
 
 .about-image-badge h3 {
@@ -1019,7 +1019,7 @@ button {
 /* Mountain Divider */
 .mountain-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(184, 101, 144, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(188, 97, 39, 0.5), transparent);
   position: relative;
   margin: 60px auto;
   max-width: 60%;
@@ -1041,7 +1041,7 @@ button {
 /* Gold Divider */
 .gold-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(184, 101, 144, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(188, 97, 39, 0.5), transparent);
   width: 100px;
   margin: 24px auto;
   position: relative;
@@ -1097,7 +1097,7 @@ button {
   padding: 32px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
-  border: 1px solid rgba(184, 101, 144, 0.3);
+  border: 1px solid rgba(188, 97, 39, 0.3);
 }
 
 @media (min-width: 768px) {

@@ -41,9 +41,9 @@ export default function Tarifs() {
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
           {/* Divider avec clé */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(188, 97, 39, 0.3)' }}></div>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(188, 97, 39, 0.3)' }}></div>
           </div>
         </div>
 
@@ -63,11 +63,11 @@ export default function Tarifs() {
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card1Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>70 €</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card1Price3}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
                 </div>
@@ -86,7 +86,7 @@ export default function Tarifs() {
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card2Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>60 €</span>
                 </div>
@@ -105,15 +105,15 @@ export default function Tarifs() {
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price1}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>15 €</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price3}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(184, 101, 144, 0.2)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price5}</span>
                   <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>5 €</span>
                 </div>
