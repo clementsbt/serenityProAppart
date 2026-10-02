@@ -127,7 +127,7 @@ export default function Contact() {
 
               {/* Horaires */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
+                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(184, 101, 144, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.scheduleTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -164,7 +164,7 @@ export default function Contact() {
 
               {/* Coordonnées */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
+                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(184, 101, 144, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.contactTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -203,7 +203,7 @@ export default function Contact() {
 
               {/* Langues parlées */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(197, 160, 89, 0.3)', height: '100%' }}>
+                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(184, 101, 144, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.languagesTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -234,7 +234,7 @@ export default function Contact() {
               <p style={{ color: 'var(--on-surface-variant)', fontStyle: 'italic' }}>{fr.contact.mapSubtitle}</p>
             </div>
             
-            <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(197, 160, 89, 0.3)' }}>
+            <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(184, 101, 144, 0.3)' }}>
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.233456789!2d6.65!3d45.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s120%20Rue%20des%20Bettets%2C%2073500%20Valfrejus!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
                 width="100%" 

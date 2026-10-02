@@ -40,9 +40,9 @@ export default function Menage() {
 
         {/* Divider avec clé */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
-          <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+          <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
           <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
-          <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+          <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
         </div>
 
         {/* Protocol Section - Bento Grid */}

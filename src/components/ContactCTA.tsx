@@ -16,7 +16,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
         borderRadius: 16, 
         padding: 32, 
         boxShadow: 'var(--shadow-luxury)',
-        border: '1px solid rgba(197, 160, 89, 0.2)' 
+        border: '1px solid rgba(184, 101, 144, 0.2)' 
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 24, flexWrap: 'wrap', justifyContent: 'center', marginBottom: 24 }}>
           <div style={{ position: 'relative' }}>

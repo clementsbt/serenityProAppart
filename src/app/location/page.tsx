@@ -41,9 +41,9 @@ export default function Location() {
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
           {/* Divider avec clé */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '48px 0' }}>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', margin: '0 16px' }}>key</span>
-            <div style={{ flex: 1, borderTop: '1px solid rgba(197, 160, 89, 0.3)' }}></div>
+            <div style={{ flex: 1, borderTop: '1px solid rgba(184, 101, 144, 0.3)' }}></div>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export default function Location() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Draps Card */}
             <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
+              <div style={{ background: 'rgba(184, 101, 144, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.drapsTitle}</h3>
@@ -71,7 +71,7 @@ export default function Location() {
 
             {/* Serviettes Card */}
             <div className="card-hover" style={{ background: 'var(--surface-container-low)', borderRadius: 12, padding: 32, boxShadow: 'var(--shadow-luxury)', borderTop: '3px solid var(--secondary)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ background: 'rgba(197, 160, 89, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
+              <div style={{ background: 'rgba(184, 101, 144, 0.2)', width: 48, height: 48, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.serviettesTitle}</h3>
