@@ -22,7 +22,7 @@ export default function Menage() {
               alt="Luxury alpine chalet interior"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface-container-low) 0%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
@@ -61,7 +61,7 @@ export default function Menage() {
             </div>
 
             {/* Item 2 - Cuisine */}
-            <div className="card-hover" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '3px solid #c5a059' }}>
+            <div className="card-hover" style={{ background: 'var(--surface-container-lowest)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '3px solid var(--gold)' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 40, color: 'var(--primary)', marginBottom: 16 }}>countertops</span>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.menage.card2Title}</h3>
               <p style={{ color: 'var(--on-surface-variant)', lineHeight: 1.6 }}>{fr.menage.card2Desc}</p>
@@ -76,7 +76,7 @@ export default function Menage() {
 
             {/* Item 4 - Inspection Finale */}
             <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-              <span className="material-symbols-outlined" style={{ fontSize: 48, color: '#e9c176', marginBottom: 16 }}>verified</span>
+              <span className="material-symbols-outlined" style={{ fontSize: 48, color: 'var(--gold-light)', marginBottom: 16 }}>verified</span>
               <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>{fr.menage.card4Title}</h3>
               <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>{fr.menage.card4Desc}</p>
             </div>

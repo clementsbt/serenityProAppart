@@ -25,7 +25,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
               alt={fr.common.louFounder} 
               style={{ width: 96, height: 96, borderRadius: '50%', objectFit: 'cover', border: '4px solid white', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} 
             />
-            <div style={{ position: 'absolute', bottom: 0, right: 0, width: 24, height: 24, background: '#22c55e', borderRadius: '50%', border: '2px solid white' }}></div>
+            <div style={{ position: 'absolute', bottom: 0, right: 0, width: 24, height: 24, background: 'var(--online)', borderRadius: '50%', border: '2px solid white' }}></div>
           </div>
           <div style={{ textAlign: 'center' }}>
             <h4 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.common.needAssistance}</h4>

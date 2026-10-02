@@ -34,6 +34,14 @@
   
   --error: #ba1a1a;
   
+  /* Additional colors used in components */
+  --success: #155724;
+  --success-light: #d4edda;
+  --online: #22c55e;
+  --gold: #C5A059;
+  --gold-light: #e9c176;
+  --contact-bg: #F2F5F7;
+  
   --font-heading: 'Libre Caslon Text', serif;
   --font-body: 'Manrope', sans-serif;
   

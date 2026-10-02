@@ -21,7 +21,7 @@ export default function Cles() {
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface-container-low) 0%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
@@ -50,7 +50,7 @@ export default function Cles() {
         <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Card 1 - Check-out */}
-            <div className="card-hover" style={{ background: '#ffffff', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
+            <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
               <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>concierge</span>
               </div>
@@ -75,7 +75,7 @@ export default function Cles() {
             </div>
 
             {/* Card 2 - Contrôle */}
-            <div className="card-hover" style={{ background: '#ffffff', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
+            <div className="card-hover" style={{ background: 'var(--surface)', borderRadius: 12, padding: 40, boxShadow: '0 10px 20px -5px rgba(0, 30, 66, 0.08)', border: '1px solid rgba(197, 160, 89, 0.15)' }}>
               <div style={{ width: 64, height: 64, background: 'rgba(197, 160, 89, 0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 32 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 32, color: 'var(--primary)' }}>inventory</span>
               </div>
@@ -158,14 +158,14 @@ export default function Cles() {
 
         {/* Features Micro-Cards */}
         <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48, maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
-          <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>verified</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust1}</h5>
               <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.cles.trust1Desc}</p>
             </div>
           </div>
-          <div style={{ padding: 24, background: '#F4F1EA', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(197, 160, 89, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>schedule</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust2}</h5>

@@ -22,7 +22,7 @@ export default function Tarifs() {
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #f5f3f3 0%, transparent 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface-container-low) 0%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
@@ -52,7 +52,7 @@ export default function Tarifs() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             
             {/* Category 1: Ménage */}
-            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid #e9c176', position: 'relative', overflow: 'hidden' }}>
+            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid var(--gold-light)', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>cleaning_services</span>
               </div>
@@ -75,7 +75,7 @@ export default function Tarifs() {
             </div>
 
             {/* Category 2: Conciergerie */}
-            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid #e9c176', position: 'relative', overflow: 'hidden' }}>
+            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid var(--gold-light)', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>key</span>
               </div>
@@ -94,7 +94,7 @@ export default function Tarifs() {
             </div>
 
             {/* Category 3: Linge */}
-            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid #e9c176', position: 'relative', overflow: 'hidden' }}>
+            <div className="card-hover" style={{ background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(12px)', borderRadius: 12, padding: 32, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', borderTop: '4px solid var(--gold-light)', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: 0, right: 0, padding: 16, opacity: 0.1 }}>
                 <span className="material-symbols-outlined" style={{ fontSize: 64, color: 'var(--primary)' }}>checkroom</span>
               </div>
@@ -130,7 +130,7 @@ export default function Tarifs() {
             <p style={{ fontSize: '1.125rem', color: 'var(--on-primary-container)', lineHeight: 1.7 }}>
               {fr.tarifs.ctaSubtitle}
             </p>
-            <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: '#e9c176', color: '#261900', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
+            <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: 'var(--gold-light)', color: 'var(--on-secondary-fixed)', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
               {fr.tarifs.ctaButton}
             </Link>
           </div>
