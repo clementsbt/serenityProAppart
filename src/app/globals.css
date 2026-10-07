@@ -13,7 +13,7 @@
   --secondary-fixed: #FBEFDF;
   --on-secondary-fixed: #4a2a10;
   
-  --background: #F4F1EA;
+  --background: #F9ECDF;
   --on-background: #001e42;
   --surface: #fbf9f8;
   --on-surface: #001e42;
@@ -103,7 +103,7 @@ button {
   left: 0;
   right: 0;
   height: 80px;
-  background: rgba(244, 241, 234, 0.95);
+  background: rgba(249, 236, 223, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(119, 90, 25, 0.2);
   z-index: 100;
@@ -270,7 +270,7 @@ button {
 }
 
 .stats-grid {
-  background: #F4F1EA;
+  background: #F9ECDF;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
   border: 1px solid rgba(188, 97, 39, 0.2);
@@ -383,7 +383,7 @@ button {
 }
 
 .service-card {
-  background: #F4F1EA;
+  background: #F9ECDF;
   border-radius: 12px;
   padding: 32px;
   box-shadow: var(--shadow-luxury);
@@ -505,7 +505,7 @@ button {
 }
 
 .location-card {
-  background: #F4F1EA;
+  background: #F9ECDF;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-luxury);
@@ -955,7 +955,7 @@ button {
   position: absolute;
   bottom: 24px;
   left: -16px;
-  background: #F4F1EA;
+  background: #F9ECDF;
   padding: 20px 24px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
@@ -1093,7 +1093,7 @@ button {
 }
 
 .contact-form {
-  background: #F4F1EA;
+  background: #F9ECDF;
   padding: 32px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
