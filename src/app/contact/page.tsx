@@ -127,7 +127,7 @@ export default function Contact() {
 
               {/* Horaires */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
+                <div style={{ background: '#ffffff', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.scheduleTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -164,7 +164,7 @@ export default function Contact() {
 
               {/* Coordonnées */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
+                <div style={{ background: '#ffffff', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.contactTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>
@@ -203,7 +203,7 @@ export default function Contact() {
 
               {/* Langues parlées */}
               <div className="card card-hover">
-                <div style={{ background: 'var(--background)', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
+                <div style={{ background: '#ffffff', padding: 32, borderRadius: 12, boxShadow: 'var(--shadow-luxury)', border: '1px solid rgba(188, 97, 39, 0.3)', height: '100%' }}>
                   <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 24 }}>{fr.contact.languagesTitle}</h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 12, borderRadius: 8, background: 'var(--surface-container)' }}>

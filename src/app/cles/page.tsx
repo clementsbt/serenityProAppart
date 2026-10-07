@@ -117,7 +117,7 @@ export default function Cles() {
             </div>
             
             {/* Right column - light with 2x2 grid */}
-            <div style={{ background: 'var(--background)', padding: '32px 24px' }}>
+            <div style={{ background: '#ffffff', padding: '32px 24px' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
                 {/* Arrivée */}
                 <div style={{ display: 'flex', gap: 16 }}>
@@ -158,14 +158,14 @@ export default function Cles() {
 
         {/* Features Micro-Cards */}
         <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48, maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
-          <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: '#ffffff', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>verified</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust1}</h5>
               <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.cles.trust1Desc}</p>
             </div>
           </div>
-          <div style={{ padding: 24, background: 'var(--background)', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: '#ffffff', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 32 }}>schedule</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust2}</h5>
