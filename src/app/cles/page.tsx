@@ -21,7 +21,7 @@ export default function Cles() {
               alt="Luxury alpine resort interior" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--surface-container-low) 0%, transparent 100%)' }}></div>
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, var(--background) 0%, transparent 100%)' }}></div>
           </div>
           <div style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 16px 32px', maxWidth: 1280, margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
@@ -117,7 +117,7 @@ export default function Cles() {
             </div>
             
             {/* Right column - light with 2x2 grid */}
-            <div style={{ background: 'var(--surface-container-low)', padding: '32px 24px' }}>
+            <div style={{ background: 'var(--background)', padding: '32px 24px' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
                 {/* Arrivée */}
                 <div style={{ display: 'flex', gap: 16 }}>
