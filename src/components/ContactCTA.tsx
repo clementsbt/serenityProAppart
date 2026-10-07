@@ -12,7 +12,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
   return (
     <section style={{ padding: '0 16px', maxWidth: 1280, margin: '0 auto' }}>
       <div style={{ 
-        background: 'var(--surface-container-low)', 
+        background: '#ffffff', 
         borderRadius: 16, 
         padding: 32, 
         boxShadow: 'var(--shadow-luxury)',
