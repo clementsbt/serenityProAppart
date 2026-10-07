@@ -6,11 +6,11 @@
   --primary-container: #001e42;
   --on-primary-container: #6f87b0;
   
-  --secondary: #BC6127;
+  --secondary: #DB7024;
   --on-secondary: #ffffff;
-  --secondary-container: #F3B785;
+  --secondary-container: #F0C495;
   --on-secondary-container: #5a2a10;
-  --secondary-fixed: #F9ECDF;
+  --secondary-fixed: #FBEFDF;
   --on-secondary-fixed: #4a2a10;
   
   --background: #F4F1EA;
@@ -38,8 +38,8 @@
   --success: #155724;
   --success-light: #d4edda;
   --online: #22c55e;
-  --gold: #BC6127;
-  --gold-light: #F3B785;
+  --gold: #DB7024;
+  --gold-light: #F0C495;
   --contact-bg: #F2F5F7;
   
   --font-heading: 'Libre Caslon Text', serif;
