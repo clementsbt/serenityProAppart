@@ -13,7 +13,7 @@
   --secondary-fixed: #FBEFDF;
   --on-secondary-fixed: #4a2a10;
   
-  --background: #F9ECDF;
+  --background: #ffffff;
   --on-background: #001e42;
   --surface: #ffffff;
   --on-surface: #001e42;
@@ -271,7 +271,7 @@ button {
 }
 
 .stats-grid {
-  background: #F9ECDF;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
   border: 1px solid rgba(188, 97, 39, 0.2);
@@ -384,7 +384,7 @@ button {
 }
 
 .service-card {
-  background: #F9ECDF;
+  background: #ffffff;
   border-radius: 12px;
   padding: 32px;
   box-shadow: var(--shadow-luxury);
@@ -506,7 +506,7 @@ button {
 }
 
 .location-card {
-  background: #F9ECDF;
+  background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-luxury);
@@ -956,7 +956,7 @@ button {
   position: absolute;
   bottom: 24px;
   left: -16px;
-  background: #F9ECDF;
+  background: #ffffff;
   padding: 20px 24px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
@@ -1094,7 +1094,7 @@ button {
 }
 
 .contact-form {
-  background: #F9ECDF;
+  background: #ffffff;
   padding: 32px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);

@@ -3,6 +3,8 @@
     "disponibilite": "Disponibilité",
     "presente": "Présente",
     "annee": "À l'année",
+    "priorite": "Priorité",
+    "frejus": "Fréjus",
     "louFounder": "Lou - Fondatrice",
     "needAssistance": "Besoin d'assistance ?",
     "louAvailable": "Lou est disponible pour les demandes personnalisées et interventions urgentes à Valfréjus.",
@@ -57,8 +59,13 @@
     "menageCardDesc": "Un service soigné pour préparer votre appartement entre deux séjours. Nettoyage complet, aération et vérification des points essentiels.",
     "travauxCardTitle": "Gros travaux / rénovation et Réparation rapides",
     "travauxCardDesc": "Petite maintenance et réparations rapides pour maintenir votre bien en parfait état. Réactivité et fiabilité au cœur de nos montagnes.",
-    "travauxCardTag1": "Maintenance",
-    "travauxCardTag2": "Réparations"
+    "travauxCardTag1": "Gros travaux / Rénovation",
+    "travauxCardTag2": "Réparation rapide",
+    "travauxRenoCardDesc": "Mise en relation avec les meilleurs artisans de la région pour tous vos projets de rénovation.",
+    "reparationCardTitle": "Réparation rapide",
+    "reparationCardDesc": "Intervention rapide pour les petits problèmes - du remplacement de luminaire à l'ajustement de porte.",
+    "louContactCardTitle": "Louez votre contact",
+    "louContactCardDesc": "Votre interlocuteur privilégié pour tous vos besoins à Valfréjus et surroundings."
   },
   "cles": {
     "heroTag": "Premium Service",
