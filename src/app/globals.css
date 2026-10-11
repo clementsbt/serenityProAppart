@@ -724,6 +724,7 @@ button {
   opacity: 0.8;
   font-size: 0.875rem;
   transition: opacity 0.2s;
+  color: #ffffff !important;
 }
 
 .footer-links a:hover {
