@@ -158,7 +158,7 @@ button {
 }
 
 .navbar-links a {
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   font-weight: 500;
   transition: color 0.3s;
 }
@@ -323,7 +323,7 @@ button {
 .stat-label {
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   letter-spacing: 0.05em;
 }
 
@@ -461,7 +461,7 @@ button {
 }
 
 .service-card p {
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   margin-bottom: 16px;
 }
 
@@ -473,7 +473,7 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   margin-bottom: 8px;
 }
 
@@ -580,7 +580,7 @@ button {
 .location-features {
   display: flex;
   gap: 16px;
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   font-size: 0.875rem;
   margin-bottom: 20px;
 }
@@ -820,7 +820,7 @@ button {
   gap: 12px;
   padding: 16px;
   border-radius: 8px;
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   transition: all 0.2s;
 }
 
@@ -998,7 +998,7 @@ button {
 }
 
 .about-content p {
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   margin-bottom: 16px;
   line-height: 1.8;
 }
@@ -1205,7 +1205,7 @@ button {
 .form-label {
   display: block;
   font-size: 0.875rem;
-  color: var(--on-surface-variant);
+  color: var(--on-surface);
   margin-bottom: 8px;
 }
 
