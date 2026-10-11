@@ -36,7 +36,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
           <Link href="/contact" style={{ padding: '14px 32px', background: 'var(--secondary)', color: 'white', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, textDecoration: 'none' }}>
             <span className="material-symbols-outlined" style={{color: "#ffffff !important"}}>mail</span>
             Nous contacter
-            <span className="material-symbols-outlined">arrow_forward</span>
+            <span className="material-symbols-outlined" style={{color: "#ffffff !important"}}>arrow_forward</span>
           </Link>
           <a href="tel:+33781462132" style={{ padding: '14px 32px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, textDecoration: 'none' }}>
             <span className="material-symbols-outlined">call</span>
