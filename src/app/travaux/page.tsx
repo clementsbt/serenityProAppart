@@ -100,9 +100,9 @@ export default function Travaux() {
               <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
                 {/* Left column - dark */}
                 <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>engineering</span>
-                  <h3 style={{ fontSize: '1.75rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.expertiseSectionTitle}</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>
+                  <span className="material-symbols-outlined" style={{ color: '#ffffff', fontSize: 48, marginBottom: 24 }}>engineering</span>
+                  <h3 style={{ fontSize: '1.75rem', color: '#ffffff', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.travaux.expertiseSectionTitle}</h3>
+                  <p style={{ color: '#ffffff', lineHeight: 1.7 }}>
                     {fr.travaux.expertiseSectionDesc}
                   </p>
                 </div>
@@ -112,7 +112,7 @@ export default function Travaux() {
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
                     {/* Chauffage */}
                     <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>thermostat</span>
+                      <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36)', fontSize: 28 }}>thermostat</span>
                       <div>
                         <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature1Title}</h4>
                         <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature1Desc}</p>
@@ -120,7 +120,7 @@ export default function Travaux() {
                     </div>
                     {/* Plomberie */}
                     <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>water_drop</span>
+                      <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36)', fontSize: 28 }}>water_drop</span>
                       <div>
                         <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature2Title}</h4>
                         <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature2Desc}</p>
@@ -128,7 +128,7 @@ export default function Travaux() {
                     </div>
                     {/* Electricité */}
                     <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bolt</span>
+                      <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36)', fontSize: 28 }}>bolt</span>
                       <div>
                         <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature3Title}</h4>
                         <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature3Desc}</p>
@@ -136,7 +136,7 @@ export default function Travaux() {
                     </div>
                     {/* Wifi */}
                     <div style={{ display: 'flex', gap: 16 }}>
-                      <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>wifi</span>
+                      <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36)', fontSize: 28 }}>wifi</span>
                       <div>
                         <h4 style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: 4 }}>{fr.travaux.feature4Title}</h4>
                         <p style={{ color: 'var(--on-surface-variant)', fontSize: '0.875rem' }}>{fr.travaux.feature4Desc}</p>
