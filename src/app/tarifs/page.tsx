@@ -126,8 +126,8 @@ export default function Tarifs() {
         {/* Call to Action */}
         <section style={{ background: 'var(--primary-container)', borderRadius: 12, padding: 48, textAlign: 'center', margin: '0 16px 96px', maxWidth: 1280, marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'relative', zIndex: 10, maxWidth: 600, margin: '0 auto' }}>
-            <h3 style={{ fontSize: '2rem', color: 'white', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.ctaTitle}</h3>
-            <p style={{ fontSize: '1.125rem', color: 'var(--on-primary-container)', lineHeight: 1.7 }}>
+            <h3 style={{ fontSize: '2rem', color: '#ffffff !important', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.tarifs.ctaTitle}</h3>
+            <p style={{ fontSize: '1.125rem', color: '#ffffff !important', lineHeight: 1.7 }}>
               {fr.tarifs.ctaSubtitle}
             </p>
             <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: 'var(--gold-light)', color: 'var(--on-secondary-fixed)', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
