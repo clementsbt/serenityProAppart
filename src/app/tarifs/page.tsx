@@ -130,7 +130,7 @@ export default function Tarifs() {
             <p style={{ fontSize: '1.125rem', color: '#ffffff !important', lineHeight: 1.7 }}>
               {fr.tarifs.ctaSubtitle}
             </p>
-            <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: 'var(--gold-light)', color: 'var(--on-secondary-fixed)', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
+            <Link href="/contact" style={{ display: 'inline-block', marginTop: 32, background: 'rgb(219, 112, 36)', color: '#ffffff', padding: '16px 32px', borderRadius: 4, fontWeight: 600, textDecoration: 'none', boxShadow: '0 4px 20px rgba(0,0,0,0.2)' }}>
               {fr.tarifs.ctaButton}
             </Link>
           </div>
