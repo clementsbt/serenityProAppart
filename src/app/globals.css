@@ -271,7 +271,7 @@ button {
 }
 
 .stats-grid {
-  background: #F9ECDF;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
   border: 1px solid rgba(188, 97, 39, 0.2);
@@ -956,7 +956,7 @@ button {
   position: absolute;
   bottom: 24px;
   left: -16px;
-  background: #F9ECDF;
+  background: #ffffff;
   padding: 20px 24px;
   border-radius: 12px;
   box-shadow: var(--shadow-luxury);
