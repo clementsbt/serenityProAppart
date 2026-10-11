@@ -34,8 +34,8 @@ export default function ContactCTA({ }: ContactCTAProps) {
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: '100%', maxWidth: 400, margin: '0 auto' }}>
           <Link href="/contact" style={{ padding: '14px 32px', background: 'var(--secondary)', color: 'white', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, textDecoration: 'none' }}>
-            <span className="material-symbols-outlined">chat</span>
-            {fr.common.contactLou}
+            <span className="material-symbols-outlined">mail</span>
+            Nous contacter
             <span className="material-symbols-outlined">arrow_forward</span>
           </Link>
           <a href="tel:+33781462132" style={{ padding: '14px 32px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, textDecoration: 'none' }}>
