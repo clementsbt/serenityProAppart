@@ -248,7 +248,7 @@ export default function ServicesLocations() {
                   {index === 0 ? "Détails du service" : "En savoir plus"}{" "}
                   <span
                     className="material-symbols-outlined"
-                    style={{ fontSize: 18 }}
+                    style={{ fontSize: 18, color: '#ffffff !important' }}
                   >
                     arrow_forward
                   </span>
@@ -341,7 +341,7 @@ export default function ServicesLocations() {
                       >
                         <span
                           className="material-symbols-outlined"
-                          style={{ fontSize: 18 }}
+                          style={{ fontSize: 18, color: '#ffffff !important' }}
                         >
                           {i === 0 ? 'bed' : i === 1 ? 'deck' : 'garage'}
                         </span>
