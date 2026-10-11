@@ -109,15 +109,15 @@ export default function Cles() {
           <div style={{ borderRadius: 16, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', display: 'grid', gridTemplateColumns: '1fr' }}>
             {/* Left column - dark */}
             <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <span className="material-symbols-outlined" style={{ color: '#ffffff', fontSize: 48, marginBottom: 24 }}>support_agent</span>
-              <h3 style={{ fontSize: '1.75rem', color: '#ffffff', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.commSectionTitle}</h3>
-              <p style={{ color: '#ffffff', lineHeight: 1.7 }}>
+              <span className="material-symbols-outlined" style={{ color: '#ffffff !important', fontSize: 48, marginBottom: 24 }}>support_agent</span>
+              <h3 style={{ fontSize: '1.75rem', color: '#ffffff !important', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.commSectionTitle}</h3>
+              <p style={{ color: '#ffffff !important', lineHeight: 1.7 }}>
                 {fr.cles.commSectionDesc}
               </p>
             </div>
             
             {/* Right column - light with 2x2 grid */}
-            <div style={{ background: '#ffffff', padding: '32px 24px' }}>
+            <div style={{ background: '#ffffff !important', padding: '32px 24px' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
                 {/* Arrivée */}
                 <div style={{ display: 'flex', gap: 16 }}>
@@ -158,14 +158,14 @@ export default function Cles() {
 
         {/* Features Micro-Cards */}
         <div style={{ display: 'grid', gap: 16, gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', marginTop: 48, maxWidth: 1280, margin: '0 auto', padding: '0 16px' }}>
-          <div style={{ padding: 24, background: '#ffffff', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: '#ffffff !important', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36) !important', fontSize: 32 }}>verified</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust1}</h5>
               <p style={{ fontSize: '0.875rem', color: 'var(--on-surface-variant)' }}>{fr.cles.trust1Desc}</p>
             </div>
           </div>
-          <div style={{ padding: 24, background: '#ffffff', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+          <div style={{ padding: 24, background: '#ffffff !important', border: '1px solid rgba(188, 97, 39, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'flex-start', gap: 16 }}>
             <span className="material-symbols-outlined" style={{ color: 'rgb(219, 112, 36) !important', fontSize: 32 }}>schedule</span>
             <div>
               <h5 style={{ fontSize: '0.875rem', color: 'var(--primary)', marginBottom: 4, fontWeight: 600 }}>{fr.cles.trust2}</h5>
