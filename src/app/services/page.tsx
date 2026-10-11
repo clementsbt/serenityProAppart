@@ -237,7 +237,7 @@ export default function ServicesLocations() {
                 <Link
                   href={service.link}
                   style={{
-                    color: 'var(--secondary)',
+                    color: '#ffffff !important',
                     fontWeight: 600,
                     fontSize: '0.875rem',
                     display: 'flex',
@@ -356,7 +356,7 @@ export default function ServicesLocations() {
                       border: '2px solid var(--secondary)',
                       borderRadius: 8,
                       background: 'transparent',
-                      color: 'var(--secondary)',
+                      color: '#ffffff !important',
                       fontWeight: 700,
                       cursor: 'pointer',
                     }}
@@ -397,7 +397,7 @@ export default function ServicesLocations() {
           ></div>
           <span
             className="material-symbols-outlined"
-            style={{ fontSize: 48, color: 'var(--secondary)', marginBottom: 16 }}
+            style={{ fontSize: 48, color: '#ffffff !important', marginBottom: 16 }}
           >
             key
           </span>
