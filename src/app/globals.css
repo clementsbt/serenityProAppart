@@ -3,7 +3,7 @@
 :root {
   --primary: #000000;
   --on-primary: #ffffff;
-  --primary-container: #001e42;
+  --primary-container: #000000;
   --on-primary-container: #6f87b0;
   
   --secondary: #DB7024;
@@ -14,7 +14,7 @@
   --on-secondary-fixed: #4a2a10;
   
   --background: #F9ECDF;
-  --on-background: #001e42;
+  --on-background: #000000;
   --surface: #ffffff;
   --on-surface: #334D5A;
   --surface-container: #ffffff;
@@ -253,7 +253,7 @@ button {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: #001e42 !important;
+  color: #000000 !important;
   margin-bottom: 16px;
   font-family: var(--font-heading);
 }
@@ -266,7 +266,7 @@ button {
 
 .hero p {
   font-size: 1.125rem;
-  color: #001e42 !important;
+  color: #000000 !important;
   max-width: 500px;
   text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
