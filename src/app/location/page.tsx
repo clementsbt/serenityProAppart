@@ -32,7 +32,7 @@ export default function Location() {
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
               {fr.location.heroTitle}
             </h1>
-            <p style={{ color: '#ffffff !important', marginTop: 16, maxWidth: 600 }}>
+            <p style={{ color: '#ffffff', marginTop: 16, maxWidth: 600 }}>
               {fr.location.heroSubtitle}
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function Location() {
         <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.location.section1Title}</h2>
-            <p style={{ color: '#ffffff !important' }}>{fr.location.section1Subtitle}</p>
+            <p style={{ color: '#ffffff' }}>{fr.location.section1Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
@@ -61,7 +61,7 @@ export default function Location() {
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.drapsTitle}</h3>
-              <p style={{ color: '#ffffff !important', marginBottom: 24, flex: 1 }}>
+              <p style={{ color: '#ffffff', marginBottom: 24, flex: 1 }}>
                 {fr.location.drapsDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
@@ -75,7 +75,7 @@ export default function Location() {
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.serviettesTitle}</h3>
-              <p style={{ color: '#ffffff !important', marginBottom: 24, flex: 1 }}>
+              <p style={{ color: '#ffffff', marginBottom: 24, flex: 1 }}>
                 {fr.location.serviettesDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
@@ -98,7 +98,7 @@ export default function Location() {
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>
               {fr.location.section2Title}
             </h2>
-            <p style={{ color: '#ffffff !important' }}>{fr.location.section2Subtitle}</p>
+            <p style={{ color: '#ffffff' }}>{fr.location.section2Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
@@ -113,11 +113,11 @@ export default function Location() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
                 <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
                   <span className="material-symbols-outlined" style={{ fontVariationSettings: "FILL 1", color: "#ffffff !important" }}>restaurant</span>
-                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff !important' }}>Alimentaire</h3>
+                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff' }}>Alimentaire</h3>
                 </div>
               </div>
               <div style={{ padding: 24 }}>
-                <p style={{ color: '#ffffff !important', marginBottom: 24 }}>
+                <p style={{ color: '#ffffff', marginBottom: 24 }}>
                   {fr.location.alimentaireDesc}
                 </p>
               </div>
@@ -134,11 +134,11 @@ export default function Location() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
                 <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
                   <span className="material-symbols-outlined" style={{ fontVariationSettings: 'FILL 1', color: '#ffffff !important' }}>cleaning_services</span>
-                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff !important' }}>{fr.location.hygieneTitle}</h3>
+                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff' }}>{fr.location.hygieneTitle}</h3>
                 </div>
               </div>
               <div style={{ padding: 24 }}>
-                <p style={{ color: '#ffffff !important', marginBottom: 24 }}>
+                <p style={{ color: '#ffffff', marginBottom: 24 }}>
                   {fr.location.hygieneDesc}
                 </p>
               </div>
