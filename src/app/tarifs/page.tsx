@@ -69,7 +69,7 @@ export default function Tarifs() {
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card1Price3}</span>
-                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
+                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>20 €</span>
                 </div>
               </div>
             </div>
@@ -107,15 +107,15 @@ export default function Tarifs() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price1}</span>
-                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>15 €</span>
+                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>25 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price3}</span>
-                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
+                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>20 €</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 12, borderBottom: '1px solid rgba(188, 97, 39, 0.2)' }}>
                   <span style={{ color: 'var(--on-surface)' }}>{fr.tarifs.card3Price5}</span>
-                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>5 €</span>
+                  <span style={{ fontSize: '1.5rem', color: 'var(--primary)', fontWeight: 600 }}>10 €</span>
                 </div>
               </div>
             </div>
