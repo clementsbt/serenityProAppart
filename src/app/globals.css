@@ -460,12 +460,12 @@ button {
 
 .service-card h3 {
   font-size: 1.5rem;
-  color: var(--primary);
+  color: var(--on-surface) !important;
   margin-bottom: 12px;
 }
 
 .service-card p {
-  color: var(--on-surface);
+  color: var(--on-surface) !important;
   margin-bottom: 16px;
 }
 
