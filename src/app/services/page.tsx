@@ -122,7 +122,7 @@ export default function ServicesLocations() {
               display: 'inline-block',
               padding: '4px 12px',
               background: 'var(--secondary-fixed)',
-              color: 'var(--on-secondary-fixed)',
+              color: '#ffffff',
               borderRadius: 20,
               fontSize: '0.75rem',
               fontWeight: 600,
@@ -411,7 +411,7 @@ export default function ServicesLocations() {
           <button
             style={{
               background: 'var(--secondary-fixed)',
-              color: 'var(--on-secondary-fixed)',
+              color: '#ffffff',
               padding: '12px 32px',
               borderRadius: 8,
               fontWeight: 700,
