@@ -631,10 +631,11 @@ button {
 .cta-section h2 {
   font-size: 2rem;
   margin-bottom: 16px;
+  color: #ffffff !important;
 }
 
 .cta-section p {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8) !important;
   margin-bottom: 32px;
   font-size: 1.125rem;
 }
@@ -700,7 +701,7 @@ button {
 }
 
 .footer h4 {
-  color: var(--secondary-fixed);
+  color: var(--secondary-fixed) !important;
   font-size: 1rem;
   margin-bottom: 16px;
 }
@@ -708,6 +709,7 @@ button {
 .footer p {
   opacity: 0.8;
   font-size: 0.875rem;
+  color: #ffffff !important;
 }
 
 .footer-links {
