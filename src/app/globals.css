@@ -253,7 +253,7 @@ button {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: #0F1921 !important;
+  color: #001e42 !important;
   margin-bottom: 16px;
   font-family: var(--font-heading);
 }
@@ -266,7 +266,7 @@ button {
 
 .hero p {
   font-size: 1.125rem;
-  color: #0F1921 !important;
+  color: #001e42 !important;
   max-width: 500px;
   text-shadow: 0 2px 18px rgba(0,0,0,0.28);
 }
