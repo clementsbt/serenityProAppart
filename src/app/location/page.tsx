@@ -113,7 +113,7 @@ export default function Location() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
                 <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
                   <span className="material-symbols-outlined" style={{ fontVariationSettings: "FILL 1", color: "#ffffff !important" }}>restaurant</span>
-                  <h3 style={{ fontSize: '1.25rem' }}>Alimentaire</h3>
+                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff' }}>Alimentaire</h3>
                 </div>
               </div>
               <div style={{ padding: 24 }}>
@@ -134,7 +134,7 @@ export default function Location() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,5,19,0.8), transparent)' }}></div>
                 <div style={{ position: 'absolute', bottom: 16, left: 24, display: 'flex', alignItems: 'center', gap: 8, color: 'white' }}>
                   <span className="material-symbols-outlined" style={{ fontVariationSettings: 'FILL 1', color: '#ffffff !important' }}>cleaning_services</span>
-                  <h3 style={{ fontSize: '1.25rem' }}>{fr.location.hygieneTitle}</h3>
+                  <h3 style={{ fontSize: '1.25rem', color: '#ffffff' }}>{fr.location.hygieneTitle}</h3>
                 </div>
               </div>
               <div style={{ padding: 24 }}>
