@@ -666,7 +666,7 @@ button {
 
 .cta-btn.primary {
   background: var(--secondary);
-  color: var(--on-secondary-fixed);
+  color: #ffffff;
 }
 
 .cta-btn.secondary {
