@@ -163,7 +163,7 @@ export default function ConciergerieValfrejus() {
         <div className="about-container">
           <div className="about-image">
             <div className="about-image-wrapper">
-              <img src="/lou.webp" alt="Lou - Fondatrice des Clés du Charmaix" loading="lazy" />
+              <img src="/lou.webp" alt="Lou - conciergerie Valfréjus Serenity Pro Appart" loading="lazy" />
             </div>
             <div className="about-image-badge">
               <h3>Lou</h3>
