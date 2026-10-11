@@ -10,7 +10,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
   const { t: fr } = useLanguage();
 
   return (
-    <section style={{ padding: '0 16px', maxWidth: 1280, margin: '0 auto' }}>
+    <section className="ContactCTA-section" style={{ padding: '0 16px', maxWidth: 1280, margin: '0 auto' }}>
       <div style={{ 
         background: '#ffffff', 
         borderRadius: 16, 

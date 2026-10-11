@@ -1220,3 +1220,6 @@ button {
   margin-bottom: 8px;
 }
 
+.ContactCTA-section .material-symbols-outlined {
+  color: inherit !important;
+}
