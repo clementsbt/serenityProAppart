@@ -32,7 +32,7 @@ export default function Location() {
             <h1 style={{ fontSize: '2rem', color: 'var(--primary)', lineHeight: 1.2 }}>
               {fr.location.heroTitle}
             </h1>
-            <p style={{ color: 'var(--on-surface-variant)', marginTop: 16, maxWidth: 600 }}>
+            <p style={{ color: '#ffffff', marginTop: 16, maxWidth: 600 }}>
               {fr.location.heroSubtitle}
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function Location() {
         <section style={{ padding: '0 16px 48px', maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>{fr.location.section1Title}</h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.section1Subtitle}</p>
+            <p style={{ color: '#ffffff' }}>{fr.location.section1Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
@@ -61,7 +61,7 @@ export default function Location() {
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>bed</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.drapsTitle}</h3>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
+              <p style={{ color: '#ffffff', marginBottom: 24, flex: 1 }}>
                 {fr.location.drapsDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
@@ -75,7 +75,7 @@ export default function Location() {
                 <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 28 }}>dry_cleaning</span>
               </div>
               <h3 style={{ fontSize: '1.25rem', color: 'var(--primary)', marginBottom: 12 }}>{fr.location.serviettesTitle}</h3>
-              <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24, flex: 1 }}>
+              <p style={{ color: '#ffffff', marginBottom: 24, flex: 1 }}>
                 {fr.location.serviettesDesc}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: 16, borderTop: '1px solid var(--surface-variant)' }}>
@@ -98,7 +98,7 @@ export default function Location() {
             <h2 style={{ fontSize: '1.75rem', color: 'var(--primary)', marginBottom: 8 }}>
               {fr.location.section2Title}
             </h2>
-            <p style={{ color: 'var(--on-surface-variant)' }}>{fr.location.section2Subtitle}</p>
+            <p style={{ color: '#ffffff' }}>{fr.location.section2Subtitle}</p>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
@@ -117,7 +117,7 @@ export default function Location() {
                 </div>
               </div>
               <div style={{ padding: 24 }}>
-                <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
+                <p style={{ color: '#ffffff', marginBottom: 24 }}>
                   {fr.location.alimentaireDesc}
                 </p>
               </div>
@@ -138,7 +138,7 @@ export default function Location() {
                 </div>
               </div>
               <div style={{ padding: 24 }}>
-                <p style={{ color: 'var(--on-surface-variant)', marginBottom: 24 }}>
+                <p style={{ color: '#ffffff', marginBottom: 24 }}>
                   {fr.location.hygieneDesc}
                 </p>
               </div>
