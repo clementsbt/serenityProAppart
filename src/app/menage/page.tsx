@@ -77,8 +77,8 @@ export default function Menage() {
             {/* Item 4 - Inspection Finale */}
             <div className="card-hover grid-span-2-mobile" style={{ background: 'var(--primary-container)', padding: 32, borderRadius: 12, boxShadow: '0 10px 20px rgba(0, 30, 66, 0.04)', gridColumn: 'span 2', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ fontSize: 48, color: 'var(--gold-light)', marginBottom: 16 }}>verified</span>
-              <h3 style={{ fontSize: '1.25rem', color: 'white', marginBottom: 12 }}>{fr.menage.card4Title}</h3>
-              <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: 400 }}>{fr.menage.card4Desc}</p>
+              <h3 style={{ fontSize: '1.25rem', color: '#ffffff !important', marginBottom: 12 }}>{fr.menage.card4Title}</h3>
+              <p style={{ color: '#ffffff', maxWidth: 400 }}>{fr.menage.card4Desc}</p>
             </div>
           </div>
         </section>
