@@ -670,7 +670,7 @@ button {
 }
 
 .cta-btn .material-symbols-outlined {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .cta-btn.secondary {
