@@ -18,7 +18,7 @@ export default function ConciergerieValfrejus() {
         fr.home.clesCardFeature1,
         fr.home.clesCardFeature2,
       ],
-      large: false,
+      large: true,
       href: "/cles",
     },
     {
@@ -36,37 +36,20 @@ export default function ConciergerieValfrejus() {
       href: "/menage",
     },
     {
-      icon: "construction",
+      icon: "build",
       title: fr.home.travauxCardTitle,
-      description: fr.home.travauxRenoCardDesc,
-      tags: [fr.home.travauxCardTag1],
-      large: false,
-      href: "/travaux",
-    },
-    {
-      icon: "handyman",
-      title: fr.home.reparationCardTitle,
-      description: fr.home.reparationCardDesc,
-      tags: [fr.home.travauxCardTag2],
-      large: false,
+      description: fr.home.travauxCardDesc,
+      tags: [fr.home.travauxCardTag1, fr.home.travauxCardTag2],
+      large: true,
       href: "/travaux",
     },
     {
       icon: "euro",
       title: fr.nav.tarifs,
       description: fr.tarifs.heroSubtitle,
-      large: false,
+      
+      extraLarge: true,
       href: fr.nav.tarifsRoute,
-    },
-    {
-      icon: "person",
-      title: fr.home.louContactCardTitle,
-      description: fr.home.louContactCardDesc,
-      features: [
-        fr.common.louContact,
-      ],
-      large: true,
-      href: "/contact",
     },
   ];
 
@@ -100,7 +83,7 @@ export default function ConciergerieValfrejus() {
       </>
     );
 
-    const cardClass = `service-card ${service.large ? "service-card-large" : "service-card-small"}`;
+    const cardClass = `service-card ${service.extraLarge ? "service-card-extra-large" : service.large ? "service-card-large" : "service-card-small"}`;
 
     if (service.href) {
       return (
@@ -156,11 +139,6 @@ export default function ConciergerieValfrejus() {
           <div className="stat-item">
             <p className="stat-number">{fr.common.presente}</p>
             <p className="stat-label">{fr.common.annee}</p>
-          </div>
-
-          <div className="stat-item">
-            <p className="stat-number">{fr.common.priorite}</p>
-            <p className="stat-label">{fr.common.frejus}</p>
           </div>
         </div>
       </section>
