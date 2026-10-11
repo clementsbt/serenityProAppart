@@ -1029,7 +1029,7 @@ button {
 }
 
 .about-features li .material-symbols-outlined {
-  color: var(--secondary);
+  color: var(--secondary) !important;
   font-size: 24px;
 }
 
