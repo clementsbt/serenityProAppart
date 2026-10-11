@@ -168,7 +168,7 @@ button {
 }
 
 .navbar-links a:hover {
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .navbar-links a.active {
@@ -320,7 +320,7 @@ button {
 .stat-number {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  color: var(--primary);
+  color: var(--primary) !important;
   font-weight: 600;
 }
 
@@ -360,7 +360,7 @@ button {
 
 .section-title {
   font-size: 2rem;
-  color: var(--primary);
+  color: var(--primary) !important;
   margin-bottom: 16px;
 }
 
@@ -455,7 +455,7 @@ button {
 
 .service-icon .material-symbols-outlined {
   font-size: 28px;
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .service-card h3 {
@@ -495,7 +495,7 @@ button {
 
 .service-tag {
   background: rgba(0, 5, 19, 0.05);
-  color: var(--primary);
+  color: var(--primary) !important;
   padding: 4px 12px;
   border-radius: 20px;
   font-size: 0.875rem;
@@ -577,7 +577,7 @@ button {
 
 .location-content h3 {
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--primary) !important;
   margin-bottom: 12px;
 }
 
@@ -809,7 +809,7 @@ button {
 
 .mobile-nav-header h2 {
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .mobile-nav-close {
@@ -867,7 +867,7 @@ button {
 
 .section-divider-icon .material-symbols-outlined {
   font-size: 32px;
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 /* Page Hero (for inner pages) */
@@ -982,7 +982,7 @@ button {
 .about-image-badge h3 {
   font-family: var(--font-heading);
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--primary) !important;
   margin-bottom: 4px;
 }
 
@@ -998,7 +998,7 @@ button {
 
 .about-content h2 {
   font-size: 2rem;
-  color: var(--primary);
+  color: var(--primary) !important;
   margin-bottom: 24px;
 }
 
