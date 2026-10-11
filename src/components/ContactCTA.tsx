@@ -39,7 +39,7 @@ export default function ContactCTA({ }: ContactCTAProps) {
             <span className="material-symbols-outlined" style={{color: "#ffffff !important"}}>arrow_forward</span>
           </Link>
           <a href="tel:+33781462132" style={{ padding: '14px 32px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 8, fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, textDecoration: 'none' }}>
-            <span className="material-symbols-outlined">call</span>
+            <span className="material-symbols-outlined" style={{color: "rgb(219, 112, 36) !important"}}>call</span>
             07.81.46.21.32
           </a>
         </div>
