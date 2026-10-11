@@ -110,8 +110,8 @@ export default function Cles() {
             {/* Left column - dark */}
             <div style={{ background: 'var(--primary)', padding: '32px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <span className="material-symbols-outlined" style={{ color: 'var(--secondary)', fontSize: 48, marginBottom: 24 }}>support_agent</span>
-              <h3 style={{ fontSize: '1.75rem', color: '#ffffff', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.commSectionTitle}</h3>
-              <p style={{ color: '#ffffff', lineHeight: 1.7 }}>
+              <h3 style={{ fontSize: '1.75rem', color: '#ffffff !important', marginBottom: 16, fontFamily: 'Libre Caslon Text, serif' }}>{fr.cles.commSectionTitle}</h3>
+              <p style={{ color: '#ffffff !important', lineHeight: 1.7 }}>
                 {fr.cles.commSectionDesc}
               </p>
             </div>
