@@ -206,7 +206,7 @@ export default function ConciergerieValfrejus() {
           </p>
           <div className="cta-buttons">
             <Link href="/contact" className="cta-btn primary">
-              <span className="material-symbols-outlined">mail</span>
+              <span className="material-symbols-outlined" style={{color: "#ffffff !important"}}>mail</span>
               {fr.home.ctaButton}
             </Link>
           </div>

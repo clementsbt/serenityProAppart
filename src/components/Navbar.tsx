@@ -101,7 +101,7 @@ export default function Navbar({ currentPage }: NavbarProps) {
               {fr.nav.tarifs}
             </Link>
             <Link href="/contact" onClick={() => setMobileNavOpen(false)}>
-              <span className="material-symbols-outlined">mail</span>
+              <span className="material-symbols-outlined" style={{color: "#ffffff !important"}}>mail</span>
               {fr.nav.contact}
             </Link>
             
