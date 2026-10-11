@@ -669,6 +669,10 @@ button {
   color: #ffffff;
 }
 
+.cta-btn .material-symbols-outlined {
+  color: #ffffff;
+}
+
 .cta-btn.secondary {
   border: 2px solid rgba(255,255,255,0.3);
   color: white;
