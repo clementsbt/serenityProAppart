@@ -236,7 +236,7 @@ export default function Contact() {
             
             <div style={{ position: 'relative', height: 500, borderRadius: 16, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,30,66,0.15)', border: '1px solid rgba(188, 97, 39, 0.3)' }}>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.233456789!2d6.65!3d45.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s120%20Rue%20des%20Bettets%2C%2073500%20Valfrejus!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2765.0!2d6.6972!3d45.1407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDA4JzIyLjAiTiA2wrA0MScxMi4wIkU!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, width: '100%', height: '500px' }}
