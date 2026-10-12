@@ -103,7 +103,7 @@ export default function Location() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {/* Alimentaire Card */}
-            <div className="card-hover" style={{ background: '#ffffff', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+            <div className="card-hover" style={{ background: '#000000', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img loading="lazy" 
                   src="/kit-alimentaire.webp" 
@@ -124,7 +124,7 @@ export default function Location() {
             </div>
 
             {/* Hygiène Card */}
-            <div className="card-hover" style={{ background: '#ffffff', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
+            <div className="card-hover" style={{ background: '#000000', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-luxury)', border: '1px solid var(--surface-variant)' }}>
               <div style={{ height: 200, background: 'var(--surface-variant)', position: 'relative' }}>
                 <img loading="lazy" 
                   src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=600&h=400&fit=crop" 
