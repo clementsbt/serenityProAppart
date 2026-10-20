@@ -266,20 +266,14 @@ button {
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 6vw, 3.5rem);
   color: #000000 !important;
   margin-bottom: 12px;
   font-family: var(--font-heading);
 }
 
-@media (min-width: 768px) {
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-}
-
 .hero p {
-  font-size: 0.9rem;
+  font-size: clamp(0.85rem, 3vw, 1.5rem);
   color: #000000 !important;
   max-width: 500px;
   text-shadow: 0 2px 18px rgba(0,0,0,0.28);
