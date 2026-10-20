@@ -287,6 +287,13 @@ button {
   padding: 0 16px;
 }
 
+@media (max-width: 767px) {
+  .stats {
+    margin-top: 0;
+    padding: 24px 16px;
+  }
+}
+
 .stats-grid {
   background: #ffffff;
   border-radius: 12px;
