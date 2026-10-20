@@ -243,7 +243,7 @@ button {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, #DB7024 0%, rgba(219, 112, 36, 0.5) 40%, transparent 100%);
+  background: linear-gradient(to top, rgba(249, 236, 223, 0.95) 0%, rgba(249, 236, 223, 0.5) 40%, transparent 100%);
 }
 
 .hero-content {
