@@ -115,13 +115,13 @@ export default function ConciergerieValfrejus() {
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content container">
-          <img src="/logo.webp" alt="Conciergerie Valfréjus" style={{ width: 180, height: 180, marginBottom: 24 }} loading="lazy" />
-          <h1 style={{ color: '#001e42 !important', fontSize: '3.5rem' }}>{fr.home.heroTitle}</h1>
-          <p style={{ color: '#001e42 !important', fontSize: '1.5rem' }}>
+          <img src="/logo.webp" alt="Serenity Pro Appart" style={{ width: 140, height: 140, marginBottom: 16 }} loading="lazy" />
+          <h1>{fr.home.heroTitle}</h1>
+          <p>
             {fr.home.heroSubtitle}
           </p>
-          <div style={{ marginTop: 24 }}>
-            <Link href="/contact" className="btn-primary" style={{ padding: '16px 40px', fontSize: '1rem', display: 'inline-block' }}>
+          <div style={{ marginTop: 16 }}>
+            <Link href="/contact" className="btn-primary" style={{ padding: '12px 32px', fontSize: '0.95rem', display: 'inline-block' }}>
               {fr.home.ctaButton}
             </Link>
           </div>

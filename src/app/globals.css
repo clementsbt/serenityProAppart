@@ -221,6 +221,14 @@ button {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .hero {
+    min-height: auto;
+    height: auto;
+    min-height: 500px;
+  }
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -246,29 +254,38 @@ button {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   max-width: 800px;
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .hero-content {
+    padding-bottom: 80px;
+  }
+}
+
 .hero h1 {
-  font-size: 2.5rem;
-  color: #000000 !important;
-  margin-bottom: 16px;
+  font-size: 1.75rem;
+  color: #001e42 !important;
+  margin-bottom: 12px;
   font-family: var(--font-heading);
+  line-height: 1.2;
 }
 
 @media (min-width: 768px) {
   .hero h1 {
     font-size: 3.5rem;
+    margin-bottom: 16px;
   }
 }
 
 .hero p {
-  font-size: 1.125rem;
-  color: #000000 !important;
+  font-size: 1rem;
+  color: #001e42 !important;
   max-width: 500px;
-  text-shadow: 0 2px 18px rgba(0,0,0,0.28);
+  line-height: 1.4;
+  margin-bottom: 0;
 }
 
 /* Stats */
