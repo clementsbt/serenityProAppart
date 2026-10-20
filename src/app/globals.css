@@ -113,7 +113,7 @@ button {
   left: 0;
   right: 0;
   height: 80px;
-  background: rgba(249, 236, 223, 0.95);
+  background: rgba(219, 112, 36, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(119, 90, 25, 0.2);
   z-index: 100;
@@ -162,18 +162,18 @@ button {
 }
 
 .navbar-links a {
-  color: var(--on-surface);
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .navbar-links a:hover {
-  color: var(--primary) !important;
+  color: #001e42 !important;
 }
 
 .navbar-links a.active {
-  color: var(--secondary);
-  border-bottom: 2px solid var(--secondary);
+  color: #001e42;
+  border-bottom: 2px solid #001e42;
 }
 
 .navbar-actions {
