@@ -221,6 +221,14 @@ button {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 16px 80px;
+  }
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
